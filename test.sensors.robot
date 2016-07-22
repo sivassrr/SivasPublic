@@ -6,8 +6,9 @@ Documentation          This example demonstrates executing commands on a remote 
 ...                    teardown. This saves some time when executing several test cases.
 
 Resource        ../lib/rest_client.robot
-Library                SSHLibrary
+Library         SSHLibrary
 Library         ../data/model.py
+Library 	OperatingSystem
 
 Suite Setup            Open Connection And Log In
 Suite Teardown         Close All Connections
@@ -19,296 +20,291 @@ ${model} =    ${OPENBMC_MODEL}
 *** Test Cases ***
 Execute Set Sensor boot count
     ${uri} =    Set Variable    /org/openbmc/sensors/host/BootCount
-    ${COUNT}=   Set Variable    ${3}
-    @{count_list} =   Create List     ${COUNT}
+    ${valuetoset}=   Set Variable    ${3}
+    @{count_list} =   Create List     ${valuetoset}
     ${data} =   create dictionary   data=@{count_list}
     ${resp} =   openbmc post request    ${uri}/action/setValue      data=${data}
     should be equal as strings      ${resp.status_code}     ${HTTP_OK}
     ${json} =   to json         ${resp.content}
     should be equal as strings      ${json['status']}       ok
     ${content}=     Read Attribute      ${uri}   value
-    Should Be Equal     ${content}      ${COUNT}
+    Should Be Equal     ${content}      ${valuetoset}
 
-
-Set Sensor Boot progressSivas
+Set Sensor Boot progress
     ${uri} =    Set Variable    /org/openbmc/sensors/host/BootProgress
-    ${COUNT}=   Set Variable     FW Progress, Baseboard Init
-    @{count_list} =   Create List     ${COUNT}
+    ${valuetoset}=   Set Variable     FW Progress, Baseboard Init
+    @{count_list} =   Create List     ${valuetoset}
     ${data} =   create dictionary   data=@{count_list}
     ${resp} =   openbmc post request    ${uri}/action/setValue     data=${data}
     should be equal as strings      ${resp.status_code}     ${HTTP_OK}
     ${json} =   to json         ${resp.content}
     should be equal as strings      ${json['status']}       ok
     ${content}=    Read Attribute      ${uri}   value
-    Should Be Equal   ${content}     FW Progress, Baseboard Init
+    Should Be Equal   ${content}     ${valuetoset}
 
-
-Set Sensor Boot progress Longest stringSivas
+Set Sensor Boot progress Longest string
     ${uri} =    Set Variable    /org/openbmc/sensors/host/BootProgress
-    ${COUNT}=   Set Variable    FW Progress, Docking station attachment
-    @{count_list} =   Create List     ${COUNT}
+    ${valuetoset}=   Set Variable    FW Progress, Docking station attachment
+    @{count_list} =   Create List     ${valuetoset}
     ${data} =   create dictionary   data=@{count_list}
     ${resp} =   openbmc post request    ${uri}/action/setValue     data=${data}
     should be equal as strings      ${resp.status_code}     ${HTTP_OK}
     ${json} =   to json         ${resp.content}
     should be equal as strings      ${json['status']}       ok
     ${content}=    Read Attribute      ${uri}   value
-    Should Be Equal   ${content}     FW Progress, Docking station attachment
+    Should Be Equal   ${content}     ${valuetoset}
 
-
-Bootprogress Sensor FW Hang Unspecified ErrorSivas
+Bootprogress Sensor FW Hang Unspecified Error
     ${uri} =    Set Variable    /org/openbmc/sensors/host/BootProgress
-    ${COUNT}=   Set Variable     FW Hang, Unspecified
-    @{count_list} =   Create List     ${COUNT}
+    ${valuetoset}=   Set Variable     FW Hang, Unspecified
+    @{count_list} =   Create List     ${valuetoset}
     ${data} =   create dictionary   data=@{count_list}
     ${resp} =   openbmc post request    ${uri}/action/setValue     data=${data}
     should be equal as strings      ${resp.status_code}     ${HTTP_OK}
     ${json} =   to json         ${resp.content}
     should be equal as strings      ${json['status']}       ok
     ${content}=    Read Attribute      ${uri}   value
-    Should Be Equal   ${content}     FW Hang, Unspecified
+    Should Be Equal   ${content}     ${valuetoset}
 
 
-Bootprogress FW Hang stateSivas
+Bootprogress FW Hang state
     ${uri} =    Set Variable    /org/openbmc/sensors/host/BootProgress
-    ${COUNT}=   Set Variable    POST Error, unknown
-    @{count_list} =   Create List     ${COUNT}
+    ${valuetoset}=   Set Variable    POST Error, unknown
+    @{count_list} =   Create List     ${valuetoset}
     ${data} =   create dictionary   data=@{count_list}
     ${resp} =   openbmc post request    ${uri}/action/setValue    data=${data}
     should be equal as strings      ${resp.status_code}     ${HTTP_OK}
     ${json} =   to json         ${resp.content}
     should be equal as strings      ${json['status']}       ok
     ${content}=    Read Attribute      ${uri}   value
-    Should Be Equal   ${content}    POST Error, unknown
+    Should Be Equal   ${content}     ${valuetoset}
 
-OperatingSystemStatus Sensor boot completed progressSivas
+OperatingSystemStatus Sensor boot completed progress
     ${uri} =    Set Variable    /org/openbmc/sensors/host/OperatingSystemStatus
-    ${COUNT}=   Set Variable    Boot completed (00)
-    @{count_list} =   Create List     ${COUNT}
+    ${valuetoset}=   Set Variable    Boot completed (00)
+    @{count_list} =   Create List     ${valuetoset}
     ${data} =   create dictionary   data=@{count_list}
     ${resp} =   openbmc post request    ${uri}/action/setValue     data=${data}
     should be equal as strings      ${resp.status_code}     ${HTTP_OK}
     ${json} =   to json         ${resp.content}
     should be equal as strings      ${json['status']}       ok
     ${content}=    Read Attribute      ${uri}   value
-    Should Be Equal   ${content}    Boot completed (00)
+    Should Be Equal   ${content}     ${valuetoset}
 
-OperatingSystemStatus Sensor progressSivas
+OperatingSystemStatus Sensor progress
     ${uri} =    Set Variable    /org/openbmc/sensors/host/OperatingSystemStatus
-    ${COUNT}=   Set Variable    PXE boot completed
-    @{count_list} =   Create List     ${COUNT}
+    ${valuetoset}=   Set Variable    PXE boot completed
+    @{count_list} =   Create List     ${valuetoset}
     ${data} =   create dictionary   data=@{count_list}
     ${resp} =   openbmc post request    ${uri}/action/setValue     data=${data}
     should be equal as strings      ${resp.status_code}     ${HTTP_OK}
     ${json} =   to json         ${resp.content}
     should be equal as strings      ${json['status']}       ok
     ${content}=    Read Attribute      ${uri}   value
-    Should Be Equal   ${content}    PXE boot completed
+    Should Be Equal   ${content}     ${valuetoset}
 
-
-
-OCC Active Sensor on disabledSivas
+OCC Active Sensor on disabled
     ${uri} =    Set Variable    /org/openbmc/sensors/host/cpu0/OccStatus
-    ${COUNT}=   Set Variable    Disabled
-    @{count_list} =   Create List     ${COUNT}
+    ${valuetoset}=   Set Variable    Disabled
+    @{count_list} =   Create List     ${valuetoset}
     ${data} =   create dictionary   data=@{count_list}
     ${resp} =   openbmc post request    ${uri}/action/setValue    data=${data}
     should be equal as strings      ${resp.status_code}     ${HTTP_OK}
     ${json} =   to json         ${resp.content}
     should be equal as strings      ${json['status']}       ok
     ${content}=    Read Attribute      ${uri}   value
-    Should Be Equal   ${content}    Disabled
+    Should Be Equal   ${content}     ${valuetoset}
 
 
-CPU PresentSivas
+CPU Present
     ${uri} =    Set Variable    /org/openbmc/inventory/system/chassis/motherboard/cpu0
-    ${COUNT}=   Set Variable    True
-    @{count_list} =   Create List     ${COUNT}
+    ${valuetoset}=   Set Variable    True
+    @{count_list} =   Create List     ${valuetoset}
     ${data} =   create dictionary   data=@{count_list}
     ${resp} =   openbmc post request    ${uri}/action/setPresent   data=${data}
     should be equal as strings      ${resp.status_code}     ${HTTP_OK}
     ${json} =   to json         ${resp.content}
     should be equal as strings      ${json['status']}       ok
     ${content}=    Read Attribute      ${uri}  present
-    Should Be Equal   ${content}    True
+    Should Be Equal   ${content}     ${valuetoset}
 
 
-CPU not PresentSivas
+CPU not Present
     ${uri} =    Set Variable    /org/openbmc/inventory/system/chassis/motherboard/cpu0
-    ${COUNT}=   Set Variable    False
-    @{count_list} =   Create List     ${COUNT}
+    ${valuetoset}=   Set Variable    False
+    @{count_list} =   Create List     ${valuetoset}
     ${data} =   create dictionary   data=@{count_list}
     ${resp} =   openbmc post request    ${uri}/action/setPresent    data=${data}
     should be equal as strings      ${resp.status_code}     ${HTTP_OK}
     ${json} =   to json         ${resp.content}
     should be equal as strings      ${json['status']}       ok
     ${content}=    Read Attribute      ${uri}  present
-    Should Be Equal   ${content}    False
+    Should Be Equal   ${content}     ${valuetoset}
 
 
-CPU faultSivas
+CPU fault
     ${uri} =    Set Variable    /org/openbmc/inventory/system/chassis/motherboard/cpu0
-    ${COUNT}=   Set Variable    True
-    @{count_list} =   Create List     ${COUNT}
+    ${valuetoset}=   Set Variable    True
+    @{count_list} =   Create List     ${valuetoset}
     ${data} =   create dictionary   data=@{count_list}
     ${resp} =   openbmc post request    ${uri}/actioni/setFault     data=${data}
     should be equal as strings      ${resp.status_code}     ${HTTP_OK}
     ${json} =   to json         ${resp.content}
     should be equal as strings      ${json['status']}       ok
     ${content}=    Read Attribute      ${uri}  fault
-    Should Be Equal   ${content}    True
+    Should Be Equal   ${content}     ${valuetoset}
 
 
-core PresentSivas
+core Present
     ${uri} =    Set Variable    /org/openbmc/inventory/system/chassis/motherboard/cpu0/core11
-    ${COUNT}=   Set Variable    True
-    @{count_list} =   Create List     ${COUNT}
+    ${valuetoset}=   Set Variable    True
+    @{count_list} =   Create List     ${valuetoset}
     ${data} =   create dictionary   data=@{count_list}
     ${resp} =   openbmc post request    ${uri}/action/setPresent    data=${data}
     should be equal as strings      ${resp.status_code}     ${HTTP_OK}
     ${json} =   to json         ${resp.content}
     should be equal as strings      ${json['status']}       ok
     ${content}=    Read Attribute      ${uri}  present
-    Should Be Equal   ${content}    True
+    Should Be Equal   ${content}     ${valuetoset}
 
 
-core not PresentSivas
+core not Present
     ${uri} =    Set Variable    /org/openbmc/inventory/system/chassis/motherboard/cpu0/core11
-    ${COUNT}=   Set Variable     False
-    @{count_list} =   Create List     ${COUNT}
+    ${valuetoset}=   Set Variable     False
+    @{count_list} =   Create List     ${valuetoset}
     ${data} =   create dictionary   data=@{count_list}
     ${resp} =   openbmc post request    ${uri}/action/setPresent     data=${data}
     should be equal as strings      ${resp.status_code}     ${HTTP_OK}
     ${json} =   to json         ${resp.content}
     should be equal as strings      ${json['status']}       ok
     ${content}=    Read Attribute      ${uri}  present
-    Should Be Equal   ${content}   False
+    Should Be Equal   ${content}     ${valuetoset}
 
-core faultSivas
+core fault
     ${uri} =    Set Variable    /org/openbmc/inventory/system/chassis/motherboard/cpu0/core11
-    ${COUNT}=   Set Variable    True
-    @{count_list} =   Create List     ${COUNT}
+    ${valuetoset}=   Set Variable    True
+    @{count_list} =   Create List     ${valuetoset}
     ${data} =   create dictionary   data=@{count_list}
     ${resp} =   openbmc post request    ${uri}/action/setfault   data=${data}
     should be equal as strings      ${resp.status_code}     ${HTTP_OK}
     ${json} =   to json         ${resp.content}
     should be equal as strings      ${json['status']}       ok
     ${content}=    Read Attribute      ${uri}  fault
-    Should Be Equal   ${content}   True
+    Should Be Equal   ${content}     ${valuetoset}
 
-core no faultSivas
+core no fault
     ${uri} =    Set Variable    /org/openbmc/inventory/system/chassis/motherboard/cpu0/core11
-    ${COUNT}=   Set Variable    False
-    @{count_list} =   Create List     ${COUNT}
+    ${valuetoset}=   Set Variable    False
+    @{count_list} =   Create List     ${valuetoset}
     ${data} =   create dictionary   data=@{count_list}
     ${resp} =   openbmc post request    ${uri}/action/setfault     data=${data}
     should be equal as strings      ${resp.status_code}     ${HTTP_OK}
     ${json} =   to json         ${resp.content}
     should be equal as strings      ${json['status']}       ok
     ${content}=    Read Attribute      ${uri}  fault
-    Should Be Equal   ${content}    False
+    Should Be Equal   ${content}     ${valuetoset}
 
 
-DIMM3 PresentSivas
+DIMM3 Present
     ${uri} =    Set Variable    /org/openbmc/inventory/system/chassis/motherboard/dimm3
-    ${COUNT}=   Set Variable    True
-    @{count_list} =   Create List     ${COUNT}
+    ${valuetoset}=   Set Variable    True
+    @{count_list} =   Create List     ${valuetoset}
     ${data} =   create dictionary   data=@{count_list}
     ${resp} =   openbmc post request    ${uri}/action/setPresent     data=${data}
     should be equal as strings      ${resp.status_code}     ${HTTP_OK}
     ${json} =   to json         ${resp.content}
     should be equal as strings      ${json['status']}       ok
     ${content}=    Read Attribute      ${uri}  present
-    Should Be Equal   ${content}    True
+    Should Be Equal   ${content}     ${valuetoset}
 
 
-DIMM3 not PresentSivas
+DIMM3 not Present
     ${uri} =    Set Variable    /org/openbmc/inventory/system/chassis/motherboard/dimm3
-    ${COUNT}=   Set Variable    False
-    @{count_list} =   Create List     ${COUNT}
+    ${valuetoset}=   Set Variable    False
+    @{count_list} =   Create List     ${valuetoset}
     ${data} =   create dictionary   data=@{count_list}
     ${resp} =   openbmc post request    ${uri}/action/setPresent     data=${data}
     should be equal as strings      ${resp.status_code}     ${HTTP_OK}
     ${json} =   to json         ${resp.content}
     should be equal as strings      ${json['status']}       ok
     ${content}=    Read Attribute      ${uri}  present
-    Should Be Equal   ${content}    False
+    Should Be Equal   ${content}     ${valuetoset}
 
 
-DIMM0 faultSivas
+DIMM0 fault
     ${uri} =    Set Variable    /org/openbmc/inventory/system/chassis/motherboard/dimm0
-    ${COUNT}=   Set Variable    True
-    @{count_list} =   Create List     ${COUNT}
+    ${valuetoset}=   Set Variable    True
+    @{count_list} =   Create List     ${valuetoset}
     ${data} =   create dictionary   data=@{count_list}
     ${resp} =   openbmc post request    ${uri}/action/setFault    data=${data}
     should be equal as strings      ${resp.status_code}     ${HTTP_OK}
     ${json} =   to json         ${resp.content}
     should be equal as strings      ${json['status']}       ok
     ${content}=    Read Attribute      ${uri}  fault
-    Should Be Equal   ${content}    True
+    Should Be Equal   ${content}     ${valuetoset}
 
 
-DIMM0 no faultSivas
+DIMM0 no fault
     ${uri} =    Set Variable    /org/openbmc/inventory/system/chassis/motherboard/dimm0
-    ${COUNT}=   Set Variable    False
-    @{count_list} =   Create List     ${COUNT}
+    ${valuetoset}=   Set Variable    False
+    @{count_list} =   Create List     ${valuetoset}
     ${data} =   create dictionary   data=@{count_list}
     ${resp} =   openbmc post request    ${uri}/action/setFault      data=${data}
     should be equal as strings      ${resp.status_code}     ${HTTP_OK}
     ${json} =   to json         ${resp.content}
     should be equal as strings      ${json['status']}       ok
     ${content}=    Read Attribute      ${uri}  fault
-    Should Be Equal   ${content}    False
+    Should Be Equal   ${content}     ${valuetoset}
 
 
-Centaur0 PresentSivas
+Centaur0 Present
     ${uri} =    Set Variable    /org/openbmc/inventory/system/chassis/motherboard/membuf0
-    ${COUNT}=   Set Variable    True
-    @{count_list} =   Create List     ${COUNT}
+    ${valuetoset}=   Set Variable    True
+    @{count_list} =   Create List     ${valuetoset}
     ${data} =   create dictionary   data=@{count_list}
     ${resp} =   openbmc post request    ${uri}/action/setPresent     data=${data}
     should be equal as strings      ${resp.status_code}     ${HTTP_OK}
     ${json} =   to json         ${resp.content}
     should be equal as strings      ${json['status']}       ok
     ${content}=    Read Attribute      ${uri}  present
-    Should Be Equal   ${content}    True
+    Should Be Equal   ${content}     ${valuetoset}
 
-Centaur0 not PresentSivas
+Centaur0 not Present
     ${uri} =    Set Variable    /org/openbmc/inventory/system/chassis/motherboard/membuf0
-    ${COUNT}=   Set Variable    False
-    @{count_list} =   Create List     ${COUNT}
+    ${valuetoset}=   Set Variable    False
+    @{count_list} =   Create List     ${valuetoset}
     ${data} =   create dictionary   data=@{count_list}
     ${resp} =   openbmc post request    ${uri}/action/setPresent     data=${data}
     should be equal as strings      ${resp.status_code}     ${HTTP_OK}
     ${json} =   to json         ${resp.content}
     should be equal as strings      ${json['status']}       ok
     ${content}=    Read Attribute      ${uri}  present
-    Should Be Equal   ${content}    False
+    Should Be Equal   ${content}     ${valuetoset}
 
 
-Centaur0 faultSivas
+Centaur0 fault
     ${uri} =    Set Variable    /org/openbmc/inventory/system/chassis/motherboard/membuf0
-    ${COUNT}=   Set Variable    True
-    @{count_list} =   Create List     ${COUNT}
+    ${valuetoset}=   Set Variable    True
+    @{count_list} =   Create List     ${valuetoset}
     ${data} =   create dictionary   data=@{count_list}
     ${resp} =   openbmc post request    ${uri}/action/setFault     data=${data}
     should be equal as strings      ${resp.status_code}     ${HTTP_OK}
     ${json} =   to json         ${resp.content}
     should be equal as strings      ${json['status']}       ok
     ${content}=    Read Attribute      ${uri}  fault
-    Should Be Equal   ${content}    True
+    Should Be Equal   ${content}     ${valuetoset}
 
-Centaur0 no faultSivas
+Centaur0 no fault
     ${uri} =    Set Variable    /org/openbmc/inventory/system/chassis/motherboard/membuf0
-    ${COUNT}=   Set Variable    False
-    @{count_list} =   Create List     ${COUNT}
+    ${valuetoset}=   Set Variable    False
+    @{count_list} =   Create List     ${valuetoset}
     ${data} =   create dictionary   data=@{count_list}
     ${resp} =   openbmc post request    ${uri}/action/setFault    data=${data}
     should be equal as strings      ${resp.status_code}     ${HTTP_OK}
     ${json} =   to json         ${resp.content}
     should be equal as strings      ${json['status']}       ok
     ${content}=    Read Attribute      ${uri}  fault
-    Should Be Equal   ${content}    False
+    Should Be Equal   ${content}     ${valuetoset}
 
 
 System Present
@@ -336,7 +332,7 @@ io_board Fault
     Response Should Be Equal    False
 
 
-OCC Active Sensor on enabledSivas
+OCC Active Sensor on enabled
     ${uri} =    Set Variable    /org/openbmc/sensors/host/cpu0/OccStatus
     ${COUNT}=   Set Variable     Enabled
     @{count_list} =   Create List     ${COUNT}
@@ -374,4 +370,4 @@ Get Sensor Number
 Get Inventory Sensor Number
     [arguments]  ${name}
     ${x} =       get inventory sensor   ${OPENBMC_MODEL}   ${name}
-    [return]     ${x}
+    [return]     ${x
