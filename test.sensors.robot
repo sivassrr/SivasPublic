@@ -147,7 +147,7 @@ CPU fault
     ${valuetoset}=   Set Variable    True
     @{count_list} =   Create List     ${valuetoset}
     ${data} =   create dictionary   data=@{count_list}
-    ${resp} =   openbmc post request    ${uri}/actioni/setFault     data=${data}
+    ${resp} =   openbmc post request    ${uri}/action/setFault     data=${data}
     should be equal as strings      ${resp.status_code}     ${HTTP_OK}
     ${json} =   to json         ${resp.content}
     should be equal as strings      ${json['status']}       ok
