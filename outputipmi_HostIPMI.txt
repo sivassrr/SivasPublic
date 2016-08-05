@@ -1,0 +1,530 @@
+Execute Set Sensor boot count                                         ../data/Palmetto.py
+.
+9
+.
+0x04 0x30 9 0x01 0x00 0x35 0x00 0x00 0x00 0x00 0x00 0x00
+
+Lenth is 56
+
+Arraybte:
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:9,0x01,0x00,0x35,0x00,0x00,0x00,0x00,0x00,0x00
+
+dbus-send --system --type=signal --dest=org.openbmc.HostIpmi
+
+/org/openbmc/HostIpmi/1 org.openbmc.HostIpmi.ReceivedMessage
+
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:9,0x01,0x00,0x35,0x00,0x00,0x00,0x00,0x00,0x00
+.URI:https://9.126.171.197/org/openbmc/sensors/host/BootCount/attr/value, method:Get, args:{}
+Response code:200, Content:{
+  "data": 53,
+  "message": "200 OK",
+  "status": "ok"
+}
+Execute Set Sensor boot count                                         | PASS |
+------------------------------------------------------------------------------
+Set Sensor Boot progress                                              ../data/Palmetto.py
+.
+0x04 0x30 5 0xa9 0x00 0x04 0x00 0x00 0x00 0x00 0x14 0x00
+
+Lenth is 56
+
+Arraybte:
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:5,0xa9,0x00,0x04,0x00,0x00,0x00,0x00,0x14,0x00
+
+dbus-send --system --type=signal --dest=org.openbmc.HostIpmi
+
+/org/openbmc/HostIpmi/1 org.openbmc.HostIpmi.ReceivedMessage
+
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:5,0xa9,0x00,0x04,0x00,0x00,0x00,0x00,0x14,0x00
+.URI:https://9.126.171.197/org/openbmc/sensors/host/BootProgress/attr/value, method:Get, args:{}
+Response code:200, Content:{
+  "data": "Off",
+  "message": "200 OK",
+  "status": "ok"
+}
+Set Sensor Boot progress                                              | FAIL |
+Off != FW Progress, Baseboard Init
+------------------------------------------------------------------------------
+Set Sensor Boot progress Longest string                               ../data/Palmetto.py
+.
+0x04 0x30 5 0xa9 0x00 0x04 0x00 0x00 0x00 0x00 0x0e 0x00
+
+Lenth is 56
+
+Arraybte:
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:5,0xa9,0x00,0x04,0x00,0x00,0x00,0x00,0x0e,0x00
+
+dbus-send --system --type=signal --dest=org.openbmc.HostIpmi
+
+/org/openbmc/HostIpmi/1 org.openbmc.HostIpmi.ReceivedMessage
+
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:5,0xa9,0x00,0x04,0x00,0x00,0x00,0x00,0x0e,0x00
+.URI:https://9.126.171.197/org/openbmc/sensors/host/BootProgress/attr/value, method:Get, args:{}
+Response code:200, Content:{
+  "data": "Off",
+  "message": "200 OK",
+  "status": "ok"
+}
+Set Sensor Boot progress Longest string                               | FAIL |
+Off != FW Progress, Docking station attachment
+------------------------------------------------------------------------------
+BootProgress sensor FW Hang unspecified Error                         ../data/Palmetto.py
+.
+0x04 0x30 5 0xa9 0x00 0x02 0x00 0x00 0x00 0x00 0x00 0x00
+
+Lenth is 56
+
+Arraybte:
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:5,0xa9,0x00,0x02,0x00,0x00,0x00,0x00,0x00,0x00
+
+dbus-send --system --type=signal --dest=org.openbmc.HostIpmi
+
+/org/openbmc/HostIpmi/1 org.openbmc.HostIpmi.ReceivedMessage
+
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:5,0xa9,0x00,0x02,0x00,0x00,0x00,0x00,0x00,0x00
+.URI:https://9.126.171.197/org/openbmc/sensors/host/BootProgress/attr/value, method:Get, args:{}
+Response code:200, Content:{
+  "data": "Off",
+  "message": "200 OK",
+  "status": "ok"
+}
+BootProgress sensor FW Hang unspecified Error                         | FAIL |
+Off != FW Hang, Unspecified
+------------------------------------------------------------------------------
+BootProgress fw hang state                                            ../data/Palmetto.py
+.
+0x04 0x30 5 0xa9 0x00 0x01 0x00 0x00 0x00 0x00 0x20 0x00
+
+Lenth is 56
+
+Arraybte:
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:5,0xa9,0x00,0x01,0x00,0x00,0x00,0x00,0x20,0x00
+
+dbus-send --system --type=signal --dest=org.openbmc.HostIpmi
+
+/org/openbmc/HostIpmi/1 org.openbmc.HostIpmi.ReceivedMessage
+
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:5,0xa9,0x00,0x01,0x00,0x00,0x00,0x00,0x20,0x00
+.URI:https://9.126.171.197/org/openbmc/sensors/host/BootProgress/attr/value, method:Get, args:{}
+Response code:200, Content:{
+  "data": "Off",
+  "message": "200 OK",
+  "status": "ok"
+}
+BootProgress fw hang state                                            | FAIL |
+Off != POST Error, unknown
+------------------------------------------------------------------------------
+OperatingSystemStatus Sensor boot completed progress                  ../data/Palmetto.py
+.
+0x04 0x30 50 0x00 0x00 0x01 0x00 0x00 0x00 0x00 0x20 0x00
+
+Lenth is 57
+
+Arraybte:
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:50,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x20,0x00
+
+dbus-send --system --type=signal --dest=org.openbmc.HostIpmi
+
+/org/openbmc/HostIpmi/1 org.openbmc.HostIpmi.ReceivedMessage
+
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:50,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x20,0x00
+.URI:https://9.126.171.197/org/openbmc/sensors/host/OperatingSystemStatus/attr/value, method:Get, args:{}
+Response code:200, Content:{
+  "data": "Off",
+  "message": "200 OK",
+  "status": "ok"
+}
+OperatingSystemStatus Sensor boot completed progress                  | FAIL |
+Off != Boot completed (00)
+------------------------------------------------------------------------------
+OperatingSystemStatus Sensor progress                                 ../data/Palmetto.py
+.
+0x04 0x30 50 0x00 0x00 0x04 0x00 0x00 0x00 0x00 0x20 0x00
+
+Lenth is 57
+
+Arraybte:
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:50,0x00,0x00,0x04,0x00,0x00,0x00,0x00,0x20,0x00
+
+dbus-send --system --type=signal --dest=org.openbmc.HostIpmi
+
+/org/openbmc/HostIpmi/1 org.openbmc.HostIpmi.ReceivedMessage
+
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:50,0x00,0x00,0x04,0x00,0x00,0x00,0x00,0x20,0x00
+.URI:https://9.126.171.197/org/openbmc/sensors/host/OperatingSystemStatus/attr/value, method:Get, args:{}
+Response code:200, Content:{
+  "data": "Off",
+  "message": "200 OK",
+  "status": "ok"
+}
+OperatingSystemStatus Sensor progress                                 | FAIL |
+Off != PXE boot completed
+------------------------------------------------------------------------------
+OCC Active sensor on enabled                                          ../data/Palmetto.py
+.
+0x04 0x30 8 0x00 0x00 0x02 0x00 0x00 0x00 0x00 0x20 0x00
+
+Lenth is 56
+
+Arraybte:
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:8,0x00,0x00,0x02,0x00,0x00,0x00,0x00,0x20,0x00
+
+dbus-send --system --type=signal --dest=org.openbmc.HostIpmi
+
+/org/openbmc/HostIpmi/1 org.openbmc.HostIpmi.ReceivedMessage
+
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:8,0x00,0x00,0x02,0x00,0x00,0x00,0x00,0x20,0x00
+.URI:https://9.126.171.197/org/openbmc/sensors/host/cpu0/OccStatus/attr/value, method:Get, args:{}
+Response code:200, Content:{
+  "data": "Disabled",
+  "message": "200 OK",
+  "status": "ok"
+}
+OCC Active sensor on enabled                                          | FAIL |
+Disabled != Enabled
+------------------------------------------------------------------------------
+OCC Active sensor on disabled                                         ../data/Palmetto.py
+.
+0x04 0x30 8 0x00 0x00 0x01 0x00 0x00 0x00 0x00 0x20 0x00
+
+Lenth is 56
+
+Arraybte:
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:8,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x20,0x00
+
+dbus-send --system --type=signal --dest=org.openbmc.HostIpmi
+
+/org/openbmc/HostIpmi/1 org.openbmc.HostIpmi.ReceivedMessage
+
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:8,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x20,0x00
+.URI:https://9.126.171.197/org/openbmc/sensors/host/cpu0/OccStatus/attr/value, method:Get, args:{}
+Response code:200, Content:{
+  "data": "Disabled",
+  "message": "200 OK",
+  "status": "ok"
+}
+OCC Active sensor on disabled                                         | PASS |
+------------------------------------------------------------------------------
+CPU Present                                                           ..
+0x04 0x30 47 0xa9 0x00 0x80 0x00 0x00 0x00 0x00 0x20 0x00
+
+Lenth is 57
+
+Arraybte:
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:47,0xa9,0x00,0x80,0x00,0x00,0x00,0x00,0x20,0x00
+
+dbus-send --system --type=signal --dest=org.openbmc.HostIpmi
+
+/org/openbmc/HostIpmi/1 org.openbmc.HostIpmi.ReceivedMessage
+
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:47,0xa9,0x00,0x80,0x00,0x00,0x00,0x00,0x20,0x00
+.URI:https://9.126.171.197/org/openbmc/inventory/system/chassis/motherboard/cpu0/attr/present, method:Get, args:{}
+Response code:200, Content:{
+  "data": "False",
+  "message": "200 OK",
+  "status": "ok"
+}
+CPU Present                                                           | FAIL |
+False != True
+------------------------------------------------------------------------------
+CPU not Present                                                       ..
+0x04 0x30 47 0xa9 0x00 0x00 0x00 0x80 0x00 0x00 0x20 0x00
+
+Lenth is 57
+
+Arraybte:
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:47,0xa9,0x00,0x00,0x00,0x80,0x00,0x00,0x20,0x00
+
+dbus-send --system --type=signal --dest=org.openbmc.HostIpmi
+
+/org/openbmc/HostIpmi/1 org.openbmc.HostIpmi.ReceivedMessage
+
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:47,0xa9,0x00,0x00,0x00,0x80,0x00,0x00,0x20,0x00
+.URI:https://9.126.171.197/org/openbmc/inventory/system/chassis/motherboard/cpu0/attr/present, method:Get, args:{}
+Response code:200, Content:{
+  "data": "False",
+  "message": "200 OK",
+  "status": "ok"
+}
+CPU not Present                                                       | PASS |
+------------------------------------------------------------------------------
+CPU fault                                                             ..
+0x04 0x30 47 0xa9 0xff 0x00 0x01 0x00 0x00 0x00 0x20 0x00
+
+Lenth is 57
+
+Arraybte:
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:47,0xa9,0xff,0x00,0x01,0x00,0x00,0x00,0x20,0x00
+
+dbus-send --system --type=signal --dest=org.openbmc.HostIpmi
+
+/org/openbmc/HostIpmi/1 org.openbmc.HostIpmi.ReceivedMessage
+
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:47,0xa9,0xff,0x00,0x01,0x00,0x00,0x00,0x20,0x00
+.URI:https://9.126.171.197/org/openbmc/inventory/system/chassis/motherboard/cpu0/attr/fault, method:Get, args:{}
+Response code:200, Content:{
+  "data": "False",
+  "message": "200 OK",
+  "status": "ok"
+}
+CPU fault                                                             | FAIL |
+False != True
+------------------------------------------------------------------------------
+CPU no fault                                                          ..
+0x04 0x30 47 0x00 0x00 0x00 0x00 0x00 0x01 0x00 0x20 0x00
+
+Lenth is 57
+
+Arraybte:
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:47,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x20,0x00
+
+dbus-send --system --type=signal --dest=org.openbmc.HostIpmi
+
+/org/openbmc/HostIpmi/1 org.openbmc.HostIpmi.ReceivedMessage
+
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:47,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x20,0x00
+.URI:https://9.126.171.197/org/openbmc/inventory/system/chassis/motherboard/cpu0/attr/fault, method:Get, args:{}
+Response code:200, Content:{
+  "data": "False",
+  "message": "200 OK",
+  "status": "ok"
+}
+CPU no fault                                                          | PASS |
+------------------------------------------------------------------------------
+core Present                                                          ..
+0x04 0x30 45 0xa9 0x00 0x80 0x00 0x00 0x00 0x00 0x20 0x00
+
+Lenth is 57
+
+Arraybte:
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:45,0xa9,0x00,0x80,0x00,0x00,0x00,0x00,0x20,0x00
+
+dbus-send --system --type=signal --dest=org.openbmc.HostIpmi
+
+/org/openbmc/HostIpmi/1 org.openbmc.HostIpmi.ReceivedMessage
+
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:45,0xa9,0x00,0x80,0x00,0x00,0x00,0x00,0x20,0x00
+.URI:https://9.126.171.197/org/openbmc/inventory/system/chassis/motherboard/cpu0/core11/attr/present, method:Get, args:{}
+Response code:200, Content:{
+  "data": "False",
+  "message": "200 OK",
+  "status": "ok"
+}
+core Present                                                          | FAIL |
+False != True
+------------------------------------------------------------------------------
+core not Present                                                      ..
+0x04 0x30 45 0xa9 0x00 0x00 0x00 0x80 0x00 0x00 0x20 0x00
+
+Lenth is 57
+
+Arraybte:
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:45,0xa9,0x00,0x00,0x00,0x80,0x00,0x00,0x20,0x00
+
+dbus-send --system --type=signal --dest=org.openbmc.HostIpmi
+
+/org/openbmc/HostIpmi/1 org.openbmc.HostIpmi.ReceivedMessage
+
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:45,0xa9,0x00,0x00,0x00,0x80,0x00,0x00,0x20,0x00
+.URI:https://9.126.171.197/org/openbmc/inventory/system/chassis/motherboard/cpu0/core11/attr/present, method:Get, args:{}
+Response code:200, Content:{
+  "data": "False",
+  "message": "200 OK",
+  "status": "ok"
+}
+core not Present                                                      | PASS |
+------------------------------------------------------------------------------
+core fault                                                            ..
+0x04 0x30 45 0xa9 0xff 0x00 0x01 0x00 0x00 0x00 0x20 0x00
+
+Lenth is 57
+
+Arraybte:
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:45,0xa9,0xff,0x00,0x01,0x00,0x00,0x00,0x20,0x00
+
+dbus-send --system --type=signal --dest=org.openbmc.HostIpmi
+
+/org/openbmc/HostIpmi/1 org.openbmc.HostIpmi.ReceivedMessage
+
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:45,0xa9,0xff,0x00,0x01,0x00,0x00,0x00,0x20,0x00
+.URI:https://9.126.171.197/org/openbmc/inventory/system/chassis/motherboard/cpu0/core11/attr/fault, method:Get, args:{}
+Response code:200, Content:{
+  "data": "False",
+  "message": "200 OK",
+  "status": "ok"
+}
+core fault                                                            | FAIL |
+False != True
+------------------------------------------------------------------------------
+core no fault                                                         ..
+0x04 0x30 45 0x00 0x00 0x00 0x00 0x00 0x01 0x00 0x20 0x00
+
+Lenth is 57
+
+Arraybte:
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:45,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x20,0x00
+
+dbus-send --system --type=signal --dest=org.openbmc.HostIpmi
+
+/org/openbmc/HostIpmi/1 org.openbmc.HostIpmi.ReceivedMessage
+
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:45,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x20,0x00
+.URI:https://9.126.171.197/org/openbmc/inventory/system/chassis/motherboard/cpu0/core11/attr/fault, method:Get, args:{}
+Response code:200, Content:{
+  "data": "False",
+  "message": "200 OK",
+  "status": "ok"
+}
+core no fault                                                         | PASS |
+------------------------------------------------------------------------------
+DIMM3 Present                                                         ..
+0x04 0x30 33 0xa9 0x00 0x40 0x00 0x00 0x00 0x00 0x20 0x00
+
+Lenth is 57
+
+Arraybte:
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:33,0xa9,0x00,0x40,0x00,0x00,0x00,0x00,0x20,0x00
+
+dbus-send --system --type=signal --dest=org.openbmc.HostIpmi
+
+/org/openbmc/HostIpmi/1 org.openbmc.HostIpmi.ReceivedMessage
+
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:33,0xa9,0x00,0x40,0x00,0x00,0x00,0x00,0x20,0x00
+.URI:https://9.126.171.197/org/openbmc/inventory/system/chassis/motherboard/dimm3/attr/present, method:Get, args:{}
+Response code:200, Content:{
+  "data": "False",
+  "message": "200 OK",
+  "status": "ok"
+}
+DIMM3 Present                                                         | FAIL |
+False != True
+------------------------------------------------------------------------------
+DIMM3 not Present                                                     ..
+0x04 0x30 33 0xa9 0xff 0x00 0x00 0x40 0x00 0x00 0x20 0x00
+
+Lenth is 57
+
+Arraybte:
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:33,0xa9,0xff,0x00,0x00,0x40,0x00,0x00,0x20,0x00
+
+dbus-send --system --type=signal --dest=org.openbmc.HostIpmi
+
+/org/openbmc/HostIpmi/1 org.openbmc.HostIpmi.ReceivedMessage
+
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:33,0xa9,0xff,0x00,0x00,0x40,0x00,0x00,0x20,0x00
+.URI:https://9.126.171.197/org/openbmc/inventory/system/chassis/motherboard/dimm3/attr/present, method:Get, args:{}
+Response code:200, Content:{
+  "data": "False",
+  "message": "200 OK",
+  "status": "ok"
+}
+DIMM3 not Present                                                     | PASS |
+------------------------------------------------------------------------------
+DIMM0 fault                                                           ..
+0x04 0x30 30 0x00 0x00 0x10 0x00 0x00 0x00 0x00 0x20 0x00
+
+Lenth is 57
+
+Arraybte:
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:30,0x00,0x00,0x10,0x00,0x00,0x00,0x00,0x20,0x00
+
+dbus-send --system --type=signal --dest=org.openbmc.HostIpmi
+
+/org/openbmc/HostIpmi/1 org.openbmc.HostIpmi.ReceivedMessage
+
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:30,0x00,0x00,0x10,0x00,0x00,0x00,0x00,0x20,0x00
+.URI:https://9.126.171.197/org/openbmc/inventory/system/chassis/motherboard/dimm0/attr/fault, method:Get, args:{}
+Response code:200, Content:{
+  "data": "False",
+  "message": "200 OK",
+  "status": "ok"
+}
+DIMM0 fault                                                           | FAIL |
+False != True
+------------------------------------------------------------------------------
+DIMM0 no fault                                                        ..
+0x04 0x30 30 0x00 0x00 0x00 0x00 0x10 0x00 0x00 0x20 0x00
+
+Lenth is 57
+
+Arraybte:
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:30,0x00,0x00,0x00,0x00,0x10,0x00,0x00,0x20,0x00
+
+dbus-send --system --type=signal --dest=org.openbmc.HostIpmi
+
+/org/openbmc/HostIpmi/1 org.openbmc.HostIpmi.ReceivedMessage
+
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:30,0x00,0x00,0x00,0x00,0x10,0x00,0x00,0x20,0x00
+.URI:https://9.126.171.197/org/openbmc/inventory/system/chassis/motherboard/dimm0/attr/fault, method:Get, args:{}
+Response code:200, Content:{
+  "data": "False",
+  "message": "200 OK",
+  "status": "ok"
+}
+DIMM0 no fault                                                        | PASS |
+------------------------------------------------------------------------------
+Centaur0 Present                                                      ..
+0x04 0x30 46 0xa9 0x00 0x40 0x00 0x00 0x00 0x00 0x20 0x00
+
+Lenth is 57
+
+Arraybte:
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:46,0xa9,0x00,0x40,0x00,0x00,0x00,0x00,0x20,0x00
+
+dbus-send --system --type=signal --dest=org.openbmc.HostIpmi
+
+/org/openbmc/HostIpmi/1 org.openbmc.HostIpmi.ReceivedMessage
+
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:46,0xa9,0x00,0x40,0x00,0x00,0x00,0x00,0x20,0x00
+.URI:https://9.126.171.197/org/openbmc/inventory/system/chassis/motherboard/membuf0/attr/present, method:Get, args:{}
+Response code:200, Content:{
+  "data": "False",
+  "message": "200 OK",
+  "status": "ok"
+}
+Centaur0 Present                                                      | FAIL |
+False != True
+------------------------------------------------------------------------------
+Centaur0 not Present                                                  ..
+0x04 0x30 46 0x00 0x00 0x00 0x00 0x40 0x00 0x00 0x20 0x00
+
+Lenth is 57
+
+Arraybte:
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:46,0x00,0x00,0x00,0x00,0x40,0x00,0x00,0x20,0x00
+
+dbus-send --system --type=signal --dest=org.openbmc.HostIpmi
+
+/org/openbmc/HostIpmi/1 org.openbmc.HostIpmi.ReceivedMessage
+
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:46,0x00,0x00,0x00,0x00,0x40,0x00,0x00,0x20,0x00
+.URI:https://9.126.171.197/org/openbmc/inventory/system/chassis/motherboard/membuf0/attr/present, method:Get, args:{}
+Response code:200, Content:{
+  "data": "False",
+  "message": "200 OK",
+  "status": "ok"
+}
+Centaur0 not Present                                                  | PASS |
+------------------------------------------------------------------------------
+Centaur0 fault                                                        ..
+0x04 0x30 46 0x00 0x00 0x10 0x00 0x00 0x00 0x00 0x20 0x00
+
+Lenth is 57
+
+Arraybte:
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:46,0x00,0x00,0x10,0x00,0x00,0x00,0x00,0x20,0x00
+
+dbus-send --system --type=signal --dest=org.openbmc.HostIpmi
+
+/org/openbmc/HostIpmi/1 org.openbmc.HostIpmi.ReceivedMessage
+
+byte:0x00 byte:0x04 byte:0x00 byte:0x30 array:byte:46,0x00,0x00,0x10,0x00,0x00,0x00,0x00,0x20,0x00
+.URI:https://9.126.171.197/org/openbmc/inventory/system/chassis/motherboard/membuf0/attr/fault, method:Get, args:{}
+Response code:200, Content:{
+  "data": "False",
+  "message": "200 OK",
+  "status": "ok"
+}
+Centaur0 fault                                                        | FAIL |
+False != True
+------------------------------------------------------------------------------
