@@ -1,0 +1,170 @@
+IPMI Incoming: Seq 0x01, NetFn 0x06, CMD: 0x36
+Handling Netfn:[0x6], Cmd:[0x36]
+IPMI Response:
+0x000000: 00 01 40 40 0a 01                               ..@@..
+IPMI Incoming: Seq 0x01, NetFn 0x04, CMD: 0x30
+0x000000: 09 01 00 35 00 00 00 00 00 00                   ...5......
+IPMI SET_SENSOR [0x09]
+Attempting to set a dbus Variant Sensor 0x09 via setValue with a value of 0x35
+IPMI Response:
+0x000000: 00                                              .
+IPMI Incoming: Seq 0x01, NetFn 0x04, CMD: 0x30
+0x000000: 05 a9 00 04 00 00 00 00 14 00                   ..........
+IPMI SET_SENSOR [0x05]
+Attempting to set a dbus Variant Sensor 0x05 via setValue with a value of FW Progress, Baseboard Init
+IPMI Response:
+0x000000: 00                                              .
+IPMI Incoming: Seq 0x01, NetFn 0x04, CMD: 0x30
+0x000000: 05 a9 00 04 00 00 00 00 0e 00                   ..........
+IPMI SET_SENSOR [0x05]
+Attempting to set a dbus Variant Sensor 0x05 via setValue with a value of FW Progress, Docking station attachment
+IPMI Response:
+0x000000: 00                                              .
+IPMI Incoming: Seq 0x01, NetFn 0x04, CMD: 0x30
+0x000000: 05 a9 00 02 00 00 00 00 00 00                   ..........
+IPMI SET_SENSOR [0x05]
+Attempting to set a dbus Variant Sensor 0x05 via setValue with a value of FW Hang, Unspecified
+IPMI Response:
+0x000000: 00                                              .
+IPMI Incoming: Seq 0x01, NetFn 0x04, CMD: 0x30
+0x000000: 05 a9 00 01 00 00 00 00 20 00                   ........ .
+IPMI SET_SENSOR [0x05]
+Attempting to set a dbus Variant Sensor 0x05 via setValue with a value of POST Error, unknown
+IPMI Response:
+0x000000: 00                                              .
+IPMI Incoming: Seq 0x01, NetFn 0x04, CMD: 0x30
+0x000000: 50 00 00 01 00 00 00 00 20 00                   P....... .
+IPMI SET_SENSOR [0x50]
+Failed to create a method call: Invalid argumentBus:  Path:  Interface: org.openbmc.InventoryItem
+Failed to get a fru type: Invalid argumentLOOKATME: Sensor should not be reported:  Type 0xff, Offset 0x00
+IPMI Response:
+0x000000: 00                                              .
+IPMI Incoming: Seq 0x01, NetFn 0x04, CMD: 0x30
+0x000000: 50 00 00 04 00 00 00 00 20 00                   P....... .
+IPMI SET_SENSOR [0x50]
+Failed to create a method call: Invalid argumentBus:  Path:  Interface: org.openbmc.InventoryItem
+Failed to get a fru type: Invalid argumentLOOKATME: Sensor should not be reported:  Type 0xff, Offset 0x02
+IPMI Response:
+0x000000: 00                                              .
+IPMI Incoming: Seq 0x01, NetFn 0x04, CMD: 0x30
+0x000000: 08 00 00 02 00 00 00 00 20 00                   ........ .
+IPMI SET_SENSOR [0x08]
+Attempting to set a dbus Variant Sensor 0x08 via setValue with a value of Enabled
+Failed to call the method: Connection timed outIPMI Response:
+0x000000: 00                                              .
+IPMI Incoming: Seq 0x01, NetFn 0x04, CMD: 0x30
+0x000000: 08 00 00 01 00 00 00 00 20 00                   ........ .
+IPMI SET_SENSOR [0x08]
+Attempting to set a dbus Variant Sensor 0x08 via setValue with a value of Disabled
+Failed to call the method: Connection timed outIPMI Response:
+0x000000: 00                                              .
+IPMI Incoming: Seq 0x01, NetFn 0x04, CMD: 0x30
+0x000000: 47 a9 00 80 00 00 00 00 20 00                   G....... .
+IPMI SET_SENSOR [0x47]
+Failed to create a method call: Invalid argumentBus:  Path:  Interface: org.openbmc.InventoryItem
+Failed to get a fru type: Invalid argumentLOOKATME: Sensor should not be reported:  Type 0xff, Offset 0x07
+IPMI Response:
+0x000000: 00                                              .
+IPMI Incoming: Seq 0x01, NetFn 0x04, CMD: 0x30
+0x000000: 47 a9 00 00 00 80 00 00 20 00                   G....... .
+IPMI SET_SENSOR [0x47]
+Failed to create a method call: Invalid argumentBus:  Path:  Interface: org.openbmc.InventoryItem
+Failed to get a fru type: Invalid argumentLOOKATME: Sensor should not be reported:  Type 0xff, Offset 0x07
+IPMI Response:
+0x000000: 00                                              .
+IPMI Incoming: Seq 0x01, NetFn 0x04, CMD: 0x30
+0x000000: 47 a9 ff 00 01 00 00 00 20 00                   G....... .
+IPMI SET_SENSOR [0x47]
+Failed to create a method call: Invalid argumentBus:  Path:  Interface: org.openbmc.InventoryItem
+Failed to get a fru type: Invalid argumentLOOKATME: Sensor should not be reported:  Type 0xff, Offset 0x08
+IPMI Response:
+0x000000: 00                                              .
+IPMI Incoming: Seq 0x01, NetFn 0x04, CMD: 0x30
+0x000000: 47 00 00 00 00 00 01 00 20 00                   G....... .
+IPMI SET_SENSOR [0x47]
+Failed to create a method call: Invalid argumentBus:  Path:  Interface: org.openbmc.InventoryItem
+Failed to get a fru type: Invalid argumentLOOKATME: Sensor should not be reported:  Type 0xff, Offset 0x08
+IPMI Response:
+0x000000: 00                                              .
+IPMI Incoming: Seq 0x01, NetFn 0x04, CMD: 0x30
+0x000000: 45 a9 00 80 00 00 00 00 20 00                   E....... .
+IPMI SET_SENSOR [0x45]
+Failed to create a method call: Invalid argumentBus:  Path:  Interface: org.openbmc.InventoryItem
+Failed to get a fru type: Invalid argumentLOOKATME: Sensor should not be reported:  Type 0xff, Offset 0x07
+IPMI Response:
+0x000000: 00                                              .
+IPMI Incoming: Seq 0x01, NetFn 0x04, CMD: 0x30
+0x000000: 45 a9 00 00 00 80 00 00 20 00                   E....... .
+IPMI SET_SENSOR [0x45]
+Failed to create a method call: Invalid argumentBus:  Path:  Interface: org.openbmc.InventoryItem
+Failed to get a fru type: Invalid argumentLOOKATME: Sensor should not be reported:  Type 0xff, Offset 0x07
+IPMI Response:
+0x000000: 00                                              .
+IPMI Incoming: Seq 0x01, NetFn 0x04, CMD: 0x30
+0x000000: 45 a9 ff 00 01 00 00 00 20 00                   E....... .
+IPMI SET_SENSOR [0x45]
+Failed to create a method call: Invalid argumentBus:  Path:  Interface: org.openbmc.InventoryItem
+Failed to get a fru type: Invalid argumentLOOKATME: Sensor should not be reported:  Type 0xff, Offset 0x08
+IPMI Response:
+0x000000: 00                                              .
+IPMI Incoming: Seq 0x01, NetFn 0x04, CMD: 0x30
+0x000000: 45 00 00 00 00 00 01 00 20 00                   E....... .
+IPMI SET_SENSOR [0x45]
+Failed to create a method call: Invalid argumentBus:  Path:  Interface: org.openbmc.InventoryItem
+Failed to get a fru type: Invalid argumentLOOKATME: Sensor should not be reported:  Type 0xff, Offset 0x08
+IPMI Response:
+0x000000: 00                                              .
+IPMI Incoming: Seq 0x01, NetFn 0x04, CMD: 0x30
+0x000000: 33 a9 00 40 00 00 00 00 20 00                   3..@.... .
+IPMI SET_SENSOR [0x33]
+LOOKATME: Sensor should not be reported:  Type 0xc2, Offset 0x06
+IPMI Response:
+0x000000: 00                                              .
+IPMI Incoming: Seq 0x01, NetFn 0x04, CMD: 0x30
+0x000000: 33 a9 ff 00 00 40 00 00 20 00                   3....@.. .
+IPMI SET_SENSOR [0x33]
+LOOKATME: Sensor should not be reported:  Type 0xc2, Offset 0x06
+IPMI Response:
+0x000000: 00                                              .
+IPMI Incoming: Seq 0x01, NetFn 0x04, CMD: 0x30
+0x000000: 30 00 00 10 00 00 00 00 20 00                   0....... .
+IPMI SET_SENSOR [0x30]
+Failed to create a method call: Invalid argumentBus:  Path:  Interface: org.openbmc.InventoryItem
+Failed to get a fru type: Invalid argumentLOOKATME: Sensor should not be reported:  Type 0xff, Offset 0x04
+IPMI Response:
+0x000000: 00                                              .
+IPMI Incoming: Seq 0x01, NetFn 0x04, CMD: 0x30
+0x000000: 30 00 00 00 00 10 00 00 20 00                   0....... .
+IPMI SET_SENSOR [0x30]
+Failed to create a method call: Invalid argumentBus:  Path:  Interface: org.openbmc.InventoryItem
+Failed to get a fru type: Invalid argumentLOOKATME: Sensor should not be reported:  Type 0xff, Offset 0x04
+IPMI Response:
+0x000000: 00                                              .
+IPMI Incoming: Seq 0x01, NetFn 0x04, CMD: 0x30
+0x000000: 46 a9 00 40 00 00 00 00 20 00                   F..@.... .
+IPMI SET_SENSOR [0x46]
+Failed to create a method call: Invalid argumentBus:  Path:  Interface: org.openbmc.InventoryItem
+Failed to get a fru type: Invalid argumentLOOKATME: Sensor should not be reported:  Type 0xff, Offset 0x06
+IPMI Response:
+0x000000: 00                                              .
+IPMI Incoming: Seq 0x01, NetFn 0x04, CMD: 0x30
+0x000000: 46 00 00 10 00 00 00 00 20 00                   F....... .
+IPMI SET_SENSOR [0x46]
+Failed to create a method call: Invalid argumentBus:  Path:  Interface: org.openbmc.InventoryItem
+Failed to get a fru type: Invalid argumentLOOKATME: Sensor should not be reported:  Type 0xff, Offset 0x04
+IPMI Response:
+0x000000: 00                                              .
+IPMI Incoming: Seq 0x01, NetFn 0x04, CMD: 0x30
+0x000000: 46 00 00 00 00 10 00 00 20 00                   F....... .
+IPMI SET_SENSOR [0x46]
+Failed to create a method call: Invalid argumentBus:  Path:  Interface: org.openbmc.InventoryItem
+Failed to get a fru type: Invalid argumentLOOKATME: Sensor should not be reported:  Type 0xff, Offset 0x04
+IPMI Response:
+0x000000: 00                                              .
+
+root@palmetto:~#
+root@palmetto:~#
+root@palmetto:~#
+
+root@palmetto:~#
+root@palmetto:~#
