@@ -16,7 +16,7 @@ Open Connection And Log In
     ...    ELSE  Run Keyword   Open connection     ${OPENBMC_HOST}    port=${SSH_PORT}
 
     Login   ${OPENBMC_USERNAME}    ${OPENBMC_PASSWORD}
-    copy ipmi_comdexec.py
+    copy ipmi_dbus.py
 
 User input SSH and HTTPs Ports
     [Documentation]   Update the global SSH and HTTPs port variable for QEMU
@@ -26,12 +26,12 @@ User input SSH and HTTPs Ports
     ${https_num}=   Convert To Integer    ${HTTPS_PORT}
     Set Global Variable     ${AUTH_URI}    https://${OPENBMC_HOST}:${https_num}
 
-Copy ipmi_comdexec.py
-    OperatingSystem.File Should Exist   lib/ipmi_cmdexec.py      msg=The ipmi cmdexec program could not be found in the tools directory. It is not part of the automation code by default. You must manually copy or link the correct openbmc version of the tool in to the tools directory in order to run this test suite.
+Copy ipmi_dbus.py
+    OperatingSystem.File Should Exist   lib/ipmi_dbus.py      msg=The ipmi cmdexec program could not be found in the tools directory. It is not part of the automation code by default. You must manually copy or link the correct openbmc version of the tool in to the tools directory in order to run this test suite.
 
     Import Library      SCPLibrary      WITH NAME       scp
     scp.Open connection     ${OPENBMC_HOST}     username=${OPENBMC_USERNAME}      password=${OPENBMC_PASSWORD}
-    scp.Put File    lib/ipmi_cmdexec.py   /tmp
+    scp.Put File    lib/ipmi_dbus.py   /tmp
     SSHLibrary.Open Connection     ${OPENBMC_HOST}
     Login   ${OPENBMC_USERNAME}    ${OPENBMC_PASSWORD}
-    Execute Command     chmod +x /tmp/ipmi_cmdexec.py
+    Execute Command     chmod +x /tmp/ipmi_dbus.py
