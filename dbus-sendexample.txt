@@ -42,3 +42,82 @@ method return time=1471339064.593755 sender=:1.6 -> destination=:1.45 serial=26 
   </interface>
 </node>
 "
+
+
+root@barreleye:/usr/sbin# dbus-send --system --print-reply --dest=org.openbmc.managers.System   /org/openbmc/managers/System org.freedesktop.DBus.Introspectable.Introspect
+method return time=1471339147.788145 sender=:1.10 -> destination=:1.46 serial=219 reply_serial=2
+   string "<!DOCTYPE node PUBLIC "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN"
+"http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+<node name="/org/openbmc/managers/System">
+  <interface name="org.freedesktop.DBus.ObjectManager">
+    <method name="GetManagedObjects">
+      <arg direction="out" type="a{oa{sa{sv}}}" />
+    </method>
+    <signal name="InterfacesAdded">
+      <arg type="o" name="object_path" />
+      <arg type="a{sa{sv}}" name="properties" />
+    </signal>
+    <signal name="InterfacesRemoved">
+      <arg type="o" name="object_path" />
+      <arg type="as" name="interfaces" />
+    </signal>
+  </interface>
+  <interface name="org.freedesktop.DBus.Introspectable">
+    <method name="Introspect">
+      <arg direction="out" type="s" />
+    </method>
+  </interface>
+  <interface name="org.openbmc.Object.Properties">
+    <method name="SetMultiple">
+      <arg direction="in"  type="s" name="interface_name" />
+      <arg direction="in"  type="a{sv}" name="prop_dict" />
+    </method>
+  </interface>
+  <interface name="org.freedesktop.DBus.Properties">
+    <signal name="PropertiesChanged">
+      <arg type="s" name="interface_name" />
+      <arg type="a{sv}" name="changed_properties" />
+      <arg type="as" name="invalidated_properties" />
+    </signal>
+    <method name="Set">
+      <arg direction="in"  type="s" name="interface_name" />
+      <arg direction="in"  type="s" name="property_name" />
+      <arg direction="in"  type="v" name="new_value" />
+    </method>
+    <method name="GetAll">
+      <arg direction="in"  type="s" name="interface_name" />
+      <arg direction="out" type="a{sv}" />
+    </method>
+    <method name="Get">
+      <arg direction="in"  type="s" name="interface_name" />
+      <arg direction="in"  type="s" name="property_name" />
+      <arg direction="out" type="v" />
+    </method>
+  </interface>
+  <interface name="org.openbmc.managers.System">
+    <method name="getFRUArea">
+      <arg direction="in"  type="y" name="fru_id" />
+      <arg direction="out" type="s" />
+    </method>
+    <method name="getObjectFromId">
+      <arg direction="in"  type="s" name="category" />
+      <arg direction="in"  type="s" name="key" />
+      <arg direction="out" type="(ss)" />
+    </method>
+    <method name="gpioInit">
+      <arg direction="in"  type="s" name="name" />
+      <arg direction="out" type="s" />
+      <arg direction="out" type="i" />
+      <arg direction="out" type="s" />
+    </method>
+    <method name="getSystemState">
+      <arg direction="out" type="s" />
+    </method>
+    <method name="getObjectFromByteId">
+      <arg direction="in"  type="s" name="category" />
+      <arg direction="in"  type="y" name="key" />
+      <arg direction="out" type="(ss)" />
+    </method>
+  </interface>
+</node>
+"
