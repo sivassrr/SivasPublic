@@ -24,7 +24,7 @@ Set the Boot Device as Default using REST API
     Write Attribute    /org/openbmc/settings/host0   boot_flags   data=${valueDict}
     Read the Attribute  /org/openbmc/settings/host0    boot_flags
     Response Should Be Equal   Default
-    ${output} =    Run IPMI command  0x00 0x09 0x05 0x00 0x00
+#    ${output} =    Run IPMI command  0x00 0x09 0x05 0x00 0x00
 #    ${output} =    Run IPMI Standard command   chassis bootparam get 5
     ${output}   ${stderr}=  Execute Command  ${dbuscmd}  return_stderr=True
     Should Be Empty     ${stderr}
@@ -40,7 +40,7 @@ Set the Boot Device as Default using ipmitool
     Read the Attribute   /org/openbmc/settings/host0   boot_flags
     Response Should Be Equal   Default
 #    ${output} =   Run IPMI Standard command   chassis bootparam get 5
-    ${output} =    Run IPMI command  0x00 0x09 0x05 0x00 0x00
+#    ${output} =    Run IPMI command  0x00 0x09 0x05 0x00 0x00
     ${output}   ${stderr}=  Execute Command  ${dbuscmd}  return_stderr=True
     Should Be Empty     ${stderr}
     Log to Console   \n ${output}
@@ -56,7 +56,7 @@ Set the Boot Device as Network using REST API
     Read the Attribute  /org/openbmc/settings/host0    boot_flags
     Response Should Be Equal   Network
 #    ${output} =    Run IPMI Standard command   chassis bootparam get 5
-    ${output} =    Run IPMI command  0x00 0x09 0x05 0x00 0x00
+#    ${output} =    Run IPMI command  0x00 0x09 0x05 0x00 0x00
     ${output}   ${stderr}=  Execute Command  ${dbuscmd}   return_stderr=True
     Log to Console   \n ${output}
     Should Be Empty     ${stderr}
@@ -86,7 +86,7 @@ Set the Boot Device as Disk using REST API
     Read the Attribute  /org/openbmc/settings/host0    boot_flags
     Response Should Be Equal   Disk
 #    ${output} =    Run IPMI Standard command   chassis bootparam get 5
-    ${output} =    Run IPMI command  0x00 0x09 0x05 0x00 0x00
+#    ${output} =    Run IPMI command  0x00 0x09 0x05 0x00 0x00
     ${output}   ${stderr}=  Execute Command  ${dbuscmd}  return_stderr=True
     Log to Console   \n ${output}
     Should Be Empty     ${stderr}
@@ -101,7 +101,7 @@ Set the Boot Device as Disk using ipmitool
     Read the Attribute   /org/openbmc/settings/host0   boot_flags
     Response Should Be Equal   Disk
 #    ${output} =   Run IPMI Standard command   chassis bootparam get 5
-    ${output} =    Run IPMI command  0x00 0x09 0x05 0x00 0x00
+#    ${output} =    Run IPMI command  0x00 0x09 0x05 0x00 0x00
     ${output}   ${stderr}=  Execute Command  ${dbuscmd}  return_stderr=True
     Log to Console   \n ${output}
     Should Be Empty     ${stderr}
@@ -117,7 +117,7 @@ Set the Boot Device as Safe using REST API
     Read the Attribute  /org/openbmc/settings/host0    boot_flags
     Response Should Be Equal   Safe
 #    ${output} =    Run IPMI Standard command   chassis bootparam get 5
-    ${output} =    Run IPMI command  0x00 0x09 0x05 0x00 0x00
+#    ${output} =    Run IPMI command  0x00 0x09 0x05 0x00 0x00
     ${output}   ${stderr}=  Execute Command  ${dbuscmd}  return_stderr=True
     Log to Console   \n ${output}
     Should Be Empty     ${stderr}
@@ -132,7 +132,7 @@ Set the Boot Device as Safe using ipmitool
     Read the Attribute   /org/openbmc/settings/host0   boot_flags
     Response Should Be Equal   Safe
 #    ${output} =   Run IPMI Standard command   chassis bootparam get 5
-    ${output} =    Run IPMI command  0x00 0x09 0x05 0x00 0x00
+#    ${output} =    Run IPMI command  0x00 0x09 0x05 0x00 0x00
     ${output}   ${stderr}=  Execute Command  ${dbuscmd}   return_stderr=True
     Log to Console   \n ${output}
     Should Be Empty     ${stderr}
@@ -148,7 +148,7 @@ Set the Boot Device as CDROM using REST API
     Read the Attribute  /org/openbmc/settings/host0    boot_flags
     Response Should Be Equal   CDROM
 #    ${output} =    Run IPMI Standard command   chassis bootparam get 5
-    ${output} =    Run IPMI command  0x00 0x09 0x05 0x00 0x00
+#    ${output} =    Run IPMI command  0x00 0x09 0x05 0x00 0x00
     ${output}   ${stderr}=  Execute Command  ${dbuscmd}  return_stderr=True
     Log to Console   \n ${output}
     Should Be Empty     ${stderr}
@@ -163,7 +163,7 @@ Set the Boot Device as CDROM using ipmitool
     Read the Attribute   /org/openbmc/settings/host0   boot_flags
     Response Should Be Equal   CDROM
 #    ${output} =   Run IPMI Standard command   chassis bootparam get 5
-    ${output} =    Run IPMI command  0x00 0x09 0x05 0x00 0x00
+#    ${output} =    Run IPMI command  0x00 0x09 0x05 0x00 0x00
     ${output}   ${stderr}=  Execute Command  ${dbuscmd}  return_stderr=True
     Log to Console   \n ${output}
     Should Be Empty     ${stderr}
@@ -179,7 +179,7 @@ Set the Boot Device as Setup using REST API
     Read the Attribute  /org/openbmc/settings/host0    boot_flags
     Response Should Be Equal   Setup
 #    ${output} =    Run IPMI Standard command   chassis bootparam get 5
-    ${output} =    Run IPMI command  0x00 0x09 0x05 0x00 0x00
+#    ${output} =    Run IPMI command  0x00 0x09 0x05 0x00 0x00
     ${output}   ${stderr}=  Execute Command  ${dbuscmd}  return_stderr=True
     Log to Console   \n ${output}
     Should Be Empty     ${stderr}
@@ -194,7 +194,7 @@ Set the Boot Device as Setup using ipmitool
     Read the Attribute   /org/openbmc/settings/host0   boot_flags
     Response Should Be Equal   Setup
 #    ${output} =   Run IPMI Standard command   chassis bootparam get 5
-    ${output} =    Run IPMI command  0x00 0x09 0x05 0x00 0x00
+#    ${output} =    Run IPMI command  0x00 0x09 0x05 0x00 0x00
     ${output}   ${stderr}=  Execute Command  ${dbuscmd}   return_stderr=True
     Log to Console   \n ${output}
     Should Be Empty     ${stderr}
