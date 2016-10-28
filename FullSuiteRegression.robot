@@ -1,37 +1,31 @@
 *** Settings ***
-Documentation      This suite is for testing Fullsuite (Rest API Stability is the focus). Copy the log.html and output.xml. Down the line we can merge output as well
+Documentation      This suite is for testing Open BMC full test suite.
+...                Maintains log.html output.xml  for each iteration and
+...                generate combined report
 
-Library           String
 Library           OperatingSystem
-Library           SSHLibrary
 
-Suite Teardown    Close All Connections
-
-*** Variables *** 
-${t_HOSTBMC_LOGIN}        root
-${t_HOSTBMC_PASSWD}       0penBmc
-${SYSTEMTYPE}          
+*** Variables ***
+ ${ITERATION}  10
+ ${RESULT_PATH}        logsdir
+ ${LOOP_TEST_COMMAND}       tests
 
 *** Test Cases ***
-Run Tests Multiple Time
+Run Entire Test Suite Multiple Time
+   [Documentation]  Multiple iterations of Full Suite
 
-   ${SYSTEMTYPE}=   Open Connection And Log In
-   : FOR    ${INDEX}    IN RANGE    0    ${ITERATION} 
+   Should Be True  0<${ITERATION}
+   Create Directory   ${RESULT_PATH}
+   : FOR    ${INDEX}    IN RANGE    0    ${ITERATION}
     \    Log To Console     \n Iteration:   no_newline=True
     \    Log To Console    ${INDEX}
-    \    Run  OPENBMC_HOST=${OPENBMC_HOST} tox -e ${SYSTEMTYPE} -- tests
-    \    Copy File    output.xml   ./output${INDEX}.xml
-    \    Copy File    log.html   ./log${INDEX}.html
+    \    Run  OPENBMC_HOST=${OPENBMC_HOST} tox -e ${OPENBMC_SYSTEMMODEL} -- ${LOOP_TEST_COMMAND}
+    \    Run  sed -i 's/'${OPENBMC_HOST}'/DUMMYIP/g' output.xml
+    \    Copy File    output.xml   ${RESULT_PATH}/output${INDEX}.xml
+    \    Copy File    log.html   ${RESULT_PATH}/log${INDEX}.html
 
+Create Combined Report
+   [Documentation]   Using output[?].xml and create combined log.html
 
-*** Keywords ***
-Open Connection And Log In
-    [Documentation]   Returns  the system type 
-
-    Open connection    ${OPENBMC_HOST}
-    Login   ${t_HOSTBMC_LOGIN}   ${t_HOSTBMC_PASSWD}
-    ${output}  ${stderr}=   Execute Command  hostname   return_stderr=True
-    Should Be Empty     ${stderr}
-    set test variable   ${t_SYSTEMTYPE}     ${output}
-    Log to Console   \n ${t_SYSTEMTYPE}
-    [return]   ${t_SYSTEMTYPE}
+   Run  rebot --name ${OPENBMC_SYSTEMMODEL}CombinedReport ${RESULT_PATH}/output*.xml
+   Move File   log.html     ${RESULT_PATH}/log${OPENBMC_SYSTEMMODEL}CombinedIterations${ITERATION}Report.html
