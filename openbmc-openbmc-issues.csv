@@ -1,0 +1,618 @@
+Labels,Title,State,Date,URL,Author
+,[Barreleye v1.0-stable] Connection timed out when power state change,open,2016-12-07,https://github.com/openbmc/openbmc/issues/863,johnhcwang
+,Intermittently hitting org.freedesktop.DBus.Error.ObjectPathInUse: busy processing bus traffic on way to BMC standby,open,2016-12-06,https://github.com/openbmc/openbmc/issues/862,geissonator
+,[ Palmetto v1.99.0-309-ged181d5] Palmetto system not booting to HOST_BOOTED state,open,2016-12-06,https://github.com/openbmc/openbmc/issues/861,rahulmah
+,BMC not responding to IPMI command from Host,open,2016-12-05,https://github.com/openbmc/openbmc/issues/860,astallma
+,/run 100% full after reboot due to journal logs,open,2016-12-02,https://github.com/openbmc/openbmc/issues/859,geissonator
+,Attaching RMCP session to SOL - Part 3,open,2016-12-02,https://github.com/openbmc/openbmc/issues/858,geissonator
+,Attaching RMCP session to SOL - Part 2,open,2016-12-02,https://github.com/openbmc/openbmc/issues/857,geissonator
+,Attaching RMCP session to SOL - Part 1,open,2016-12-02,https://github.com/openbmc/openbmc/issues/856,geissonator
+,Need Default Witherspoon fan speeds,open,2016-12-02,https://github.com/openbmc/openbmc/issues/855,spinler
+,Implement the callout of a logical entity within an error log,open,2016-12-02,https://github.com/openbmc/openbmc/issues/854,geissonator
+prio_low,[ Barreleye v1.99.0-301-g7734ca3 ] Barreleye system went into bad state after code update to #392,closed,2016-12-01,https://github.com/openbmc/openbmc/issues/853,rahulmah
+,Zaius FSI debug support,open,2016-11-30,https://github.com/openbmc/openbmc/issues/852,GHF
+,Generate client proxy bindings in sdbusplus,open,2016-11-30,https://github.com/openbmc/openbmc/issues/851,williamspatrick
+,IPMI: Implement the Self Test on BMC if needed,closed,2016-11-30,https://github.com/openbmc/openbmc/issues/850,williamli80
+,Zaius power-on,open,2016-11-30,https://github.com/openbmc/openbmc/issues/849,GHF
+,"extended/test_bios_update.robot fails with ""Error -1 erasing chip""",open,2016-11-29,https://github.com/openbmc/openbmc/issues/848,micwalsh
+,phosphor-inventory-manager build failure,open,2016-11-29,https://github.com/openbmc/openbmc/issues/847,adamliyi
+,SDK does not support python yaml library,open,2016-11-29,https://github.com/openbmc/openbmc/issues/846,adamliyi
+,Move to Linux 4.9,open,2016-11-29,https://github.com/openbmc/openbmc/issues/845,shenki
+,Define dbus interfaces for software version management and update,open,2016-11-28,https://github.com/openbmc/openbmc/issues/844,geissonator
+,Compile shared library in phosphor-dbus-interfaces and export required hpp and yaml,open,2016-11-28,https://github.com/openbmc/openbmc/issues/843,geissonator
+Epic,Sprint 16.11.30 - Actual,open,2016-11-28,https://github.com/openbmc/openbmc/issues/842,williamspatrick
+Epic,Sprint 16.11.30 - Committed,open,2016-11-28,https://github.com/openbmc/openbmc/issues/841,williamspatrick
+,Witherspoon: BMC Self test result ipmi throwing error,closed,2016-11-28,https://github.com/openbmc/openbmc/issues/840,sivassrr
+,Automatically build error yaml within phosphor-dbus-interface repo,open,2016-11-28,https://github.com/openbmc/openbmc/issues/839,geissonator
+,Can't ping network in AST2400,open,2016-11-25,https://github.com/openbmc/openbmc/issues/838,Youngzhong
+,Change the mapper path to the correct one..,open,2016-11-25,https://github.com/openbmc/openbmc/issues/837,ratagupt
+,[ Witherspoon v1.99.0-295-g3e20a3d ] RTC Unable to read the hardware clock,closed,2016-11-25,https://github.com/openbmc/openbmc/issues/836,gkeishin
+,[ Barreleye v1.99.0-295-g3e20a3d ] Poweroff Failed to bring to Standby stable,closed,2016-11-25,https://github.com/openbmc/openbmc/issues/835,gkeishin
+,bmc_update: update_kernel_and_apps option is redundant,open,2016-11-25,https://github.com/openbmc/openbmc/issues/834,amboar
+,[ Barreleye v1.99.0-293-g2feb3ec ] TimeManager service is not running,open,2016-11-24,https://github.com/openbmc/openbmc/issues/833,rahulmah
+,[ Barreleye v1.99.0-293-g2feb3ec  ] Poweron Failed to boot Host,closed,2016-11-24,https://github.com/openbmc/openbmc/issues/832,gkeishin
+,[Barreleye v1.99.0-291-g7a6b0ba] REST settings view listing gone ?,open,2016-11-23,https://github.com/openbmc/openbmc/issues/831,gkeishin
+,[Barreleye v1.99.0-291-g7a6b0ba] The base /org listing pruned off ?,open,2016-11-23,https://github.com/openbmc/openbmc/issues/830,gkeishin
+,[Barreleye/Palmetto] Non-SSL Connection to port 443 Error ,open,2016-11-22,https://github.com/openbmc/openbmc/issues/829,gkeishin
+,[Barreleye v1.99.0-280-g29af197] Poweron broken... Failed to boot HOST,closed,2016-11-22,https://github.com/openbmc/openbmc/issues/828,gkeishin
+,Exception when powering off v1.99.0-275-g63248b4-dirty,closed,2016-11-22,https://github.com/openbmc/openbmc/issues/827,shenki
+prio_low,Optimize or fix the 20 minute boot watchdog timeout,open,2016-11-22,https://github.com/openbmc/openbmc/issues/826,geissonator
+,discover_system_state: Exception at boot,open,2016-11-21,https://github.com/openbmc/openbmc/issues/825,shenki
+"bug, prio_high",[ Barreleye v1.99.0-271-g790e82a ] Poweron didnt boot to HOST_BOOTED,closed,2016-11-21,https://github.com/openbmc/openbmc/issues/824,gkeishin
+"bug, prio_high",Errors at startup on palmetto v1.99.0-265-g2d652fd-dirty,closed,2016-11-21,https://github.com/openbmc/openbmc/issues/823,shenki
+,Enable second watchdog on ast2500 systems,open,2016-11-21,https://github.com/openbmc/openbmc/issues/822,shenki
+question,[ Barreleye v1.99.0-271-g790e82a ]  BIOS versioning string changed ?,closed,2016-11-21,https://github.com/openbmc/openbmc/issues/821,gkeishin
+,Ensure builds are not -dirty,open,2016-11-21,https://github.com/openbmc/openbmc/issues/820,shenki
+,"Palmetto host shows no console output, chassis_control.py backtraces during poweron",open,2016-11-21,https://github.com/openbmc/openbmc/issues/819,amboar
+,Uninitialized `GError*` cause `read_power_gpio()` crash,closed,2016-11-18,https://github.com/openbmc/openbmc/issues/818,mine260309
+,can't fetch code from git://github.com/openbmc/linux,open,2016-11-18,https://github.com/openbmc/openbmc/issues/817,ceray0
+"bug, prio_high",[Code update] MTD device partition error for image-bmc,closed,2016-11-18,https://github.com/openbmc/openbmc/issues/816,gkeishin
+,Network interface dropping once we get to BMC_READY,open,2016-11-17,https://github.com/openbmc/openbmc/issues/815,geissonator
+,GPIO abstraction for host-control,open,2016-11-17,https://github.com/openbmc/openbmc/issues/814,mine260309
+,Add non-root user for remote access,open,2016-11-17,https://github.com/openbmc/openbmc/issues/813,shenki
+"bug, prio_medium",Internal server error on REST request - dbus.exceptions.DBusException: org.freedesktop.DBus.Error.ObjectPathInUse: busy processing bus traffic,closed,2016-11-17,https://github.com/openbmc/openbmc/issues/812,shenki
+,[Barreleye v1.99.0-251-gb78c6de ] Powercap properties not loaded,open,2016-11-16,https://github.com/openbmc/openbmc/issues/811,gkeishin
+,Don't Build Image,closed,2016-11-15,https://github.com/openbmc/openbmc/issues/810,Youngzhong
+,Host watchdog gets enabled on debug mode,open,2016-11-14,https://github.com/openbmc/openbmc/issues/809,anoo1
+,Console client connection fails when streaming a large amount of data,closed,2016-11-14,https://github.com/openbmc/openbmc/issues/808,dbirk
+,2-chip P9 vcs support,open,2016-11-14,https://github.com/openbmc/openbmc/issues/807,geissonator
+"bug, prio_high",[Build v1.99.0-246-g6026e60 ] Phosphor settings services are not running,closed,2016-11-14,https://github.com/openbmc/openbmc/issues/806,gkeishin
+,http://www.openbmc-project.xyz/ returns 404,open,2016-11-14,https://github.com/openbmc/openbmc/issues/805,amboar
+,Power state remains 0 after starting power on.,closed,2016-11-11,https://github.com/openbmc/openbmc/issues/804,micwalsh
+,led: Generate required LED information from the MRW,open,2016-11-11,https://github.com/openbmc/openbmc/issues/803,geissonator
+,led: Move all existing code to new LED interfaces,open,2016-11-11,https://github.com/openbmc/openbmc/issues/802,geissonator
+enhancement,Create systemd unit file for phosphor-inventory-manager,open,2016-11-11,https://github.com/openbmc/openbmc/issues/801,bradbishop
+enhancement,Remove all hardcoded org.openbmc.Inventoryxxx busname lookups,open,2016-11-11,https://github.com/openbmc/openbmc/issues/800,bradbishop
+enhancement,Remove all hardcoded inventory object path roots,open,2016-11-11,https://github.com/openbmc/openbmc/issues/799,bradbishop
+"enhancement, Epic",Model non-sensor sensors,open,2016-11-11,https://github.com/openbmc/openbmc/issues/798,bradbishop
+enhancement,Add hwmon<->udev virtual and set PREFERRED_PROVIDER for each system.,closed,2016-11-11,https://github.com/openbmc/openbmc/issues/797,bradbishop
+enhancement,Create hwmon udev-rule generating recipes for existing non-mrw systems,closed,2016-11-11,https://github.com/openbmc/openbmc/issues/796,bradbishop
+enhancement,Create systemd unit file for phosphor-hwmon,closed,2016-11-11,https://github.com/openbmc/openbmc/issues/795,bradbishop
+,[ Barreleye v1.99.0-242-gfddb958 ] Poweron didn't succeed to Host booted state,closed,2016-11-11,https://github.com/openbmc/openbmc/issues/794,gkeishin
+enhancement,Enhance hwmon udev rules to include configuration,closed,2016-11-11,https://github.com/openbmc/openbmc/issues/793,bradbishop
+enhancement,Add threshold support to phosphor-hwmon,open,2016-11-11,https://github.com/openbmc/openbmc/issues/792,bradbishop
+enhancement,Create udev-rule generating recipe,open,2016-11-11,https://github.com/openbmc/openbmc/issues/791,bradbishop
+enhancement,Remove all hardcoded sensor object path roots,open,2016-11-11,https://github.com/openbmc/openbmc/issues/790,bradbishop
+enhancement,Remove all hardcoded org.openbmc.Sensorxxx busname lookups,open,2016-11-11,https://github.com/openbmc/openbmc/issues/789,bradbishop
+enhancement,Create a bitbake recipe for phosphor-hwmon,closed,2016-11-11,https://github.com/openbmc/openbmc/issues/788,bradbishop
+enhancement,Create DBus objects for runtime discovered sensors,open,2016-11-11,https://github.com/openbmc/openbmc/issues/787,bradbishop
+enhancement,Implement org.freedesktop.DBus.ObjectManager in phosphor-hwmon,closed,2016-11-11,https://github.com/openbmc/openbmc/issues/786,bradbishop
+,PNOR mtd device needs label,closed,2016-11-11,https://github.com/openbmc/openbmc/issues/785,shenki
+,chassisctl refactor - Host and LED interfaces,open,2016-11-10,https://github.com/openbmc/openbmc/issues/784,geissonator
+,Host state management and control ,open,2016-11-10,https://github.com/openbmc/openbmc/issues/783,geissonator
+,DBUS support for bmc reboot,closed,2016-11-10,https://github.com/openbmc/openbmc/issues/782,geissonator
+,Map IPMI sensors to appropriate inventory objects,open,2016-11-10,https://github.com/openbmc/openbmc/issues/781,geissonator
+Epic,Network refactor,open,2016-11-10,https://github.com/openbmc/openbmc/issues/780,geissonator
+Epic,IPMI provider refactor,open,2016-11-10,https://github.com/openbmc/openbmc/issues/779,geissonator
+Epic,Sensors refactor,open,2016-11-10,https://github.com/openbmc/openbmc/issues/778,geissonator
+Epic,Inventory Refactor,open,2016-11-10,https://github.com/openbmc/openbmc/issues/777,geissonator
+,rstbutton refactor,open,2016-11-10,https://github.com/openbmc/openbmc/issues/776,geissonator
+,pytools refactor,open,2016-11-10,https://github.com/openbmc/openbmc/issues/775,geissonator
+,systemmgr refactor,open,2016-11-10,https://github.com/openbmc/openbmc/issues/774,geissonator
+,statemgr refactor,open,2016-11-10,https://github.com/openbmc/openbmc/issues/773,geissonator
+prio_high,BMC state management and control,open,2016-11-10,https://github.com/openbmc/openbmc/issues/772,geissonator
+,pwrbutton refactor,open,2016-11-10,https://github.com/openbmc/openbmc/issues/771,geissonator
+,pciedetect refactor,open,2016-11-10,https://github.com/openbmc/openbmc/issues/770,geissonator
+,pwrctl refactor,open,2016-11-10,https://github.com/openbmc/openbmc/issues/769,geissonator
+,hostctl refactor,open,2016-11-10,https://github.com/openbmc/openbmc/issues/768,geissonator
+,hostwatchdog refactor,open,2016-11-10,https://github.com/openbmc/openbmc/issues/767,geissonator
+,hostcheckstop refactor,open,2016-11-10,https://github.com/openbmc/openbmc/issues/766,geissonator
+,Move IPMI to use systemd to perform BMC reboots,open,2016-11-10,https://github.com/openbmc/openbmc/issues/765,geissonator
+Epic,Sprint 16.11.16 - Actual,open,2016-11-10,https://github.com/openbmc/openbmc/issues/764,williamspatrick
+Epic,Sprint 16.11.16 - Committed,open,2016-11-10,https://github.com/openbmc/openbmc/issues/763,williamspatrick
+,Witherspoon: LPC mapping support,closed,2016-11-10,https://github.com/openbmc/openbmc/issues/762,yadlapati
+,Make btbridged socket activated,open,2016-11-10,https://github.com/openbmc/openbmc/issues/761,shenki
+bug,"[Barreleye VERSION_ID=""v1.99.0-237-gb02da7b] Failed to start Phosphor IPMI BT DBus Bridge.",closed,2016-11-10,https://github.com/openbmc/openbmc/issues/760,gkeishin
+,[Barreleye v1.0-stable] Fail to boot host because of pflash has stuck,open,2016-11-10,https://github.com/openbmc/openbmc/issues/759,johnhcwang
+,Handle OCC error conditions in hwmon driver,open,2016-11-09,https://github.com/openbmc/openbmc/issues/758,eddiejames
+bug,inventory: add mechanism to change a property,open,2016-11-08,https://github.com/openbmc/openbmc/issues/757,bradbishop
+,inventory: wrap sdbusplus interfaces with sdbusplus object,closed,2016-11-08,https://github.com/openbmc/openbmc/issues/756,bradbishop
+,"[Barreleye ""v1.99.0-226-g068b41c""] Failed to start Restore Last State.",open,2016-11-08,https://github.com/openbmc/openbmc/issues/755,gkeishin
+,Debug tarball busybox is built into all images,closed,2016-11-08,https://github.com/openbmc/openbmc/issues/754,shenki
+,Add rsync to the image,open,2016-11-08,https://github.com/openbmc/openbmc/issues/753,shenki
+,BMP280 needs to be enabled in witherspoon.cfg,closed,2016-11-07,https://github.com/openbmc/openbmc/issues/752,spinler
+,Witherspoon: UCD driver is claiming device but raw access required for workarounds,open,2016-11-07,https://github.com/openbmc/openbmc/issues/751,yadlapati
+,[ Barreleye v1.99.0-220-ge7b0fd5 ] System went for maintenance mode post reboot,closed,2016-11-07,https://github.com/openbmc/openbmc/issues/750,gkeishin
+bug,obmc-console-server not starting,closed,2016-11-07,https://github.com/openbmc/openbmc/issues/749,shenki
+,Romulus Power-On,open,2016-11-04,https://github.com/openbmc/openbmc/issues/748,mine260309
+,pflash fails on barreleye with latest e7b0fd5 (flasher and mtd fixes),closed,2016-11-04,https://github.com/openbmc/openbmc/issues/747,geissonator
+enhancement,"Add python-mako, python-pyyaml to SDK",closed,2016-11-04,https://github.com/openbmc/openbmc/issues/746,bradbishop
+,Witherspoon: inventory definition outdated,open,2016-11-04,https://github.com/openbmc/openbmc/issues/745,adamliyi
+,Need update in README from where new images are available (openpower.xyz),open,2016-11-04,https://github.com/openbmc/openbmc/issues/744,sivassrr
+,Romulus error message: not found in GPIO config table,closed,2016-11-03,https://github.com/openbmc/openbmc/issues/743,adamliyi
+,TFTP code update fails with path,open,2016-11-03,https://github.com/openbmc/openbmc/issues/742,shenki
+,Witherspoon: Slow response with 1.99.0-212 driver,closed,2016-11-02,https://github.com/openbmc/openbmc/issues/741,yadlapati
+,[Palmetto - v1.99.0-212-gf1c10dd] - Bios update fails on Palmetto with both REST and pflash,closed,2016-11-02,https://github.com/openbmc/openbmc/issues/740,rahulmah
+,"[Witherspoon VERSION_ID=""v1.99.0-212-gf1c10dd-dirty"" ] code update succeed but fails with REST Authentication",open,2016-11-02,https://github.com/openbmc/openbmc/issues/739,sivassrr
+,OpenBMC- Factory reset & zero config through IPMI is not working,open,2016-11-02,https://github.com/openbmc/openbmc/issues/738,prkatti1
+,led: Implement LED dbus interfaces,open,2016-11-01,https://github.com/openbmc/openbmc/issues/737,geissonator
+,led: Define dbus interface to interact with LED's,closed,2016-11-01,https://github.com/openbmc/openbmc/issues/736,geissonator
+,"[Barreleye VERSION_ID=""v1.99.0-210-g913e81d"" ]  REST Login Session connection Failed",closed,2016-11-01,https://github.com/openbmc/openbmc/issues/735,gkeishin
+,Support the callout of a logical entity within an error log (design),open,2016-11-01,https://github.com/openbmc/openbmc/issues/734,geissonator
+,Match error log metadata with error log commits,open,2016-11-01,https://github.com/openbmc/openbmc/issues/733,geissonator
+,Define and implement dbus API to list and view event logs,open,2016-11-01,https://github.com/openbmc/openbmc/issues/732,geissonator
+,Merge dbus interface and error log meta data definition,closed,2016-11-01,https://github.com/openbmc/openbmc/issues/731,geissonator
+bug,move mapper to xyz namespace,closed,2016-11-01,https://github.com/openbmc/openbmc/issues/730,bradbishop
+enhancement,mapper interface enhancements,closed,2016-11-01,https://github.com/openbmc/openbmc/issues/729,bradbishop
+enhancement,define xyz sensors api,closed,2016-11-01,https://github.com/openbmc/openbmc/issues/728,bradbishop
+,Use new dbusplus vtable interfaces and move to generated bindings for event log server,open,2016-11-01,https://github.com/openbmc/openbmc/issues/727,geissonator
+,xyz inventory manager needs a recipe,open,2016-11-01,https://github.com/openbmc/openbmc/issues/726,bradbishop
+,Revise fan control module,open,2016-11-01,https://github.com/openbmc/openbmc/issues/725,adamliyi
+,Romulus warnings at boot,open,2016-11-01,https://github.com/openbmc/openbmc/issues/724,shenki
+,Run CI images under Aspeed Qemu model,open,2016-11-01,https://github.com/openbmc/openbmc/issues/723,shenki
+,fw version: Define dbus interface for fw version interface,closed,2016-11-01,https://github.com/openbmc/openbmc/issues/722,geissonator
+,bmc state: Define dbus interface for bmc state functionality,closed,2016-11-01,https://github.com/openbmc/openbmc/issues/721,geissonator
+,power on/off: Define dbus interface for power on/off,closed,2016-11-01,https://github.com/openbmc/openbmc/issues/720,geissonator
+,rtc: Define dbus interface for rtc,closed,2016-11-01,https://github.com/openbmc/openbmc/issues/719,geissonator
+,"[Barrelleye VERSION_ID=""v1.99.0-200-g48d0241""] dev-ttyVUART0.device start timed out.",closed,2016-10-31,https://github.com/openbmc/openbmc/issues/718,gkeishin
+Epic,Sprint 16.11.02 - Actual,open,2016-10-31,https://github.com/openbmc/openbmc/issues/717,williamspatrick
+Epic,Sprint 16.11.02 - Committed,open,2016-10-31,https://github.com/openbmc/openbmc/issues/716,williamspatrick
+,Add support for new SPI device driver to device tree generator script,closed,2016-10-31,https://github.com/openbmc/openbmc/issues/715,spinler
+bug,libflash API change,open,2016-10-31,https://github.com/openbmc/openbmc/issues/714,shenki
+,pflash/flasher hang blocks boot,closed,2016-10-29,https://github.com/openbmc/openbmc/issues/713,GHF
+,Build SDKs on CI infra,open,2016-10-28,https://github.com/openbmc/openbmc/issues/712,amboar
+,Palmetto serial console becomes unresponsive,open,2016-10-28,https://github.com/openbmc/openbmc/issues/711,amboar
+,"Witherspoon: FSI mux select, gpio326 stuck high in latest code",closed,2016-10-27,https://github.com/openbmc/openbmc/issues/710,yadlapati
+,Updating BIOS via REST API wipes out the Boot options (NVRam),open,2016-10-27,https://github.com/openbmc/openbmc/issues/709,williamspatrick
+,bitbake host-ipmid-tool  is failing ,closed,2016-10-25,https://github.com/openbmc/openbmc/issues/708,sivassrr
+,zeroconfiguration is not working.,open,2016-10-25,https://github.com/openbmc/openbmc/issues/707,ratagupt
+,"Timeout waiting for VUART, fail to reach getty on console",closed,2016-10-25,https://github.com/openbmc/openbmc/issues/706,amboar
+bug,Phosphor LED Management Daemon restarting,open,2016-10-25,https://github.com/openbmc/openbmc/issues/705,shenki
+,Barreleye: Do not boot BMC if MAC address is not set instead of setting random MAC,open,2016-10-25,https://github.com/openbmc/openbmc/issues/704,anoo1
+,systemd dependency missing from network recipe,closed,2016-10-24,https://github.com/openbmc/openbmc/issues/703,msbarth
+,Building qemuarm image on Ubuntu 16.10 fails,open,2016-10-24,https://github.com/openbmc/openbmc/issues/702,mjturek
+bug,[Barreleye build 313] Kernel broken on BARE-01,closed,2016-10-24,https://github.com/openbmc/openbmc/issues/701,gkeishin
+,"[Palmetto- v1.99.0-212-gf1c10dd] : Present, fault, fru_type, is_fru and version fields are missing from some dimm",open,2016-10-24,https://github.com/openbmc/openbmc/issues/700,rahulmah
+,Critical issue reported by Nessus security scanner,open,2016-10-24,https://github.com/openbmc/openbmc/issues/699,prkatti1
+,Get Chassis Status cmd - Front Panel Button Capabilities and disable/enable status - need to implement parameters,open,2016-10-24,https://github.com/openbmc/openbmc/issues/698,williamli80
+,Get Chassis Status cmd - Misc Chassis State - need to implement parameters,open,2016-10-24,https://github.com/openbmc/openbmc/issues/697,williamli80
+,Get Chassis Status cmd - Last Power Event - need to implement parameters,open,2016-10-24,https://github.com/openbmc/openbmc/issues/696,williamli80
+,Get Chassis Status cmd - Current Power State - need to implement parameters,open,2016-10-24,https://github.com/openbmc/openbmc/issues/695,williamli80
+,Move to upstream IPMI BT driver,closed,2016-10-24,https://github.com/openbmc/openbmc/issues/694,shenki
+,IPMI LAN cmd OEM parameters,open,2016-10-22,https://github.com/openbmc/openbmc/issues/693,williamli80
+,IPMI LAN cmd parameters - Dynamic Router Info,open,2016-10-22,https://github.com/openbmc/openbmc/issues/692,williamli80
+,IPMI LAN cmd parameters - RMCP+ introduced,open,2016-10-22,https://github.com/openbmc/openbmc/issues/691,williamli80
+,IPMI LAN cmd parameters - Destinations related,open,2016-10-22,https://github.com/openbmc/openbmc/issues/690,williamli80
+,IPMI LAN cmd parameter - Community String(Num 16),open,2016-10-22,https://github.com/openbmc/openbmc/issues/689,williamli80
+,IPMI LAN cmd parameters - Gateway related,open,2016-10-22,https://github.com/openbmc/openbmc/issues/688,williamli80
+,IPMI LAN cmd parameters - ARP(optional),open,2016-10-22,https://github.com/openbmc/openbmc/issues/687,williamli80
+,IPMI LAN cmd parameters - Primary/Secondary RMCP Port (optional),open,2016-10-22,https://github.com/openbmc/openbmc/issues/686,williamli80
+,IPMI LAN cmd parameter - IPv4 Header Parameters,open,2016-10-22,https://github.com/openbmc/openbmc/issues/685,williamli80
+,getvpd: Define dbus interface for OpenPower vpd inventory,closed,2016-10-21,https://github.com/openbmc/openbmc/issues/684,geissonator
+,getvpd: Define dbus interface for IPMI vpd inventory,closed,2016-10-21,https://github.com/openbmc/openbmc/issues/683,geissonator
+,getvpd: Define dbus interface for FRU vpd inventory,closed,2016-10-21,https://github.com/openbmc/openbmc/issues/682,geissonator
+,getvpd: Generate required data for VPD from MRW,open,2016-10-21,https://github.com/openbmc/openbmc/issues/681,geissonator
+,Add Zaius board in U-Boot,open,2016-10-21,https://github.com/openbmc/openbmc/issues/680,GHF
+,create symlink for <platform>.all.tar file,open,2016-10-20,https://github.com/openbmc/openbmc/issues/679,fspbld
+,Need PCA9552 device driver support for both LEDs and GPIOs,open,2016-10-19,https://github.com/openbmc/openbmc/issues/678,spinler
+,docs: Create tutorial doc for journal logging and BMC error reporting,open,2016-10-17,https://github.com/openbmc/openbmc/issues/677,anoo1
+bug,"[Barreleye VERSION=""v1.99.0-173""]  System Network Un reachable when Powered ON",closed,2016-10-17,https://github.com/openbmc/openbmc/issues/676,gkeishin
+,phosphor-dbus-interfaces: Provide interface for dbus object,closed,2016-10-16,https://github.com/openbmc/openbmc/issues/675,anoo1
+duplicate,"[Barrreleye]  Build #301-7ad75ece9a21f1 (Oct 14, 2016 3:21:27 PM)   Update failed",closed,2016-10-14,https://github.com/openbmc/openbmc/issues/674,gkeishin
+observation,"[Palmetto VERSION=""v1.99.0-172""] BMC MAC Address is changing after reboot",closed,2016-10-14,https://github.com/openbmc/openbmc/issues/673,rahulmah
+,"[Barreleye VERSION=""v1.99.0-172""] pam_unix(passwd:chauthtok): unrecognized option [obscure]",open,2016-10-14,https://github.com/openbmc/openbmc/issues/672,gkeishin
+,bmc state: Implement bmc state interface to conform to new design,closed,2016-10-13,https://github.com/openbmc/openbmc/issues/671,geissonator
+,fw version: Implement get firmware version interface to conform to new design,open,2016-10-13,https://github.com/openbmc/openbmc/issues/670,geissonator
+,power on/off: Implement power on and off interfaces to conform to new design,closed,2016-10-13,https://github.com/openbmc/openbmc/issues/669,geissonator
+,rtc: Implement real time clock interfaces in new format,open,2016-10-13,https://github.com/openbmc/openbmc/issues/668,geissonator
+,getvpd: OpenPower VPD into new inventory structures,open,2016-10-13,https://github.com/openbmc/openbmc/issues/667,geissonator
+,getvpd: IPMI VPD into new inventory structures,open,2016-10-13,https://github.com/openbmc/openbmc/issues/666,geissonator
+,getvpd: FRU VPD into new inventory structures,open,2016-10-13,https://github.com/openbmc/openbmc/issues/665,geissonator
+Epic,Witherspoon Mfg Stage 2,open,2016-10-13,https://github.com/openbmc/openbmc/issues/664,williamspatrick
+duplicate,"[Barreleye VERSION=""v1.99.0-170""] Unable to clear network override setting using ipmi",closed,2016-10-13,https://github.com/openbmc/openbmc/issues/663,rahulmah
+,Witherspoon: Kernel is not getting updated after code update,closed,2016-10-12,https://github.com/openbmc/openbmc/issues/662,yadlapati
+prio_high,"[Barreleye VERSION=""v1.99.0-170""]  BMC failed to boot to BMC_READY",closed,2016-10-12,https://github.com/openbmc/openbmc/issues/661,gkeishin
+enhancement,Feature: Fan speed toggling based on the need,open,2016-10-12,https://github.com/openbmc/openbmc/issues/660,sivassrr
+,"[Barreleye VERSION=""v1.99.0-169""]  IPv6 DHCP client ?",open,2016-10-12,https://github.com/openbmc/openbmc/issues/659,gkeishin
+,"[Barreleye VERSION=""v1.99.0-169""] obmc-console-client: Can't connect to console server: Connection refused",closed,2016-10-12,https://github.com/openbmc/openbmc/issues/658,gkeishin
+observation,"[Barreleye VERSION=""v1.99.0-169""]  Discover system throws DBus.Error.ServiceUnknown",closed,2016-10-12,https://github.com/openbmc/openbmc/issues/657,gkeishin
+,gtest: Move from SDK and into repositories.,open,2016-10-12,https://github.com/openbmc/openbmc/issues/656,williamspatrick
+,Kernel driver for AST2500 ADC,open,2016-10-10,https://github.com/openbmc/openbmc/issues/655,GHF
+,Need device driver for RX8900CE RTC,closed,2016-10-07,https://github.com/openbmc/openbmc/issues/654,spinler
+,Need device driver for ucd90160 power sequencer chip,closed,2016-10-07,https://github.com/openbmc/openbmc/issues/653,spinler
+,Need fully functional MAX31785 fan controller device driver,open,2016-10-07,https://github.com/openbmc/openbmc/issues/652,spinler
+,Need PMBUS Power Supply device driver,open,2016-10-07,https://github.com/openbmc/openbmc/issues/651,spinler
+prio_high,Execute CFAM to boot witherspoon,open,2016-10-06,https://github.com/openbmc/openbmc/issues/650,geissonator
+,Ability to write hostboot scratch registers from obmc,open,2016-10-06,https://github.com/openbmc/openbmc/issues/649,geissonator
+,"Witherspoon ineventory, gpio, and sensor scrub",closed,2016-10-06,https://github.com/openbmc/openbmc/issues/648,geissonator
+,Ensure power on code works with Witherspoon,open,2016-10-06,https://github.com/openbmc/openbmc/issues/647,geissonator
+Epic,Witherspoon Power-On,open,2016-10-06,https://github.com/openbmc/openbmc/issues/646,williamspatrick
+,"[Barreleye VERSION=""v1.99.0-161""] Valid MAC address is not taken while setting network override setting",open,2016-10-06,https://github.com/openbmc/openbmc/issues/645,rahulmah
+,"[Barreleye VERSION=""v1.99.0-161""] IPMItool command to set network override setting fails",open,2016-10-06,https://github.com/openbmc/openbmc/issues/644,rahulmah
+,settings_manager KeyError: 'org.openbmc.settings.Host' when booting host,open,2016-10-06,https://github.com/openbmc/openbmc/issues/643,shenki
+observation,"[Barreleye VERSION=""v1.99.0-161""] Events not purged after CLEAR request Succeed",closed,2016-10-06,https://github.com/openbmc/openbmc/issues/642,gkeishin
+,sync_inventory_items.py[858]: NameError: name 'os' is not defined,closed,2016-10-06,https://github.com/openbmc/openbmc/issues/641,geissonator
+,Master no longer builds on ppc64le - hang on gobject-introspection build,open,2016-10-06,https://github.com/openbmc/openbmc/issues/640,geissonator
+,Please bump linux-obmc ,closed,2016-10-05,https://github.com/openbmc/openbmc/issues/639,GHF
+,Create settingsd first-level categories dynamically based on inventory object.,closed,2016-10-05,https://github.com/openbmc/openbmc/issues/638,williamspatrick
+,Witherspoon does not build,closed,2016-10-05,https://github.com/openbmc/openbmc/issues/637,geissonator
+,Firestone and Garrison failing to build,closed,2016-10-05,https://github.com/openbmc/openbmc/issues/636,geissonator
+prio_high,"[Barreleye VERSION=""v1.99.0-152"" ] DNS ZeroConf  avahi-daemon.service startup failure",open,2016-10-05,https://github.com/openbmc/openbmc/issues/635,gkeishin
+duplicate,"[Barreleye VERSION=""v1.99.0-152"" ] Inventory ERROR (name_properties) and Partition 'BMC_INV' not found",closed,2016-10-05,https://github.com/openbmc/openbmc/issues/634,gkeishin
+enhancement,Inventory Manager reimplementation,closed,2016-10-05,https://github.com/openbmc/openbmc/issues/633,bradbishop
+enhancement,Mapper interface enhancements,open,2016-10-05,https://github.com/openbmc/openbmc/issues/632,bradbishop
+,Pull witherspoon mrw xml into openbmc build process,open,2016-10-04,https://github.com/openbmc/openbmc/issues/631,geissonator
+,Incorporate I2C devices into MRW and get in device tree or udev,closed,2016-10-04,https://github.com/openbmc/openbmc/issues/630,geissonator
+,Integrate new generated device tree files into kernel,open,2016-10-04,https://github.com/openbmc/openbmc/issues/629,geissonator
+,Pin mux settings put in MRW and incorporated into device tree,open,2016-10-04,https://github.com/openbmc/openbmc/issues/628,geissonator
+,[skeleton/openbmc-v1.0-stable] Fail sync MAC from io_board fru if using random MAC address by default,closed,2016-10-04,https://github.com/openbmc/openbmc/issues/627,williamspatrick
+,"[ Barreleye VERSION=""v1.99.0-146"" ] Host unrecoverable error BC20090F",closed,2016-10-04,https://github.com/openbmc/openbmc/issues/626,gkeishin
+,Test P9 OCC data against OpenBMC OCC driver,open,2016-10-03,https://github.com/openbmc/openbmc/issues/625,geissonator
+,Get P8 OCC driver up-streamable and refactored for P9,open,2016-10-03,https://github.com/openbmc/openbmc/issues/624,geissonator
+,Unsupported Ubuntu-16.04 and No recipe available for python-gevent_%.bbappend,open,2016-10-03,https://github.com/openbmc/openbmc/issues/623,hamzy
+,"Set the mac address, if the requested value had the locally admin mask",closed,2016-10-03,https://github.com/openbmc/openbmc/issues/622,ratagupt
+enhancement,Propose an inventory design for OpenBMC,closed,2016-10-03,https://github.com/openbmc/openbmc/issues/621,bradbishop
+,Update hardcoded parameters of IPMI Get Chassis Capabilities command when they are ready,open,2016-10-03,https://github.com/openbmc/openbmc/issues/620,williamli80
+bug,"[Barreleye VERSION=""v1.99.0-145"" ] Missing pam_systemd.so file",closed,2016-10-03,https://github.com/openbmc/openbmc/issues/619,gkeishin
+Epic,Sprint 16.10.01 - Actual,closed,2016-09-30,https://github.com/openbmc/openbmc/issues/618,williamspatrick
+Epic,Sprint 16.10.01 - Committed,closed,2016-09-30,https://github.com/openbmc/openbmc/issues/617,williamspatrick
+,"[ Barreleye VERSION=""v1.99.0-145"" ] Phosphor Setting Service Main pid is Zero ",closed,2016-09-30,https://github.com/openbmc/openbmc/issues/616,gkeishin
+,"[Palmetto VERSION_ID=""v1.99.0-144-g78d9255-dirty"" ] UserAdd REST API giving DBusException: org.freedesktop.DBus.Error.NoReply error",closed,2016-09-30,https://github.com/openbmc/openbmc/issues/615,rahulmah
+,skeleton does not build against the sdk,open,2016-09-29,https://github.com/openbmc/openbmc/issues/614,geissonator
+bug,kernel panics with v1.0.5 on single server,open,2016-09-29,https://github.com/openbmc/openbmc/issues/613,KennethWilke
+prio_high,"[Barreleye VERSION=""v1.99.0-161 ] REST POST request on BMC failed with SSLEOFError",open,2016-09-29,https://github.com/openbmc/openbmc/issues/612,gkeishin
+,"[Palmetto VERSION_ID=""v1.99.0-131-ga81f31c-dirty"" ] Systemevent url does not exist in Palmetto.",open,2016-09-29,https://github.com/openbmc/openbmc/issues/611,rahulmah
+duplicate,"[Barreleye VERSION=""v1.99.0-143"" ] Boots to BMC_READY state taking longer time",closed,2016-09-29,https://github.com/openbmc/openbmc/issues/610,gkeishin
+,settings_manager.py failing repeatedly on barreleye with latest master (ace81b5),closed,2016-09-29,https://github.com/openbmc/openbmc/issues/609,geissonator
+bug,journal filled with hwmon warnings,closed,2016-09-29,https://github.com/openbmc/openbmc/issues/608,shenki
+,/org/openbmc/enumerate,closed,2016-09-28,https://github.com/openbmc/openbmc/issues/607,hamzy
+,master (bda20f3) not booting on palmetto,closed,2016-09-28,https://github.com/openbmc/openbmc/issues/606,geissonator
+,how to flash Tyan Palmetto server running AMI bmc with Openbmc? ,closed,2016-09-28,https://github.com/openbmc/openbmc/issues/605,kachini
+bug,"[Palmetto VERSION_ID=""v1.99.0-131-ga81f31c-dirty"" ] Presence detect for main planar and memory buffer fails",closed,2016-09-28,https://github.com/openbmc/openbmc/issues/604,rahulmah
+,"[Barreleye VERSION_ID=""v1.99.0-131-ga81f31c-dirty""] BMC did not reset when HOST OS is hung after performing checkstop sensor operation on HOST OS",open,2016-09-28,https://github.com/openbmc/openbmc/issues/603,sivassrr
+observation,"[Barreleye VERSION_ID=""v1.99.0-131-ga81f31c-dirty""] Unknown Gard records on OS are created repeatedly even after clearing gards and boot to OS",closed,2016-09-28,https://github.com/openbmc/openbmc/issues/602,sivassrr
+,Withersoon and ast2500evb failing to build,closed,2016-09-28,https://github.com/openbmc/openbmc/issues/601,shenki
+,journal flooded with cannot read attributes in2_input,closed,2016-09-23,https://github.com/openbmc/openbmc/issues/600,geissonator
+,"[Palmetto VERSION_ID=""v1.99.0-123-gfc7788a-dirty"" ] Internal Server Error for GET operation on cpu inventory url",closed,2016-09-23,https://github.com/openbmc/openbmc/issues/599,rahulmah
+,[master] Palmetto: Fans not powered when host is booted,open,2016-09-22,https://github.com/openbmc/openbmc/issues/598,amboar
+,"Create location to store ""misc"" VPD data.",open,2016-09-22,https://github.com/openbmc/openbmc/issues/597,williamspatrick
+,Create location to store available / installed host firmware images.,open,2016-09-22,https://github.com/openbmc/openbmc/issues/596,williamspatrick
+,ast2500.conf still references sample.inc,closed,2016-09-22,https://github.com/openbmc/openbmc/issues/595,jaghu
+bug,"[Palmetto VERSION_ID=""v1.99.0-114-ged52dc1-dirty ]Failed to fetch BIOS version info on palmetto through REST API",closed,2016-09-21,https://github.com/openbmc/openbmc/issues/594,SrideviRamesh
+,[Barreleye] REST service keeps as BUSY,open,2016-09-21,https://github.com/openbmc/openbmc/issues/593,johnhcwang
+,Control GPIOs before advancing state,open,2016-09-20,https://github.com/openbmc/openbmc/issues/592,mdmillerii
+,Firestone and Garrison fail to build with master,closed,2016-09-20,https://github.com/openbmc/openbmc/issues/591,geissonator
+,[master] Power button LED remains off at all times,open,2016-09-20,https://github.com/openbmc/openbmc/issues/590,madscientist159
+,Differences between facebook/openbmc and openbmc/openbmc,open,2016-09-20,https://github.com/openbmc/openbmc/issues/589,ruchi393
+,openbmc password reset on barreleye,closed,2016-09-20,https://github.com/openbmc/openbmc/issues/588,kachini
+duplicate,Build Error while userland do_patch,closed,2016-09-19,https://github.com/openbmc/openbmc/issues/587,Arjun-Padmanabhan
+prio_medium,Eliminate startup_hacks in skeleton.,closed,2016-09-17,https://github.com/openbmc/openbmc/issues/586,williamspatrick
+,obmc-console-ssh.socket restart policy incorrect?,open,2016-09-17,https://github.com/openbmc/openbmc/issues/585,williamspatrick
+,qemux86-64: Both getty and obmc-console try to claim ttyS0,closed,2016-09-16,https://github.com/openbmc/openbmc/issues/584,williamspatrick
+,phosphor-gevent.service fills journal with SSL messages.,closed,2016-09-16,https://github.com/openbmc/openbmc/issues/583,williamspatrick
+,"[Barreleye VERSION_ID=v1.99.0-85-g0d2bd6a-dirty]  Service restarted when the Policy is set as ""no""",closed,2016-09-16,https://github.com/openbmc/openbmc/issues/582,gkeishin
+bug,[Barreleye/Palmetto]  Phosphor useradd buggy,closed,2016-09-16,https://github.com/openbmc/openbmc/issues/581,gkeishin
+bug,"[Palmetto VERSION_ID=""v1.99.0-85-g0d2bd6a-dirty""] System inventory is missing from latest build on palmetto",closed,2016-09-16,https://github.com/openbmc/openbmc/issues/580,rahulmah
+,Strap register needs to change for PNOR SPI FLASH controller,open,2016-09-16,https://github.com/openbmc/openbmc/issues/579,shenki
+,[master] Firestone uses random MAC address for BMC Ethernet,open,2016-09-15,https://github.com/openbmc/openbmc/issues/578,madscientist159
+,"Issues when running ""runqemu qemuarm""",open,2016-09-14,https://github.com/openbmc/openbmc/issues/577,ruchi393
+,No getty with openbmc master on Firestone,open,2016-09-14,https://github.com/openbmc/openbmc/issues/576,shenki
+,Bump kernel to enable new GPIOs,open,2016-09-14,https://github.com/openbmc/openbmc/issues/575,shenki
+,HostServices should be implemented as a standalone daemon,open,2016-09-14,https://github.com/openbmc/openbmc/issues/574,bradbishop
+,unresolved code review comments,closed,2016-09-13,https://github.com/openbmc/openbmc/issues/573,bradbishop
+,dbus error against to  send ipmi command with ipmitool,open,2016-09-13,https://github.com/openbmc/openbmc/issues/572,williamli80
+,[master] Phosphor Fan Control on Firestone fails to start (loops constantly),open,2016-09-13,https://github.com/openbmc/openbmc/issues/571,madscientist159
+,"[Barreleye VERSION_ID=""v1.99.0-60-g2b717d8-dirty""] Some of the Auto restart Policy is not set correctly on BMC",closed,2016-09-13,https://github.com/openbmc/openbmc/issues/570,gkeishin
+,Firestone obmc kernel did not show console output after loading,closed,2016-09-13,https://github.com/openbmc/openbmc/issues/569,adamliyi
+,Configure GPIOs in userspace,open,2016-09-13,https://github.com/openbmc/openbmc/issues/568,shenki
+,Unresolved code review comments,closed,2016-09-13,https://github.com/openbmc/openbmc/issues/567,bradbishop
+,Failed to execute warmReset via REST,closed,2016-09-12,https://github.com/openbmc/openbmc/issues/566,mine260309
+observation,"[Palmetto VERSION_ID=""v1.99.0-47-g194b590-dirty"" ]  Eventlog are purged post restarting obmc-phosphor-event.service",closed,2016-09-12,https://github.com/openbmc/openbmc/issues/565,gkeishin
+bug,WARN in ncsi_start_channel_monitor code at boot,closed,2016-09-12,https://github.com/openbmc/openbmc/issues/564,gkeishin
+bug,"[Barreleye VERSION_ID=""v1.99.0-47-g194b590-dirty"" ]  Basic Poweron Failed - Host not booted",closed,2016-09-12,https://github.com/openbmc/openbmc/issues/563,gkeishin
+bug,"[Barreleye VERSION_ID=""v1.99.0-42-gc7419c6-dirty"" ]  BMC not booted READY nor REST service up",closed,2016-09-10,https://github.com/openbmc/openbmc/issues/562,gkeishin
+prio_medium,Convert phosphor-event tests to gtest.,open,2016-09-09,https://github.com/openbmc/openbmc/issues/561,williamspatrick
+prio_high,Generate inventory data from MRW.,closed,2016-09-09,https://github.com/openbmc/openbmc/issues/560,williamspatrick
+prio_high,Generate device tree from MRW.,open,2016-09-09,https://github.com/openbmc/openbmc/issues/559,williamspatrick
+bug,org.freedesktop.DBus.Error while doing GET operation for /enumerate and /org/enumerate,closed,2016-09-09,https://github.com/openbmc/openbmc/issues/558,rahulmah
+,PreTag  openbmc/skeleton#43  - Set Less Than Minimum PowerCAP,open,2016-09-08,https://github.com/openbmc/openbmc/issues/557,williamspatrick
+,ipmi trace shows an error on a mac property,open,2016-09-08,https://github.com/openbmc/openbmc/issues/556,causten
+,REST clear event log action is not purging the events on witherspoon & palmetto ,closed,2016-09-08,https://github.com/openbmc/openbmc/issues/555,SrideviRamesh
+,Incorrect types in some JSON responses,open,2016-09-08,https://github.com/openbmc/openbmc/issues/554,williamspatrick
+,Replace pflash with direct MTD access.,open,2016-09-08,https://github.com/openbmc/openbmc/issues/553,williamspatrick
+prio_high,settingsd - settings verification.,closed,2016-09-07,https://github.com/openbmc/openbmc/issues/552,williamspatrick
+prio_high,settingsd - Support categories.,closed,2016-09-07,https://github.com/openbmc/openbmc/issues/551,williamspatrick
+prio_medium,Enhance LED manager to support grouping.,closed,2016-09-07,https://github.com/openbmc/openbmc/issues/550,williamspatrick
+prio_medium,Common registration for services.,closed,2016-09-07,https://github.com/openbmc/openbmc/issues/549,williamspatrick
+prio_medium,Add zeroconf / Avahi server.,closed,2016-09-07,https://github.com/openbmc/openbmc/issues/548,williamspatrick
+Epic,Service Discovery,open,2016-09-07,https://github.com/openbmc/openbmc/issues/547,williamspatrick
+prio_medium,Add SLP server.,open,2016-09-07,https://github.com/openbmc/openbmc/issues/546,williamspatrick
+prio_high,Integrate PAM and enable for Dropbear.,closed,2016-09-07,https://github.com/openbmc/openbmc/issues/545,williamspatrick
+,Import autoconf-archive and convert host-ipmid to autotools.,closed,2016-09-06,https://github.com/openbmc/openbmc/issues/544,williamspatrick
+bug,REST API to add user giving DBusException: org.freedesktop.DBus.Error.NoReply error,closed,2016-09-05,https://github.com/openbmc/openbmc/issues/543,rahulmah
+,Remove down-level libflash from skeleton and link against upstream package.,closed,2016-09-02,https://github.com/openbmc/openbmc/issues/542,williamspatrick
+,Integrate libflash that supports AST2500.,open,2016-09-02,https://github.com/openbmc/openbmc/issues/541,williamspatrick
+,Add host-pnor to device tree for Witherspoon.,closed,2016-09-02,https://github.com/openbmc/openbmc/issues/540,williamspatrick
+,IPMItool dbus raw command fails with Insufficient privilege level while sending OEM partial add command,open,2016-09-02,https://github.com/openbmc/openbmc/issues/539,rahulmah
+Epic,Unable to flash PNOR image on AST2500 systems.,closed,2016-09-01,https://github.com/openbmc/openbmc/issues/538,jazurin
+,filesystem package needed?,open,2016-09-01,https://github.com/openbmc/openbmc/issues/537,bradbishop
+Epic,Sprint 16.09.01 - Actual,closed,2016-09-01,https://github.com/openbmc/openbmc/issues/536,williamspatrick
+Epic,Sprint 16.09.01 - Committed,closed,2016-09-01,https://github.com/openbmc/openbmc/issues/535,williamspatrick
+,OBMC failed to build,closed,2016-08-31,https://github.com/openbmc/openbmc/issues/534,adamliyi
+,Firestone fails to boot with BMC Release 1.0.5,open,2016-08-28,https://github.com/openbmc/openbmc/issues/533,madscientist159
+help wanted,[Barreleye] Verify System VPD Properties mismatch with the model setup ,closed,2016-08-26,https://github.com/openbmc/openbmc/issues/532,gkeishin
+help wanted,"[Barreleye ]Test OpenBMC Services Autorestart Policy is set to ""NO""",closed,2016-08-26,https://github.com/openbmc/openbmc/issues/531,gkeishin
+,Host Soft-reboot hang with BMC Release 1.0.4,open,2016-08-25,https://github.com/openbmc/openbmc/issues/530,agangidi53
+,boot_flags documentation missing on barreleye at customer site,open,2016-08-25,https://github.com/openbmc/openbmc/issues/529,basuv
+prio_medium,Specifying VUART(s) to userspace.,closed,2016-08-25,https://github.com/openbmc/openbmc/issues/528,williamspatrick
+,Second boot does not work with master,open,2016-08-25,https://github.com/openbmc/openbmc/issues/527,geissonator
+,bootloader not updated when using all.tar in REST update interface,open,2016-08-25,https://github.com/openbmc/openbmc/issues/526,geissonator
+,Preserve MAC address on Witherspoon,open,2016-08-24,https://github.com/openbmc/openbmc/issues/525,anoo1
+duplicate,[System - Barreleye/Palmetto ] REST methods are failing due to ConnectionError after network configuration,closed,2016-08-24,https://github.com/openbmc/openbmc/issues/524,rahulmah
+,Console to host does not work with master,closed,2016-08-24,https://github.com/openbmc/openbmc/issues/523,geissonator
+,Code update of BMC flash hangs during erase,open,2016-08-24,https://github.com/openbmc/openbmc/issues/522,geissonator
+bug,[Barreleye Build#192 ]  Multiple inventory Verification Test Cases Failed,closed,2016-08-24,https://github.com/openbmc/openbmc/issues/521,gkeishin
+,[Barreleye Build#192 ]Test WarmReset via REST /tmp/before_warmreset  persist after reboot,closed,2016-08-24,https://github.com/openbmc/openbmc/issues/520,gkeishin
+bug,[Barelleye/Palmeto Build #191 ]  WarmReset not rebooting the BMC,closed,2016-08-23,https://github.com/openbmc/openbmc/issues/519,gkeishin
+,BMC is not ready in obmc 1.0.5,closed,2016-08-23,https://github.com/openbmc/openbmc/issues/518,johnhcwang
+,SLP support,open,2016-08-22,https://github.com/openbmc/openbmc/issues/517,williamspatrick
+,SDK fails to build on Ubuntu ppc64le,open,2016-08-19,https://github.com/openbmc/openbmc/issues/516,causten
+bug,[Palmetto - v1.0-151-g36774ef-dirty ]  Association unchanged after reboot [ Event not Persistent ],closed,2016-08-19,https://github.com/openbmc/openbmc/issues/515,gkeishin
+,obmc-rest crashes on web browser access,open,2016-08-19,https://github.com/openbmc/openbmc/issues/514,hweaving
+,pgood gpio has incorrect value.,open,2016-08-18,https://github.com/openbmc/openbmc/issues/513,williamspatrick
+,Network Service become unavailable during AC-Cycle stress test,closed,2016-08-16,https://github.com/openbmc/openbmc/issues/512,johnhcwang
+,"master fails to compile with ""netman_watch_dns.c:8:28: fatal error: systemd/sd-bus.h""",closed,2016-08-15,https://github.com/openbmc/openbmc/issues/511,geissonator
+,Documentation for User Management,open,2016-08-15,https://github.com/openbmc/openbmc/issues/510,anoo1
+,Host soft-reboot puts BMC in a PINGable but NOT SSHable stage,open,2016-08-15,https://github.com/openbmc/openbmc/issues/509,agangidi53
+,obmc goes wrong after AC cycle on Palm309,open,2016-08-12,https://github.com/openbmc/openbmc/issues/508,williamli80
+,Failed to run on AST2500 EVB,closed,2016-08-12,https://github.com/openbmc/openbmc/issues/507,rednewguy
+,debug tarball causing build failure,closed,2016-08-11,https://github.com/openbmc/openbmc/issues/506,mdmillerii
+,netman_watch_dns fails to update resolv.conf,open,2016-08-10,https://github.com/openbmc/openbmc/issues/505,shenki
+,Should enable CONFIG_SYN_COOKIES on ARM kernels?,closed,2016-08-08,https://github.com/openbmc/openbmc/issues/504,williamspatrick
+,[QEMU Build - v1.0-116-g0c0d27e-dirty]: dbus-send  to HostIpmi is not working,closed,2016-08-08,https://github.com/openbmc/openbmc/issues/503,sivassrr
+prio_medium,Witherspoon dts update for APSS UART.,open,2016-08-08,https://github.com/openbmc/openbmc/issues/502,williamspatrick
+,REST server should not depend on systemd-networkd,open,2016-08-08,https://github.com/openbmc/openbmc/issues/501,bradbishop
+,Fail to compile with Ubuntu 16.04 on ppc64le,open,2016-08-08,https://github.com/openbmc/openbmc/issues/500,geissonator
+bug,[Barreleye Build - v1.0-116-g0c0d27e-dirty]   BMC not booting to READY state,closed,2016-08-08,https://github.com/openbmc/openbmc/issues/499,gkeishin
+,Integrate qemu with palmetto-bmc machine model,open,2016-08-08,https://github.com/openbmc/openbmc/issues/498,amboar
+,"""Mounting read-write /dev/mtdblock filesystem failed"" error occured",closed,2016-08-04,https://github.com/openbmc/openbmc/issues/497,rheesik
+,Networking: ipv6 address validation,open,2016-08-02,https://github.com/openbmc/openbmc/issues/496,eddiejames
+,Implement the Product ID setting for ipmi GET-DEVICE-ID command,open,2016-08-01,https://github.com/openbmc/openbmc/issues/495,williamli80
+,Changes to timeout handling on IPMI commands.,open,2016-07-29,https://github.com/openbmc/openbmc/issues/494,vishwabmc
+Epic,Sprint 16.08 - Actual,closed,2016-07-28,https://github.com/openbmc/openbmc/issues/493,williamspatrick
+Epic,Sprint 16.08 - Committed,closed,2016-07-28,https://github.com/openbmc/openbmc/issues/492,williamspatrick
+Epic,Sprint 16.07 - Actual,closed,2016-07-28,https://github.com/openbmc/openbmc/issues/491,williamspatrick
+Epic,Sprint 16.07 - Committed,closed,2016-07-28,https://github.com/openbmc/openbmc/issues/490,williamspatrick
+bug,Correction need in Dbus interface document,closed,2016-07-28,https://github.com/openbmc/openbmc/issues/489,sivassrr
+,Incorrect state transfer after reboot BMC when system power is on,closed,2016-07-27,https://github.com/openbmc/openbmc/issues/487,johnhcwang
+"bug, duplicate",Getting system inventory fails,open,2016-07-27,https://github.com/openbmc/openbmc/issues/486,shenki
+,Sometimes identify led doesn't turn off when press power button to power off system,closed,2016-07-27,https://github.com/openbmc/openbmc/issues/485,willenlee
+,Add consistent copyright header to all source files,open,2016-07-25,https://github.com/openbmc/openbmc/issues/484,anoo1
+prio_high,DISTRO_VERSION should match our tag,closed,2016-07-20,https://github.com/openbmc/openbmc/issues/483,shenki
+prio_high,Power on fails - /org/openbmc/control/chassis0 not found,closed,2016-07-19,https://github.com/openbmc/openbmc/issues/482,micwalsh
+,Investigate use of musl as libc,open,2016-07-19,https://github.com/openbmc/openbmc/issues/481,shenki
+,Feature request: Need to populate basic details on PCIe card via BMC inventory ,open,2016-07-18,https://github.com/openbmc/openbmc/issues/480,agangidi53
+,Sync u-boot uuid to /etc/machine-id,open,2016-07-18,https://github.com/openbmc/openbmc/issues/479,anoo1
+prio_high,Generate proxy object bindings for org.openbmc interfaces.,closed,2016-07-15,https://github.com/openbmc/openbmc/issues/478,williamspatrick
+prio_high,Format to document org.openbmc interfaces.,open,2016-07-15,https://github.com/openbmc/openbmc/issues/477,williamspatrick
+prio_high,"Common / standard sd-bus interfaces (ex. org.freedesktop, org.openbmc interfaces)",open,2016-07-15,https://github.com/openbmc/openbmc/issues/476,williamspatrick
+prio_high,C++ bindings for sd_bus server interfaces.,closed,2016-07-15,https://github.com/openbmc/openbmc/issues/475,williamspatrick
+prio_high,C++ binding for sd_bus client interfaces,closed,2016-07-15,https://github.com/openbmc/openbmc/issues/474,williamspatrick
+prio_high,API for insert / extract data from sd_bus_message,closed,2016-07-15,https://github.com/openbmc/openbmc/issues/473,williamspatrick
+prio_high,migrate existing recipes/code to use new classes/frameworks for systemd transitions,closed,2016-07-15,https://github.com/openbmc/openbmc/issues/472,williamspatrick
+prio_high,implement a framework enabling multiple independent state transitions using systemd,closed,2016-07-15,https://github.com/openbmc/openbmc/issues/471,williamspatrick
+prio_high,implement bitbake class(es) that act on sd/dbus dependencies expressed by recipes,closed,2016-07-15,https://github.com/openbmc/openbmc/issues/470,williamspatrick
+prio_high,Non-supported IPMI commands return success,closed,2016-07-13,https://github.com/openbmc/openbmc/issues/469,anoo1
+prio_high,i2c debug tool - Need 4 byte read support.,closed,2016-07-11,https://github.com/openbmc/openbmc/issues/466,williamspatrick
+bug,Tag V1:20160707143158:Barreleye:Build141: Host is in booting state for more than 18 minutes,closed,2016-07-09,https://github.com/openbmc/openbmc/issues/457,sivassrr
+,Feature Request: Exporting BMC's host console to VGA ,open,2016-07-06,https://github.com/openbmc/openbmc/issues/455,agangidi53
+bug,"Tag:V1: Firmware version populated with ""\""",closed,2016-07-01,https://github.com/openbmc/openbmc/issues/453,sivassrr
+enhancement,"Need LED control code to give you the blink state. So three state will be 'On' , 'Off', 'Blink'. ",open,2016-07-01,https://github.com/openbmc/openbmc/issues/452,sivassrr
+,Unable to Ping on Broadcom 5720 Running OpenBMC,closed,2016-06-30,https://github.com/openbmc/openbmc/issues/450,dbuesom
+prio_medium,Implement encrypted RMCP sessions per IPMI 2.0.,open,2016-06-30,https://github.com/openbmc/openbmc/issues/447,williamspatrick
+prio_low,Implement user management commands,open,2016-06-30,https://github.com/openbmc/openbmc/issues/446,williamspatrick
+prio_medium,Implement DCMI commands,open,2016-06-30,https://github.com/openbmc/openbmc/issues/445,williamspatrick
+prio_low,Confirm LAN device commands meet IPMI 2.0 requirements,closed,2016-06-30,https://github.com/openbmc/openbmc/issues/444,williamspatrick
+prio_medium,Implement SEL commands,open,2016-06-30,https://github.com/openbmc/openbmc/issues/443,williamspatrick
+prio_medium,Implement FRU device commands,open,2016-06-30,https://github.com/openbmc/openbmc/issues/442,williamspatrick
+prio_medium,Implement sensor / SDR commands.,open,2016-06-30,https://github.com/openbmc/openbmc/issues/441,williamspatrick
+prio_medium,Implement 'Chassis Control',open,2016-06-30,https://github.com/openbmc/openbmc/issues/440,williamspatrick
+prio_medium,Implement 'Get Chassis Status',closed,2016-06-30,https://github.com/openbmc/openbmc/issues/439,williamspatrick
+prio_medium,Implement 'Get Chassis Capabilities',closed,2016-06-30,https://github.com/openbmc/openbmc/issues/438,williamspatrick
+prio_medium,"Confirm 'Cold Reset' and ""Warm Reset' meet IPMI 2.0 requirements",closed,2016-06-30,https://github.com/openbmc/openbmc/issues/437,williamspatrick
+prio_low,Implement 'Get Self Test Results' command,closed,2016-06-30,https://github.com/openbmc/openbmc/issues/436,williamspatrick
+prio_medium,Confirm 'Get Device Id' meets IPMI 2.0 requirements,closed,2016-06-30,https://github.com/openbmc/openbmc/issues/435,williamspatrick
+prio_medium,Generate SDR definition from MRW.,open,2016-06-30,https://github.com/openbmc/openbmc/issues/434,williamspatrick
+prio_medium,Framework for SDR conversion to/from dbus objects.,open,2016-06-30,https://github.com/openbmc/openbmc/issues/433,williamspatrick
+"Epic, prio_medium",Attaching RMCP session to SOL.,open,2016-06-30,https://github.com/openbmc/openbmc/issues/432,williamspatrick
+prio_medium,IPMI user account authentication,open,2016-06-30,https://github.com/openbmc/openbmc/issues/431,williamspatrick
+prio_high,Design and Implement framework for IPMI backend.,open,2016-06-30,https://github.com/openbmc/openbmc/issues/430,williamspatrick
+prio_high,Implement an RMCP server that handles session handshake.,open,2016-06-30,https://github.com/openbmc/openbmc/issues/429,williamspatrick
+"bug, prio_high",CORE and DIMM Present value as False,closed,2016-06-30,https://github.com/openbmc/openbmc/issues/428,sivassrr
+prio_high,Duplicated binary installed for phosphor-event,open,2016-06-30,https://github.com/openbmc/openbmc/issues/427,adamliyi
+,witherspoon fails under jenkins due to bash-completion test directory,closed,2016-06-30,https://github.com/openbmc/openbmc/issues/426,shenki
+,BIOS version doesn't show via openBMC REST,closed,2016-06-29,https://github.com/openbmc/openbmc/issues/423,williamspatrick
+,Store device tree in separate partition,open,2016-06-29,https://github.com/openbmc/openbmc/issues/421,shenki
+duplicate,Cannot reproduce v1.0 tag,closed,2016-06-28,https://github.com/openbmc/openbmc/issues/420,shenki
+,Barreleye builds failing,closed,2016-06-28,https://github.com/openbmc/openbmc/issues/419,shenki
+,Build fails to find libpcre,closed,2016-06-28,https://github.com/openbmc/openbmc/issues/418,shenki
+,Downloading unnecessary kernel,open,2016-06-28,https://github.com/openbmc/openbmc/issues/417,shenki
+prio_high,Update u-boot config for Firestone.,closed,2016-06-27,https://github.com/openbmc/openbmc/issues/416,williamspatrick
+prio_low,adm1278 sensor scale should not be a float,closed,2016-06-24,https://github.com/openbmc/openbmc/issues/412,bradbishop
+prio_low,python-json does not handle dbus.Double,closed,2016-06-24,https://github.com/openbmc/openbmc/issues/411,bradbishop
+,Tag:V1: openBMC - All test (211)fails because of Connection to BMC timeout,closed,2016-06-23,https://github.com/openbmc/openbmc/issues/410,sivassrr
+prio_high,qemux86-64: host-ipmi-hw using 100% of CPU,closed,2016-06-22,https://github.com/openbmc/openbmc/issues/409,williamspatrick
+prio_high,qemux86-64: obmc-console-ssh.socket failed to start,closed,2016-06-22,https://github.com/openbmc/openbmc/issues/408,williamspatrick
+prio_high,qemux86-64: obmc-console.service fails to start,closed,2016-06-22,https://github.com/openbmc/openbmc/issues/407,williamspatrick
+invalid,602031800: Barreleye build found hang in multiple system when trying to execute set sensor boot count,closed,2016-06-21,https://github.com/openbmc/openbmc/issues/400,sivassrr
+prio_low,Add raspberry pi as a platform,closed,2016-06-21,https://github.com/openbmc/openbmc/issues/399,shenki
+"bug, prio_low",Clear one time boot overrides fails,open,2016-06-21,https://github.com/openbmc/openbmc/issues/398,vishwabmc
+prio_low,"Garbage collect ""old"" sub-volumes.",open,2016-06-17,https://github.com/openbmc/openbmc/issues/392,williamspatrick
+prio_low,Code update error recovery and roll-back.,open,2016-06-17,https://github.com/openbmc/openbmc/issues/391,williamspatrick
+prio_medium,Create build-time delta images for code update,open,2016-06-17,https://github.com/openbmc/openbmc/issues/390,williamspatrick
+prio_medium,Create a compressed btrfs subvolume for root and update u-boot,open,2016-06-17,https://github.com/openbmc/openbmc/issues/389,williamspatrick
+prio_medium,Investigate btrfs,open,2016-06-17,https://github.com/openbmc/openbmc/issues/388,williamspatrick
+,Generate hotplug / coldplug rules from MRW.,closed,2016-06-17,https://github.com/openbmc/openbmc/issues/387,williamspatrick
+,Generate device tree / kernel config entries from MRW.,closed,2016-06-17,https://github.com/openbmc/openbmc/issues/386,williamspatrick
+,General parsing framework for MRW.,closed,2016-06-17,https://github.com/openbmc/openbmc/issues/385,williamspatrick
+prio_high,Add additional layers.,closed,2016-06-17,https://github.com/openbmc/openbmc/issues/384,williamspatrick
+prio_high,Update to Yocto 2.1,closed,2016-06-17,https://github.com/openbmc/openbmc/issues/383,williamspatrick
+prio_high,Add CI tests for all packages.,open,2016-06-17,https://github.com/openbmc/openbmc/issues/382,williamspatrick
+prio_high,Propose and implement unit test framework,closed,2016-06-17,https://github.com/openbmc/openbmc/issues/381,williamspatrick
+prio_high,Convert packages to autotools.,closed,2016-06-17,https://github.com/openbmc/openbmc/issues/380,williamspatrick
+"bug, prio_high",events directory gets duplicated causing ,closed,2016-06-16,https://github.com/openbmc/openbmc/issues/378,causten
+prio_medium,Generate application config files and/or KV-databases from MRW-XML.,open,2016-06-16,https://github.com/openbmc/openbmc/issues/377,williamspatrick
+prio_high,Generate hotplug / coldplug rules from MRW.,open,2016-06-16,https://github.com/openbmc/openbmc/issues/376,williamspatrick
+prio_low,Generate kernel config from MRW-XML.,open,2016-06-16,https://github.com/openbmc/openbmc/issues/375,williamspatrick
+prio_high,General parsing framework for MRW-XML,closed,2016-06-16,https://github.com/openbmc/openbmc/issues/374,williamspatrick
+prio_medium,Fan control - Air cool vs Water cool policies.,open,2016-06-15,https://github.com/openbmc/openbmc/issues/370,williamspatrick
+,Add witherspoon machine to tree,closed,2016-06-15,https://github.com/openbmc/openbmc/issues/367,shenki
+prio_high,Boot on AST2500 EVB,closed,2016-06-15,https://github.com/openbmc/openbmc/issues/366,kc8apf
+,Core - Yocto or openBMC recipes,closed,2016-06-14,https://github.com/openbmc/openbmc/issues/365,williamspatrick
+Epic,Core - Kernel and u-boot,open,2016-06-14,https://github.com/openbmc/openbmc/issues/364,williamspatrick
+Epic,UI,open,2016-06-14,https://github.com/openbmc/openbmc/issues/363,anoo1
+Epic,UI - SOL,open,2016-06-14,https://github.com/openbmc/openbmc/issues/362,anoo1
+Epic,UI - Web UI,open,2016-06-14,https://github.com/openbmc/openbmc/issues/361,anoo1
+Epic,UI - IPMI,open,2016-06-14,https://github.com/openbmc/openbmc/issues/360,anoo1
+Epic,UI - Out of Box,open,2016-06-14,https://github.com/openbmc/openbmc/issues/359,anoo1
+Epic,Security,open,2016-06-14,https://github.com/openbmc/openbmc/issues/358,anoo1
+Epic,Security - PNOR read/write via IPMI,open,2016-06-14,https://github.com/openbmc/openbmc/issues/357,anoo1
+Epic,Security - BMC Image Signing,open,2016-06-14,https://github.com/openbmc/openbmc/issues/356,anoo1
+Epic,RAS / MFG,open,2016-06-14,https://github.com/openbmc/openbmc/issues/355,anoo1
+Epic,RAS / MFG - Manufacturing / Characterization,open,2016-06-14,https://github.com/openbmc/openbmc/issues/354,anoo1
+Epic,RAS / MFG - LEDS,open,2016-06-14,https://github.com/openbmc/openbmc/issues/353,anoo1
+Epic,RAS / MFG - SEL,open,2016-06-14,https://github.com/openbmc/openbmc/issues/352,anoo1
+Epic,Core - Migrate existing code to new Core infrastructure,open,2016-06-14,https://github.com/openbmc/openbmc/issues/351,williamspatrick
+Epic,Power / Cooling,open,2016-06-14,https://github.com/openbmc/openbmc/issues/350,anoo1
+Epic,Core - Advanced Code Update,open,2016-06-14,https://github.com/openbmc/openbmc/issues/349,williamspatrick
+Epic,Core - Data Driven Design,open,2016-06-14,https://github.com/openbmc/openbmc/issues/348,williamspatrick
+Epic,Power / Cooling - Misc Power Features,open,2016-06-14,https://github.com/openbmc/openbmc/issues/347,anoo1
+Epic,Power / Cooling - EPOW,open,2016-06-14,https://github.com/openbmc/openbmc/issues/346,anoo1
+Epic,Power / Cooling - OCC Interface,open,2016-06-14,https://github.com/openbmc/openbmc/issues/345,anoo1
+prio_medium,Implement debug data collection services.,open,2016-06-14,https://github.com/openbmc/openbmc/issues/344,williamspatrick
+Epic,Power / Cooling - Power Limit / Capping,open,2016-06-14,https://github.com/openbmc/openbmc/issues/343,anoo1
+"Epic, prio_high",Implement Error / Event Manager,open,2016-06-14,https://github.com/openbmc/openbmc/issues/342,williamspatrick
+prio_high,Implement Trace / Logging API,closed,2016-06-14,https://github.com/openbmc/openbmc/issues/341,williamspatrick
+prio_high,Design Error / Event Creation Mechanism,closed,2016-06-14,https://github.com/openbmc/openbmc/issues/340,williamspatrick
+Epic,Base Function,open,2016-06-14,https://github.com/openbmc/openbmc/issues/339,anoo1
+prio_high,Define Error / Event Structure,closed,2016-06-14,https://github.com/openbmc/openbmc/issues/338,williamspatrick
+Epic,Base Function - VPD,open,2016-06-14,https://github.com/openbmc/openbmc/issues/337,anoo1
+prio_high,Define Trace / Logging API,closed,2016-06-14,https://github.com/openbmc/openbmc/issues/336,williamspatrick
+Epic,Base Function - Code Update,closed,2016-06-14,https://github.com/openbmc/openbmc/issues/335,anoo1
+Epic,Base Function - System Serial Number,open,2016-06-14,https://github.com/openbmc/openbmc/issues/334,anoo1
+Epic,Core - Error and Trace Interfaces,open,2016-06-14,https://github.com/openbmc/openbmc/issues/333,williamspatrick
+Epic,Base Function - Real Time Clock,open,2016-06-14,https://github.com/openbmc/openbmc/issues/332,anoo1
+Epic,Core,open,2016-06-14,https://github.com/openbmc/openbmc/issues/329,williamspatrick
+Epic,Base Function - Reboot,open,2016-06-14,https://github.com/openbmc/openbmc/issues/328,anoo1
+Epic,Core - DBus Bindings for C++14 ,open,2016-06-14,https://github.com/openbmc/openbmc/issues/327,williamspatrick
+prio_high,Concurrent pflash build can fail,closed,2016-06-14,https://github.com/openbmc/openbmc/issues/325,amboar
+,PreTag: [System - barreleye Build - 20160610155319 ]  Set PowerCap,closed,2016-06-13,https://github.com/openbmc/openbmc/issues/322,gkeishin
+,PreTag: [System - barreleye Build - 20160610155319 ]  Set Sensor Boot progress,closed,2016-06-13,https://github.com/openbmc/openbmc/issues/321,gkeishin
+,PreTag: [System - barreleye  Build - 20160610155319 ] Disable Syslog,closed,2016-06-13,https://github.com/openbmc/openbmc/issues/320,gkeishin
+prio_medium,Replace hard-coded service name with call to ObjectMapper,closed,2016-06-12,https://github.com/openbmc/openbmc/issues/319,anoo1
+prio_low,Create an ast2400 evaluation board machine,open,2016-06-10,https://github.com/openbmc/openbmc/issues/317,bradbishop
+prio_medium,Firestone / Garrison - Hold PCI resets until the processor takes over,closed,2016-06-07,https://github.com/openbmc/openbmc/issues/315,anoo1
+"enhancement, prio_medium",Always enable both watchdogs,open,2016-06-06,https://github.com/openbmc/openbmc/issues/314,mdmillerii
+,PreTag 0.8 Centaur0 not Present - Is this System Dependent Use case Test,closed,2016-05-31,https://github.com/openbmc/openbmc/issues/311,gkeishin
+"bug, prio_high",PreTag 0.8 Testing failure for 'Tests.Test Time.Set Valid System Time',closed,2016-05-30,https://github.com/openbmc/openbmc/issues/310,gkeishin
+observation,Pflash hits miscompare  @ 0x01c87600 - Used both May27 and May28 images,closed,2016-05-30,https://github.com/openbmc/openbmc/issues/309,sivassrr
+bug,Test Suite: Test Obmcrest: Inconsistency ,closed,2016-05-26,https://github.com/openbmc/openbmc/issues/307,sivassrr
+bug,"Test Case: ""Create error log on single FRU""  resulted failed due to Read time out error",closed,2016-05-26,https://github.com/openbmc/openbmc/issues/306,sivassrr
+bug,Segfault during reboot,closed,2016-05-24,https://github.com/openbmc/openbmc/issues/300,KennethWilke
+bug,MBE error events DIMM number is wrong,closed,2016-05-24,https://github.com/openbmc/openbmc/issues/299,Kenthliu
+prio_low,add diagnostic and development tools  ,closed,2016-05-24,https://github.com/openbmc/openbmc/issues/298,legoater
+prio_high,Add P9 platform to openbmc,closed,2016-05-23,https://github.com/openbmc/openbmc/issues/296,anoo1
+prio_low,Flashing takes a really long time,open,2016-05-21,https://github.com/openbmc/openbmc/issues/295,shenki
+,Flashing BMC via /run/initramfs : No way to monitor if firmware update fails ,closed,2016-05-20,https://github.com/openbmc/openbmc/issues/293,agangidi53
+,Fan Control fails to set Fan speed to safe setting during Reboot / Firmware Update,open,2016-05-20,https://github.com/openbmc/openbmc/issues/292,agangidi53
+,PreTag 0.8 Testing failure for 'user/group authentication',closed,2016-05-19,https://github.com/openbmc/openbmc/issues/290,causten
+,PreTag 0.8 Testing failure for 'Set System Time after setting epoch time',closed,2016-05-19,https://github.com/openbmc/openbmc/issues/289,causten
+,PreTag 0.8 Testing failure for 'Get OCC Status',closed,2016-05-19,https://github.com/openbmc/openbmc/issues/288,causten
+,PreTag 0.8 Testing failure for 'get names /',closed,2016-05-19,https://github.com/openbmc/openbmc/issues/287,causten
+,PreTag 0.8 Testing failure for 'Set IP address on valid Interface',closed,2016-05-19,https://github.com/openbmc/openbmc/issues/286,causten
+,PreTag 0.8 Testing failure for 'Blink Slow the Identify LED',closed,2016-05-19,https://github.com/openbmc/openbmc/issues/285,causten
+,PreTag 0.8 Testing failure for 'Verify system vpd properties',closed,2016-05-19,https://github.com/openbmc/openbmc/issues/284,causten
+,PreTag 0.8 Testing failure for 'minimal fan inventory',closed,2016-05-19,https://github.com/openbmc/openbmc/issues/283,causten
+,PreTag 0.8 Testing failure for 'Set the boot flags with string',closed,2016-05-19,https://github.com/openbmc/openbmc/issues/282,causten
+,PreTag 0.8 Testing failure for 'Set the power with greater then MAX_POWER_VALUE',closed,2016-05-19,https://github.com/openbmc/openbmc/issues/281,causten
+,PreTag 0.8 Testing failure for 'Set the power with string of characters',closed,2016-05-19,https://github.com/openbmc/openbmc/issues/280,causten
+"enhancement, prio_high",Add checkstop sensor to non-Barreleye platforms,closed,2016-05-19,https://github.com/openbmc/openbmc/issues/278,anoo1
+prio_medium,Implement user roles,open,2016-05-16,https://github.com/openbmc/openbmc/issues/273,anoo1
+prio_medium,Define autorestart retry limit and recovery for phosphor processes,open,2016-05-16,https://github.com/openbmc/openbmc/issues/272,anoo1
+enhancement,Add a cap to number of event logs,closed,2016-05-10,https://github.com/openbmc/openbmc/issues/268,anoo1
+"enhancement, prio_medium",Implement IPMI Network Settings Override,closed,2016-05-09,https://github.com/openbmc/openbmc/issues/267,anoo1
+"enhancement, prio_medium",Openbmc Web Frontend,open,2016-05-09,https://github.com/openbmc/openbmc/issues/266,anoo1
+enhancement,Openbmc Redfish Compliant,open,2016-05-09,https://github.com/openbmc/openbmc/issues/265,anoo1
+enhancement,Openbmc IPMI 2.0 Compliant,closed,2016-05-09,https://github.com/openbmc/openbmc/issues/264,anoo1
+enhancement,BMC Error Reporting Strategy,closed,2016-05-09,https://github.com/openbmc/openbmc/issues/263,anoo1
+"enhancement, Epic, prio_medium",Refactor openbmc/skeleton,open,2016-05-09,https://github.com/openbmc/openbmc/issues/262,anoo1
+"enhancement, prio_medium",Implement Remote Media Support,open,2016-05-09,https://github.com/openbmc/openbmc/issues/261,anoo1
+"enhancement, prio_medium",Implement PAM Authentication,open,2016-05-09,https://github.com/openbmc/openbmc/issues/260,anoo1
+"enhancement, prio_medium",Refactor the support for BIOS (PNOR) update to use REST,open,2016-05-09,https://github.com/openbmc/openbmc/issues/259,anoo1
+"enhancement, prio_low",Security Feature: Lockdown BMC chip,open,2016-05-09,https://github.com/openbmc/openbmc/issues/258,anoo1
+bug,RestAPI curl response 443: connection refuse,closed,2016-05-06,https://github.com/openbmc/openbmc/issues/257,Kenthliu
+,BMC build tar ball generation: Missing files for some partitions ,open,2016-04-28,https://github.com/openbmc/openbmc/issues/249,agangidi53
+"bitesize, enhancement, prio_high",Do not start the host watchdog when debug_mode is on,closed,2016-04-27,https://github.com/openbmc/openbmc/issues/246,anoo1
+"enhancement, prio_high",ipmi failing on dbus communication,closed,2016-04-24,https://github.com/openbmc/openbmc/issues/244,causten
+prio_high,PowerState value=[1] blasting in to journald,closed,2016-04-24,https://github.com/openbmc/openbmc/issues/243,causten
+prio_high,Highest DIMM temperatur is value xx blasting to journald. ,closed,2016-04-24,https://github.com/openbmc/openbmc/issues/242,causten
+"enhancement, prio_medium",Failed to resolve fruid to dbus,closed,2016-04-24,https://github.com/openbmc/openbmc/issues/241,causten
+prio_medium, Failed to resolve getPowerState to dbus,closed,2016-04-24,https://github.com/openbmc/openbmc/issues/240,causten
+enhancement,Journald showing errors about lookups missing,closed,2016-04-24,https://github.com/openbmc/openbmc/issues/239,causten
+"enhancement, prio_medium","modules failing to load at boot, maybe not needed?",closed,2016-04-24,https://github.com/openbmc/openbmc/issues/238,causten
+bug,squashfs corruption over time,closed,2016-04-21,https://github.com/openbmc/openbmc/issues/236,shenki
+"enhancement, prio_low",TEMPLATECONF doesn't get picked up by oe-setup-builddir,closed,2016-04-20,https://github.com/openbmc/openbmc/issues/235,GHF
+enhancement,version_id needs to be exposed via REST,closed,2016-04-18,https://github.com/openbmc/openbmc/issues/234,causten
+observation,Host Console broken on Barreleye PVT Server,closed,2016-04-13,https://github.com/openbmc/openbmc/issues/231,agangidi53
+,obmc-phosphor-event.bb recipe needs to be updated,closed,2016-04-04,https://github.com/openbmc/openbmc/issues/229,mkumatag
+,Merge https://github.com/openbmc/openbmc/pull/214 to master branch,closed,2016-04-04,https://github.com/openbmc/openbmc/issues/228,mkumatag
+bug,Re-enable openbmc/obmc-console.,closed,2016-04-01,https://github.com/openbmc/openbmc/issues/226,williamspatrick
+"enhancement, prio_low",Add 'ldd' to image.,closed,2016-04-01,https://github.com/openbmc/openbmc/issues/225,williamspatrick
+"enhancement, prio_low",Remove ldconfig?,closed,2016-04-01,https://github.com/openbmc/openbmc/issues/224,williamspatrick
+"enhancement, prio_medium",Switch to btrfs.,closed,2016-04-01,https://github.com/openbmc/openbmc/issues/223,williamspatrick
+"enhancement, prio_low",Shrink systemd package contents.,closed,2016-04-01,https://github.com/openbmc/openbmc/issues/222,williamspatrick
+"enhancement, prio_medium",Shrink python package.,open,2016-04-01,https://github.com/openbmc/openbmc/issues/221,williamspatrick
+"enhancement, prio_medium",Eliminate glib.,open,2016-04-01,https://github.com/openbmc/openbmc/issues/220,williamspatrick
+"bitesize, enhancement, prio_medium",Shrink or eliminate /lib/udev/hwdb.d contents.,closed,2016-04-01,https://github.com/openbmc/openbmc/issues/219,williamspatrick
+prio_high,"enumerate is now a keyword, method names should not match",closed,2016-04-01,https://github.com/openbmc/openbmc/issues/218,causten
+"bitesize, prio_low",Eventlog service need to use conf file for setting dblog instead of hardcoding the size,closed,2016-03-29,https://github.com/openbmc/openbmc/issues/216,mkumatag
+,Ansible errors with OpenBMC,closed,2016-03-17,https://github.com/openbmc/openbmc/issues/209,KennethWilke
+,How to biuild a QEMU simulation environment?,closed,2016-03-11,https://github.com/openbmc/openbmc/issues/207,liufujun135
+"enhancement, prio_medium",Zombie processes on startup,closed,2016-03-09,https://github.com/openbmc/openbmc/issues/206,KennethWilke
+"bitesize, enhancement, prio_medium",Networking:- Ip address validation ,closed,2016-03-07,https://github.com/openbmc/openbmc/issues/202,ratagupt
+"enhancement, prio_low",Add debug tools for sdbus in to our environment ,open,2016-03-03,https://github.com/openbmc/openbmc/issues/197,causten
+"bug, prio_medium",Power Restoration Policy is not working as expected,closed,2016-03-03,https://github.com/openbmc/openbmc/issues/196,ratagupt
+"bug, prio_high",inventory_items error,closed,2016-03-01,https://github.com/openbmc/openbmc/issues/194,KennethWilke
+,BMC automatically turns on host,closed,2016-02-26,https://github.com/openbmc/openbmc/issues/192,KennethWilke
+,OCC errors on host shutoff,closed,2016-02-25,https://github.com/openbmc/openbmc/issues/191,KennethWilke
+bug,Segfault encountered when rebooting,closed,2016-02-25,https://github.com/openbmc/openbmc/issues/190,KennethWilke
+bug,bootcount is not changing for failures in Hostboot,closed,2016-02-20,https://github.com/openbmc/openbmc/issues/187,causten
+,TESTING: OCC Powercap bad path not posting https 40x,closed,2016-02-19,https://github.com/openbmc/openbmc/issues/186,causten
+,TESTING: Fundamental hardware showing Present as False,closed,2016-02-19,https://github.com/openbmc/openbmc/issues/185,causten
+"observation, prio_high",ftgmac hitting errors,closed,2016-02-18,https://github.com/openbmc/openbmc/issues/184,causten
+,Missing header error when building skeleton_1.0-r1 for Barreleye,closed,2016-02-17,https://github.com/openbmc/openbmc/issues/182,KennethWilke
+,valgrind is not installing,closed,2016-02-10,https://github.com/openbmc/openbmc/issues/174,causten
+,Serial console is disabled on first boot after persistent filesystem is flashed,closed,2016-01-30,https://github.com/openbmc/openbmc/issues/152,anoo1
+"enhancement, prio_high",obmc-rest is using more than 40% of RAM,closed,2016-01-27,https://github.com/openbmc/openbmc/issues/147,shenki
+"enhancement, prio_medium",Verify mac addresses are set correctly,closed,2016-01-18,https://github.com/openbmc/openbmc/issues/137,shenki
+"enhancement, prio_low",wget does not work,open,2016-01-14,https://github.com/openbmc/openbmc/issues/135,shenki
+"bug, prio_high",DNS not configured on boot,closed,2016-01-14,https://github.com/openbmc/openbmc/issues/134,shenki
+,Fails to boot host on palmetto,closed,2016-01-13,https://github.com/openbmc/openbmc/issues/132,shenki
+"enhancement, prio_low",palmetto build still tries to build qemu,open,2016-01-07,https://github.com/openbmc/openbmc/issues/128,jk-ozlabs
+"enhancement, prio_low",os-release is not updated after change to git repository,open,2015-12-18,https://github.com/openbmc/openbmc/issues/124,bradbishop
+,SDK build fails on ppc64le,closed,2015-12-15,https://github.com/openbmc/openbmc/issues/122,agangidi53
+"observation, prio_high",u-boot: NCSI stops working,closed,2015-12-08,https://github.com/openbmc/openbmc/issues/118,cyrilbur-ibm
+,Missing cool tools,closed,2015-12-07,https://github.com/openbmc/openbmc/issues/117,causten
+,Create dropbear key on boot.,closed,2015-12-01,https://github.com/openbmc/openbmc/issues/109,williamspatrick
+,linux: WARN on boot in networking code ,closed,2015-12-01,https://github.com/openbmc/openbmc/issues/107,shenki
+,ELF relocations in build... bad?,closed,2015-11-27,https://github.com/openbmc/openbmc/issues/105,causten
+"enhancement, prio_high",Ensure all tools are building with -Wall,closed,2015-11-26,https://github.com/openbmc/openbmc/issues/104,shenki
+enhancement,Package pflash,closed,2015-11-26,https://github.com/openbmc/openbmc/issues/103,shenki
+,Candidate3 driver failing to create a network,closed,2015-11-25,https://github.com/openbmc/openbmc/issues/101,causten
+"enhancement, prio_medium",Clock management.,closed,2015-11-23,https://github.com/openbmc/openbmc/issues/98,williamspatrick
+,ps from petitboot has over 4000 processes,closed,2015-11-20,https://github.com/openbmc/openbmc/issues/94,causten
+"bug, prio_medium","Presence Detect failing on things that exist fans, system, chassis",closed,2015-11-20,https://github.com/openbmc/openbmc/issues/93,causten
+,Every core and dimm not populated shows fault,closed,2015-11-20,https://github.com/openbmc/openbmc/issues/92,causten
+,Review Centaur VPD for accuracy ,closed,2015-11-20,https://github.com/openbmc/openbmc/issues/91,causten
+,No VPD for system or chassis,closed,2015-11-20,https://github.com/openbmc/openbmc/issues/90,causten
+,Add fallback version information for building outside git,closed,2015-11-13,https://github.com/openbmc/openbmc/issues/81,bradbishop
+"enhancement, prio_high",Add device trees to correct phosphor layer.,open,2015-11-01,https://github.com/openbmc/openbmc/issues/56,williamspatrick
+,sdk failes to compile against palmetto,closed,2015-10-29,https://github.com/openbmc/openbmc/issues/46,causten
+"enhancement, prio_high",Add kernel config to board layers,closed,2015-10-27,https://github.com/openbmc/openbmc/issues/41,shenki
+,Can not build image.,closed,2015-10-23,https://github.com/openbmc/openbmc/issues/35,Kenthliu
+,Need to pass the correct argument to system manager for Barreleye,closed,2015-10-22,https://github.com/openbmc/openbmc/issues/34,bradbishop
+,can't include i2c-tools without perl,closed,2015-10-21,https://github.com/openbmc/openbmc/issues/29,nkskjames
+,stdout not captured in journald log for subprocesses of system_manager,closed,2015-10-21,https://github.com/openbmc/openbmc/issues/28,nkskjames
+,reboot -f hang,closed,2015-10-19,https://github.com/openbmc/openbmc/issues/20,bradbishop
+enhancement,u-boot fixes for palmetto,closed,2015-10-16,https://github.com/openbmc/openbmc/issues/18,shenki
+"enhancement, prio_high",Unable to boot using GCC 5.2.0,closed,2015-10-01,https://github.com/openbmc/openbmc/issues/10,bradbishop
