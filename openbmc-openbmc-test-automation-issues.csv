@@ -1,0 +1,229 @@
+Labels,Title,State,Date,URL,Author
+bug,[Automation] Verify obmc-phosphor-event.service,open,2016-12-06,https://github.com/openbmc/openbmc-test-automation/issues/234,gkeishin
+,Basic File system space check after code update,open,2016-12-06,https://github.com/openbmc/openbmc-test-automation/issues/233,sivassrr
+Func:RAS,RAS:Dump related test,open,2016-12-05,https://github.com/openbmc/openbmc-test-automation/issues/232,sivassrr
+enhancement,[Automation] Prune Journal logs,open,2016-12-02,https://github.com/openbmc/openbmc-test-automation/issues/231,gkeishin
+Under Investigation,[Automation] obmc_boot_test.robot Test case failure,closed,2016-12-02,https://github.com/openbmc/openbmc-test-automation/issues/230,gkeishin
+Code Review,[Code update ] Error: [Errno 104] Connection reset by peer,closed,2016-12-01,https://github.com/openbmc/openbmc-test-automation/issues/229,gkeishin
+,[Automation] To remove confidential information from Journal log like IP address and then to put it in a place where external users sees it. ,open,2016-11-29,https://github.com/openbmc/openbmc-test-automation/issues/228,sivassrr
+Func:Clock,Clock Managment Phase 2:,open,2016-11-25,https://github.com/openbmc/openbmc-test-automation/issues/227,sivassrr
+"bug, Func:CodeUpdate",[Automation]  BIOS versioning string changed ,open,2016-11-23,https://github.com/openbmc/openbmc-test-automation/issues/226,gkeishin
+"feature, Func:IPL",IPL: [Automation]  Witherspoon PowerOn Test,open,2016-11-17,https://github.com/openbmc/openbmc-test-automation/issues/225,gkeishin
+"feature, Func:ResetReload",Reset/Reload: [Automation] Verify and restore BMC to a good working state,closed,2016-11-17,https://github.com/openbmc/openbmc-test-automation/issues/224,gkeishin
+Func:ExternalInterfaces,External Interface: EI: [Automation] Write Attribute REST interface keyword,open,2016-11-16,https://github.com/openbmc/openbmc-test-automation/issues/223,gkeishin
+,Doc:[Documentation] Automation documentation,open,2016-11-15,https://github.com/openbmc/openbmc-test-automation/issues/222,gkeishin
+"enhancement, Func:PowerControl",EI: [Automation] Powercap URI changed ?,open,2016-11-14,https://github.com/openbmc/openbmc-test-automation/issues/221,gkeishin
+"BUILD_TEST_DEFECT_REPORT, Documentation, Manual",Doc: [OpenBMC] Tickets / Issues / Test Status Report,open,2016-11-10,https://github.com/openbmc/openbmc-test-automation/issues/220,gkeishin
+"feature, Func:CodeUpdate, Func:IPMI, Func:RAS",HB: Base op-test testing for Barreleye using OpenBMC ,open,2016-11-10,https://github.com/openbmc/openbmc-test-automation/issues/219,sivassrr
+"help wanted, Manual",Regression: Need to run all test including skip test and review the result and open issues accordingly - On all systems,open,2016-11-10,https://github.com/openbmc/openbmc-test-automation/issues/218,sivassrr
+"Documentation, feature",Doc: [Automation] populate Driver and release info into the database,open,2016-11-09,https://github.com/openbmc/openbmc-test-automation/issues/217,gkeishin
+"feature, Func:ResetReload",RR: [Feature] BMC reset Reload Test,open,2016-11-08,https://github.com/openbmc/openbmc-test-automation/issues/216,gkeishin
+Epic,OpenbmcTestSprint 16.11.09 - Committed,open,2016-11-08,https://github.com/openbmc/openbmc-test-automation/issues/215,sivassrr
+Epic,OpenbmcTestSprint 16.10.01 - Actual,open,2016-11-08,https://github.com/openbmc/openbmc-test-automation/issues/214,sivassrr
+"enhancement, Func:ExternalInterfaces",[Automation] BMC Serial Console logging,closed,2016-11-08,https://github.com/openbmc/openbmc-test-automation/issues/213,gkeishin
+Func:CodeUpdate,Basic Performance check for BMC,closed,2016-11-08,https://github.com/openbmc/openbmc-test-automation/issues/212,sivassrr
+"enhancement, Func:ExternalInterfaces",[Automation] REST server up and running and not busy,closed,2016-11-07,https://github.com/openbmc/openbmc-test-automation/issues/211,gkeishin
+"feature, Func:Errorlog",[Automation] : Basic Journal log verification,closed,2016-11-03,https://github.com/openbmc/openbmc-test-automation/issues/210,rahulmah
+,[Automation] skip_test_palmetto need to be updates with recent issue and fixes,closed,2016-11-03,https://github.com/openbmc/openbmc-test-automation/issues/209,rahulmah
+Func:ExternalInterfaces,[Automation] cpu inventory path needs to be taken care for Get a Property test case,open,2016-11-03,https://github.com/openbmc/openbmc-test-automation/issues/208,rahulmah
+Func:PowerControl,[Automation] powercap url path need to be taken care in ,open,2016-11-03,https://github.com/openbmc/openbmc-test-automation/issues/207,rahulmah
+"feature, Func:Manufacturing",[Automation] Method for keying off system state ,open,2016-11-01,https://github.com/openbmc/openbmc-test-automation/issues/206,gkeishin
+Func:Errorlog,[Automation] Error Logging and verification test tools,open,2016-11-01,https://github.com/openbmc/openbmc-test-automation/issues/205,gkeishin
+"feature, Func:PowerControl",[Automation] Energy Scale Test case,open,2016-11-01,https://github.com/openbmc/openbmc-test-automation/issues/204,gkeishin
+"enhancement, Func:ExternalInterfaces",[Automation] URI changes for the REST ,open,2016-11-01,https://github.com/openbmc/openbmc-test-automation/issues/203,gkeishin
+,[Automation] Separate branch stream for GAed vs New Systems ,closed,2016-11-01,https://github.com/openbmc/openbmc-test-automation/issues/202,gkeishin
+feature,[ Witherspoon ] System Readiness Test suite,closed,2016-11-01,https://github.com/openbmc/openbmc-test-automation/issues/201,gkeishin
+Func:CodeUpdate,[Palmetto - v1.99.0-190-gc4fb73e] - Bios update fails on Palmetto,closed,2016-10-27,https://github.com/openbmc/openbmc-test-automation/issues/200,rahulmah
+feature,Non Supported Test command validation,open,2016-10-24,https://github.com/openbmc/openbmc-test-automation/issues/199,sivassrr
+"feature, Func:IPL",Test Autorestart capability ,open,2016-10-24,https://github.com/openbmc/openbmc-test-automation/issues/198,sivassrr
+"Epic, feature, Func:Manufacturing",Witherspoon MFG Stage related Test,open,2016-10-23,https://github.com/openbmc/openbmc-test-automation/issues/197,sivassrr
+"feature, Func:Network",Add Zeroconf / Avahi server support,open,2016-10-23,https://github.com/openbmc/openbmc-test-automation/issues/196,sivassrr
+"Epic, feature, Func:Network",SLP - Service Discovery Verification - manufacturing need,open,2016-10-23,https://github.com/openbmc/openbmc-test-automation/issues/195,sivassrr
+feature,Test the QEMU integration with Palmetto-bmc machine model,open,2016-10-23,https://github.com/openbmc/openbmc-test-automation/issues/194,sivassrr
+"feature, Func:ExternalInterfaces, Func:SensorsLocationCode","Test Sensor/SDR, FRU Device, SEL, User Management commands",open,2016-10-23,https://github.com/openbmc/openbmc-test-automation/issues/193,sivassrr
+"feature, Func:IPMI",Get Self Test Command verification ,closed,2016-10-23,https://github.com/openbmc/openbmc-test-automation/issues/192,sivassrr
+"feature, Func:ExternalInterfaces",Device Tree verification ,open,2016-10-23,https://github.com/openbmc/openbmc-test-automation/issues/191,sivassrr
+"Epic, feature, Func:CodeUpdate",Bad path code update and recovery mechanism,open,2016-10-23,https://github.com/openbmc/openbmc-test-automation/issues/190,sivassrr
+"Epic, Func:CodeUpdate",To test B-Tree file system integration and its features,open,2016-10-23,https://github.com/openbmc/openbmc-test-automation/issues/189,sivassrr
+"feature, Func:PowerControl",Power Cooling - EPOW / Misc Power Features,open,2016-10-23,https://github.com/openbmc/openbmc-test-automation/issues/188,sivassrr
+"feature, Func:RAS",To test both watch dog enabled,open,2016-10-23,https://github.com/openbmc/openbmc-test-automation/issues/187,sivassrr
+"Epic, feature, Func:Performance",Performance Related Test,open,2016-10-23,https://github.com/openbmc/openbmc-test-automation/issues/186,sivassrr
+"feature, Func:ExternalInterfaces",Test user roles related ,open,2016-10-23,https://github.com/openbmc/openbmc-test-automation/issues/185,sivassrr
+"feature, Func:UserManagement",PAM Authentication Test,open,2016-10-23,https://github.com/openbmc/openbmc-test-automation/issues/184,sivassrr
+"enhancement, Func:Security",Security: To test feature of BMC chip lock down,open,2016-10-23,https://github.com/openbmc/openbmc-test-automation/issues/183,sivassrr
+"enhancement, Func:CodeUpdate",[Automation] Restore Power off State for Pre Code update process,closed,2016-10-20,https://github.com/openbmc/openbmc-test-automation/issues/182,gkeishin
+help wanted,"Barreleye: Oct 2016: CT Run, Evaluation of logs, Open Issues - Zero Baseline",closed,2016-10-20,https://github.com/openbmc/openbmc-test-automation/issues/181,sivassrr
+Epic,"Barreleye: CT Run, Evaluate logs and open issues accordingly",closed,2016-10-20,https://github.com/openbmc/openbmc-test-automation/issues/180,sivassrr
+"help wanted, Manual",Witherspoon: CT Run and evaluate logs and open issues - Oct 2016,closed,2016-10-20,https://github.com/openbmc/openbmc-test-automation/issues/179,sivassrr
+Epic,Witherspoon: CT Run and Evaluate logs and open issues accordingly,closed,2016-10-20,https://github.com/openbmc/openbmc-test-automation/issues/178,sivassrr
+help wanted,Palmetto: Oct 2016 CT run and open issues,open,2016-10-20,https://github.com/openbmc/openbmc-test-automation/issues/177,sivassrr
+Epic,Palmetto: CT run and check the result and open issues accordingly,open,2016-10-20,https://github.com/openbmc/openbmc-test-automation/issues/176,sivassrr
+"bug, Func:CodeUpdate",[Automation] Clear persistent files in update process,open,2016-10-18,https://github.com/openbmc/openbmc-test-automation/issues/175,gkeishin
+"Epic, Func:Security, Manual",Security Scan:Jan 2017- June2017: IBM Supported security scan and analyze the results,open,2016-10-18,https://github.com/openbmc/openbmc-test-automation/issues/174,sivassrr
+,Getting more done in GitHub with ZenHub,closed,2016-10-17,https://github.com/openbmc/openbmc-test-automation/issues/173,prkatti1
+question,Temporary Timeout increase in codeupdate to be removed - This is for reminder.,closed,2016-10-17,https://github.com/openbmc/openbmc-test-automation/issues/172,sivassrr
+"Func:Security, Manual",Security Scan:Oct: IBM Supported security scan and analyze the results,open,2016-10-17,https://github.com/openbmc/openbmc-test-automation/issues/171,sivassrr
+"bug, Func:Errorlog",[Automation]  FFDC missing keyword,closed,2016-10-14,https://github.com/openbmc/openbmc-test-automation/issues/170,gkeishin
+Func:CodeUpdate,[Automation] Code update on Palmetto failing due to ping failure after warm reset,closed,2016-10-14,https://github.com/openbmc/openbmc-test-automation/issues/169,rahulmah
+feature,Feature: Loop Test Results publishment,closed,2016-10-14,https://github.com/openbmc/openbmc-test-automation/issues/168,sivassrr
+"feature, Func:IPL",[Automation] AC powercycle Continous Loop test ,closed,2016-10-13,https://github.com/openbmc/openbmc-test-automation/issues/167,gkeishin
+Func:UserManagement,[Automation] Test user random string generation,closed,2016-10-13,https://github.com/openbmc/openbmc-test-automation/issues/166,gkeishin
+"enhancement, Func:ExternalInterfaces",[Automation] REST Timeout for all Request,closed,2016-10-13,https://github.com/openbmc/openbmc-test-automation/issues/165,gkeishin
+"bug, Func:ExternalInterfaces",[Automation] ConnectionError while doing GET operation on enumerate,closed,2016-10-13,https://github.com/openbmc/openbmc-test-automation/issues/164,rahulmah
+"bug, Func:IPL",[Automation] Test Association post boot logic fix,closed,2016-10-13,https://github.com/openbmc/openbmc-test-automation/issues/163,gkeishin
+"bug, Func:ExternalInterfaces",[Automation] REST Console logs flooding in test run,closed,2016-10-13,https://github.com/openbmc/openbmc-test-automation/issues/162,gkeishin
+"feature, Func:ExternalInterfaces",Curl command automation and validation,open,2016-10-13,https://github.com/openbmc/openbmc-test-automation/issues/161,sivassrr
+"Func:ExternalInterfaces, question",Regression: Device tree changes happening and that should not break anything,open,2016-10-13,https://github.com/openbmc/openbmc-test-automation/issues/160,sivassrr
+"enhancement, Func:LED",To Support enhancement of LED manager grouping. ,open,2016-10-13,https://github.com/openbmc/openbmc-test-automation/issues/159,sivassrr
+"enhancement, Func:IPMI",Enhancement:Regression: External IPMI tool enhancement/regression,open,2016-10-13,https://github.com/openbmc/openbmc-test-automation/issues/158,sivassrr
+"Func:ExternalInterfaces, Func:IPMI, question",OBMC-Console related test enhanced automation / verification,open,2016-10-13,https://github.com/openbmc/openbmc-test-automation/issues/157,sivassrr
+"enhancement, Func:ExternalInterfaces",Enhancement: Settings Support Categories,open,2016-10-13,https://github.com/openbmc/openbmc-test-automation/issues/156,sivassrr
+Manual,Verify document org.openbmc interfaces,open,2016-10-13,https://github.com/openbmc/openbmc-test-automation/issues/155,sivassrr
+"Epic, Func:IPMI",Feature: Get Chasis,closed,2016-10-13,https://github.com/openbmc/openbmc-test-automation/issues/154,sivassrr
+"enhancement, Func:Network",Feature: IPV6 Test Automation,closed,2016-10-12,https://github.com/openbmc/openbmc-test-automation/issues/153,sivassrr
+Func:ExternalInterfaces,[Automation]  SOL failure in test case run,closed,2016-10-12,https://github.com/openbmc/openbmc-test-automation/issues/152,gkeishin
+"BUILD_TEST_DEFECT_REPORT, feature",[Automation]  Test case results into info database,open,2016-10-12,https://github.com/openbmc/openbmc-test-automation/issues/151,gkeishin
+,Getting more done in GitHub with ZenHub,open,2016-10-12,https://github.com/openbmc/openbmc-test-automation/issues/150,sivassrr
+"bug, enhancement, Func:IPL",[Automation]  Power on Restore test case template logic error,closed,2016-10-10,https://github.com/openbmc/openbmc-test-automation/issues/149,gkeishin
+"feature, Func:IPMI",Feature: Bitbake receipes to add ipmitool in the debug-tarball,open,2016-10-10,https://github.com/openbmc/openbmc-test-automation/issues/148,sivassrr
+"bug, Func:IPL",[Automation]  PDU power cycle Power on Restore test ,closed,2016-10-07,https://github.com/openbmc/openbmc-test-automation/issues/147,gkeishin
+"enhancement, Func:Errorlog",[Automation]  Correct tests/test_association.robot Event filtering logic,closed,2016-10-07,https://github.com/openbmc/openbmc-test-automation/issues/146,gkeishin
+enhancement,Need method to skip testcases specific to Palmetto system [Enhancement],closed,2016-10-06,https://github.com/openbmc/openbmc-test-automation/issues/145,rahulmah
+"bug, Func:Errorlog",[Automation] FFDC bug fix for REST data collection,closed,2016-10-05,https://github.com/openbmc/openbmc-test-automation/issues/144,gkeishin
+"feature, Func:Errorlog",[Automation] User define FFDC collection,open,2016-10-05,https://github.com/openbmc/openbmc-test-automation/issues/143,gkeishin
+enhancement,[Automation] CT / CI / DVT methods call from tox for Jenkins,closed,2016-10-03,https://github.com/openbmc/openbmc-test-automation/issues/142,gkeishin
+"bug, Func:PowerControl",[Automation]  Power_cap invalid value failure,closed,2016-09-30,https://github.com/openbmc/openbmc-test-automation/issues/141,gkeishin
+"Func:CodeUpdate, Func:ExternalInterfaces","[Palmetto VERSION_ID=""v1.99.0-143-g1ffadd9-dirty"" ] Presence detect for bios is coming as false",closed,2016-09-29,https://github.com/openbmc/openbmc-test-automation/issues/140,rahulmah
+"enhancement, Func:PowerControl",[Automation] Test Fan Speed Toggling,open,2016-09-29,https://github.com/openbmc/openbmc-test-automation/issues/139,gkeishin
+"enhancement, Func:ExternalInterfaces",io_board inventory url related test case are failing for Palmetto as the url now does not exist,closed,2016-09-29,https://github.com/openbmc/openbmc-test-automation/issues/138,rahulmah
+"bug, Func:Network",[ Automation ] Fix Network MAC address test case,open,2016-09-28,https://github.com/openbmc/openbmc-test-automation/issues/137,gkeishin
+Func:Network,Do not run test cases that modify mac address,closed,2016-09-28,https://github.com/openbmc/openbmc-test-automation/issues/136,geissonator
+"Func:Errorlog, Func:RAS","[Barreleye VERSION_ID=""v1.99.0-131-ga81f31c-dirty""] Unknown Gard records on OS are created repeatedly even after clearing gards and boot to OS",closed,2016-09-28,https://github.com/openbmc/openbmc-test-automation/issues/135,SrideviRamesh
+"enhancement, Func:Errorlog",Enhancement:FFDC log collection for manual test,closed,2016-09-28,https://github.com/openbmc/openbmc-test-automation/issues/134,sivassrr
+Func:RAS,"[Barreleye VERSION_ID=""v1.99.0-131-ga81f31c-dirty""] BMC did not reset when HOST OS is hung after performing checkstop sensor operation on HOST OS",closed,2016-09-28,https://github.com/openbmc/openbmc-test-automation/issues/133,SrideviRamesh
+enhancement,Code Update Improvements,closed,2016-09-26,https://github.com/openbmc/openbmc-test-automation/issues/132,geissonator
+"enhancement, Func:ResetReload",[Automation] Performance reboot fix for test association,closed,2016-09-26,https://github.com/openbmc/openbmc-test-automation/issues/131,gkeishin
+"Func:ExternalInterfaces, question",[Automation]  REST restart test cases ,open,2016-09-25,https://github.com/openbmc/openbmc-test-automation/issues/130,gkeishin
+"enhancement, Func:ExternalInterfaces, Func:SensorsLocationCode",Feature: system model files for test need to be generated from MRW /OpenBMC,open,2016-09-24,https://github.com/openbmc/openbmc-test-automation/issues/129,sivassrr
+,[Automation] Add testname to Master skip list for more failures,closed,2016-09-23,https://github.com/openbmc/openbmc-test-automation/issues/128,gkeishin
+enhancement,[Automation]  Base infra strucuture for skip list and tagging,closed,2016-09-23,https://github.com/openbmc/openbmc-test-automation/issues/127,gkeishin
+enhancement,[Automation] Tag test cases by its name,open,2016-09-22,https://github.com/openbmc/openbmc-test-automation/issues/126,gkeishin
+"enhancement, Epic",[ Automation ] Randomize test suites / test case / both,closed,2016-09-22,https://github.com/openbmc/openbmc-test-automation/issues/125,gkeishin
+"Func:ExternalInterfaces, question","[Barreleye VERSION_ID=""v1.99.0-123-gfc7788a-dirty""] obmc-console-client: obmc console client failed to start",closed,2016-09-22,https://github.com/openbmc/openbmc-test-automation/issues/124,SrideviRamesh
+"Func:IPMI, help wanted",[ Automation ] ipmi BT capabilities command  Failure,open,2016-09-22,https://github.com/openbmc/openbmc-test-automation/issues/123,gkeishin
+"bug, Func:ExternalInterfaces",[Automation] Create Multiple user test case error HTTP_INTERNAL_SERVER_ERROR,closed,2016-09-21,https://github.com/openbmc/openbmc-test-automation/issues/122,gkeishin
+"enhancement, Func:CodeUpdate",[Automation] Code update enhancement ,closed,2016-09-21,https://github.com/openbmc/openbmc-test-automation/issues/121,gkeishin
+"bug, Func:Errorlog",[Automation]  CI failure for event log Test Eventlog.Intermixed delete,closed,2016-09-20,https://github.com/openbmc/openbmc-test-automation/issues/120,gkeishin
+"bug, Func:ExternalInterfaces",[Automation] ConnectionError while doing GET operation on inventory url,closed,2016-09-20,https://github.com/openbmc/openbmc-test-automation/issues/119,rahulmah
+"enhancement, Func:PowerControl",[Automation]  Add Test case to Set Power capping for Valid Value between MIN and MAX ,open,2016-09-20,https://github.com/openbmc/openbmc-test-automation/issues/118,gkeishin
+"feature, Func:ExternalInterfaces",[Automation]  obmc-console.service start validation,closed,2016-09-19,https://github.com/openbmc/openbmc-test-automation/issues/117,gkeishin
+"enhancement, Func:PowerControl",[Automation] Altenative for Power Cap Good case test execution,closed,2016-09-19,https://github.com/openbmc/openbmc-test-automation/issues/116,gkeishin
+"bug, Func:Errorlog",[Automation] Performance fix and correction for events verification post reboot,closed,2016-09-19,https://github.com/openbmc/openbmc-test-automation/issues/115,gkeishin
+Func:Security,[Automation] Security folder from tests folder doubles up security testcase count,closed,2016-09-16,https://github.com/openbmc/openbmc-test-automation/issues/114,rahulmah
+"Func:Errorlog, wontfix",[Automation] FFDC needs to be collected if Setup The Suite fails,closed,2016-09-16,https://github.com/openbmc/openbmc-test-automation/issues/113,rahulmah
+"bug, Func:ExternalInterfaces",[Automation] Missing utils Resource test boot for DBUS cmd,closed,2016-09-15,https://github.com/openbmc/openbmc-test-automation/issues/112,gkeishin
+"bug, Func:ExternalInterfaces",[ Automation ] Test Occ Powercap test case via REST interface,closed,2016-09-14,https://github.com/openbmc/openbmc-test-automation/issues/111,gkeishin
+"bug, Func:ExternalInterfaces, question",[Automation] Test non-SSL Connection to port 443 Error,closed,2016-09-14,https://github.com/openbmc/openbmc-test-automation/issues/110,gkeishin
+Func:ExternalInterfaces,[ Automation] Increase SSH connection establishing session timeout,closed,2016-09-13,https://github.com/openbmc/openbmc-test-automation/issues/109,gkeishin
+question,[Automation]  Test Sensors.Centaur0 not Present ,closed,2016-09-13,https://github.com/openbmc/openbmc-test-automation/issues/108,gkeishin
+"Func:ExternalInterfaces, question",[Automation]  Setting Mac address using REST - HTTP_UNAUTHORIZED Response,open,2016-09-13,https://github.com/openbmc/openbmc-test-automation/issues/107,gkeishin
+Documentation,[Automation] tox.ini fixes for warnings,closed,2016-09-12,https://github.com/openbmc/openbmc-test-automation/issues/106,gkeishin
+Documentation,[Automation]  Update README.md for extended and other use cases supported,closed,2016-09-12,https://github.com/openbmc/openbmc-test-automation/issues/105,gkeishin
+"feature, Func:Performance",Check for Zombie process at Suite Start and teardown,open,2016-09-12,https://github.com/openbmc/openbmc-test-automation/issues/104,sivassrr
+"enhancement, Func:ResetReload",[Automation] test_warmreset.robot test case waits even when reboot fails,closed,2016-09-09,https://github.com/openbmc/openbmc-test-automation/issues/103,gkeishin
+enhancement,[Automation] Update all existing data model from skeleton,closed,2016-09-08,https://github.com/openbmc/openbmc-test-automation/issues/102,gkeishin
+Func:Errorlog,[Automation] Syslog not supported on Barreleye,closed,2016-09-07,https://github.com/openbmc/openbmc-test-automation/issues/101,gkeishin
+"feature, Func:RAS",Simulate OS hang,open,2016-09-06,https://github.com/openbmc/openbmc-test-automation/issues/100,sivassrr
+"bug, Func:ExternalInterfaces",All UserAdd commands are failing due to REST timeout,closed,2016-09-03,https://github.com/openbmc/openbmc-test-automation/issues/99,rahulmah
+"enhancement, Func:CodeUpdate",[Automation]  Code update - SCP over flaky network,open,2016-09-02,https://github.com/openbmc/openbmc-test-automation/issues/98,gkeishin
+"feature, Func:Errorlog",[Automation] OS console log capture,closed,2016-09-02,https://github.com/openbmc/openbmc-test-automation/issues/97,gkeishin
+Func:ExternalInterfaces,[Automation] The  inventory data will be populated corrected if HOST_BOOTED,closed,2016-09-02,https://github.com/openbmc/openbmc-test-automation/issues/96,gkeishin
+"bug, Func:ExternalInterfaces",[Automation]  PowerOff needs to key off BMC_READY and HOST_POWERED_OFF,closed,2016-09-02,https://github.com/openbmc/openbmc-test-automation/issues/95,gkeishin
+Func:UserManagement,[Automation]  Increase login retry and add celanup,closed,2016-09-01,https://github.com/openbmc/openbmc-test-automation/issues/94,gkeishin
+,[Automation] Enable Witherspoon data Model from Skeleton,closed,2016-09-01,https://github.com/openbmc/openbmc-test-automation/issues/93,gkeishin
+"enhancement, Func:ResetReload",[Automation] Force reboot and wait for host to ping sanely,closed,2016-08-30,https://github.com/openbmc/openbmc-test-automation/issues/92,gkeishin
+"bug, Func:CodeUpdate",[Automation]  Code update update status check,closed,2016-08-30,https://github.com/openbmc/openbmc-test-automation/issues/91,gkeishin
+"bug, Func:ExternalInterfaces",[Barreleye/Palmetto] Verify System VPD Properties mismatch with the model setup,open,2016-08-29,https://github.com/openbmc/openbmc-test-automation/issues/90,gkeishin
+"enhancement, Func:Performance",Need to add test related to check the resource utilization,open,2016-08-29,https://github.com/openbmc/openbmc-test-automation/issues/89,sivassrr
+"bug, Func:CodeUpdate",[Automation] Test BIOS update needs to be moved to Extended ,closed,2016-08-29,https://github.com/openbmc/openbmc-test-automation/issues/88,gkeishin
+"duplicate, Func:Network, help wanted",[Automation]  Network Related test failure,closed,2016-08-27,https://github.com/openbmc/openbmc-test-automation/issues/87,gkeishin
+"bug, Func:IPL",[Automation] Test OpenBMC Services Autorestart Policy,closed,2016-08-26,https://github.com/openbmc/openbmc-test-automation/issues/86,gkeishin
+bug,"[Automation]  Fix code bug syntax, logical connection usage",closed,2016-08-26,https://github.com/openbmc/openbmc-test-automation/issues/85,gkeishin
+"feature, Func:Errorlog",[FFDC enablement]   Existing FFDC enablement for test,closed,2016-08-26,https://github.com/openbmc/openbmc-test-automation/issues/84,gkeishin
+"bug, Func:ExternalInterfaces",[System - Barreleye/Palmetto ] Most REST related test case are failing due to ConnectionError,closed,2016-08-25,https://github.com/openbmc/openbmc-test-automation/issues/83,rahulmah
+"bug, Func:ResetReload",[Automation]  Fix for Ping to host and check for OS,closed,2016-08-25,https://github.com/openbmc/openbmc-test-automation/issues/82,gkeishin
+"feature, Func:CodeUpdate",[Fetaure : Automation]  Code update method using REST,closed,2016-08-23,https://github.com/openbmc/openbmc-test-automation/issues/81,gkeishin
+"bug, Func:ResetReload",[Automation]  Validate Warm Reset method,closed,2016-08-23,https://github.com/openbmc/openbmc-test-automation/issues/80,gkeishin
+Func:CodeUpdate,Add testcase to verify BIOS version,closed,2016-08-16,https://github.com/openbmc/openbmc-test-automation/issues/79,SrideviRamesh
+Func:Network,Intermittent connection failure against QEMU in robot CI tests,open,2016-08-16,https://github.com/openbmc/openbmc-test-automation/issues/78,geissonator
+"enhancement, Func:Errorlog",[FFDC] Split FFDC files and re structure existing code,closed,2016-08-14,https://github.com/openbmc/openbmc-test-automation/issues/77,gkeishin
+"feature, Func:IPL",[Automation]  Need to check the BMC state before poweron,closed,2016-08-08,https://github.com/openbmc/openbmc-test-automation/issues/76,gkeishin
+Func:IPMI,Copy IPMI tool is called for each execution of IPMI RAW/Standard command,open,2016-08-08,https://github.com/openbmc/openbmc-test-automation/issues/75,sivassrr
+Documentation,[Documentation]  Update README for tox version info,closed,2016-08-05,https://github.com/openbmc/openbmc-test-automation/issues/73,gkeishin
+Func:ExternalInterfaces,[QEMU]  Fix REST call object URI for QEMU run,closed,2016-08-04,https://github.com/openbmc/openbmc-test-automation/issues/72,gkeishin
+"bug, Func:Errorlog",Journalctl Output Verification,open,2016-08-04,https://github.com/openbmc/openbmc-test-automation/issues/71,sivassrr
+"enhancement, Func:ExternalInterfaces",[ Automation ] Needs generic Call method in REST utility,open,2016-07-27,https://github.com/openbmc/openbmc-test-automation/issues/70,gkeishin
+"bug, Func:ResetReload",[ Automation ] Add network persistent check before reboot test,closed,2016-07-26,https://github.com/openbmc/openbmc-test-automation/issues/69,gkeishin
+Func:CodeUpdate,"Palmetto: Latest Code test, Analyze the output and open issues accordingly",closed,2016-07-25,https://github.com/openbmc/openbmc-test-automation/issues/68,sivassrr
+Func:CodeUpdate,"Barreleye: test with latest driver, Analyze the test results and open issues accordingly",closed,2016-07-25,https://github.com/openbmc/openbmc-test-automation/issues/67,sivassrr
+,"QEMU: Test with latest image, evaluate the results and open issues",closed,2016-07-25,https://github.com/openbmc/openbmc-test-automation/issues/66,sivassrr
+Func:IPMI,IPMI Test Plan,open,2016-07-25,https://github.com/openbmc/openbmc-test-automation/issues/65,sivassrr
+"enhancement, Func:IPMI", External IPMI Tool Test,closed,2016-07-25,https://github.com/openbmc/openbmc-test-automation/issues/64,sivassrr
+feature,Hardbootme Test,open,2016-07-25,https://github.com/openbmc/openbmc-test-automation/issues/63,sivassrr
+"Epic, Func:GUI",GUI Test,open,2016-07-25,https://github.com/openbmc/openbmc-test-automation/issues/62,sivassrr
+"Epic, Func:CodeUpdate",Advance code update,open,2016-07-25,https://github.com/openbmc/openbmc-test-automation/issues/61,sivassrr
+"enhancement, Epic, feature, Func:Manufacturing, Func:RAS"," RAS  Test - RR, LED, Dump, Errorlog,Error Recovery, Event Mgmt, Syslog",open,2016-07-25,https://github.com/openbmc/openbmc-test-automation/issues/60,sivassrr
+"Func:CodeUpdate, Func:Security",Security Test: - PNOR read/write via IPMI,open,2016-07-25,https://github.com/openbmc/openbmc-test-automation/issues/59,sivassrr
+"Epic, feature, Func:Clock",Clock Testing,closed,2016-07-25,https://github.com/openbmc/openbmc-test-automation/issues/58,sivassrr
+Func:IPMI,DCMI Compliance Test,open,2016-07-25,https://github.com/openbmc/openbmc-test-automation/issues/57,sivassrr
+Func:Manufacturing, System Serial number generation verification,open,2016-07-25,https://github.com/openbmc/openbmc-test-automation/issues/56,sivassrr
+"Epic, Func:Errorlog",Error / Event Manager verification,open,2016-07-25,https://github.com/openbmc/openbmc-test-automation/issues/55,sivassrr
+"Func:ExternalInterfaces, Func:Manufacturing",VPD Collection verification,open,2016-07-25,https://github.com/openbmc/openbmc-test-automation/issues/54,sivassrr
+Func:ExternalInterfaces,"Test the common sd-bus interfaces  (ex. org.freedesktop, org.openbmc interfaces)",closed,2016-07-25,https://github.com/openbmc/openbmc-test-automation/issues/53,sivassrr
+feature,SOL User Interface Test,closed,2016-07-25,https://github.com/openbmc/openbmc-test-automation/issues/52,sivassrr
+"Func:ExternalInterfaces, Func:IPMI",IPMI / RedFish Test,open,2016-07-25,https://github.com/openbmc/openbmc-test-automation/issues/51,sivassrr
+"Epic, feature, Func:Security", Security: BMC Image signing verification,open,2016-07-25,https://github.com/openbmc/openbmc-test-automation/issues/50,sivassrr
+Func:ExternalInterfaces,Remote media support verification,open,2016-07-25,https://github.com/openbmc/openbmc-test-automation/issues/49,sivassrr
+Func:IPMI, IPMI Network Setting override,closed,2016-07-25,https://github.com/openbmc/openbmc-test-automation/issues/48,sivassrr
+Func:ExternalInterfaces,[ QEMU ] AUTH_URI variable not updated for all test suites in test run,closed,2016-07-22,https://github.com/openbmc/openbmc-test-automation/issues/47,gkeishin
+,Feature: Full suite long run test: ,closed,2016-07-20,https://github.com/openbmc/openbmc-test-automation/issues/46,sivassrr
+,443,closed,2016-07-20,https://github.com/openbmc/openbmc-test-automation/issues/45,sivassrr
+,https://github.com/openbmc/openbmc/issues/453,closed,2016-07-20,https://github.com/openbmc/openbmc-test-automation/issues/44,sivassrr
+Func:CodeUpdate,[Barreleye/Palmetto - build v1.0-89-g5bc571e-dirty ]  Test Firmware Version Regex failed,closed,2016-07-20,https://github.com/openbmc/openbmc-test-automation/issues/43,gkeishin
+Func:ExternalInterfaces,Feature: Generic Power on / Power off,closed,2016-07-19,https://github.com/openbmc/openbmc-test-automation/issues/42,sivassrr
+,[Qemu] Enabling test-suite run ,closed,2016-07-13,https://github.com/openbmc/openbmc-test-automation/issues/41,gkeishin
+"enhancement, Func:ExternalInterfaces","Feature: Replacement for ipmitool with commands like dbus-send, dbus-btrbridge etc..",closed,2016-07-12,https://github.com/openbmc/openbmc-test-automation/issues/40,sivassrr
+Func:Errorlog,Feature: To collect FFDC for OpenBMC systems ,closed,2016-07-11,https://github.com/openbmc/openbmc-test-automation/issues/39,sivassrr
+Func:IPL,20160707143158:Barreleye:Build141: Host is in booting state for more than 18 minutes,closed,2016-07-09,https://github.com/openbmc/openbmc-test-automation/issues/38,sivassrr
+Func:ExternalInterfaces,20160707143158:Barreleye:Build141: All Inventory Test Cases fails due to suite setup fail,closed,2016-07-09,https://github.com/openbmc/openbmc-test-automation/issues/37,sivassrr
+"bug, Func:LED",PreTag: [System - Palmetto Build - 20160622153832 ]  Test cases are failing in LED due to below error with post request,closed,2016-07-02,https://github.com/openbmc/openbmc-test-automation/issues/35,rahulmah
+"bug, Func:ExternalInterfaces",PreTag: [System - Palmetto Build - 20160622153832 ] Test Esel - Failing due to setup failed due to timeout,closed,2016-07-02,https://github.com/openbmc/openbmc-test-automation/issues/34,rahulmah
+"bug, Func:Network",PreTag: [System - Palmetto Build - 20160630213138 ]  Palmetto system is loosing ip after warm reset TC with latest OpenBMC image,closed,2016-07-02,https://github.com/openbmc/openbmc-test-automation/issues/33,rahulmah
+"bug, Func:IPMI",PreTag: [System - Palmetto Build - 20160630213138 ] Ipmitool related tests failing due to OPENSSL_1.0.0' not found,closed,2016-07-02,https://github.com/openbmc/openbmc-test-automation/issues/32,rahulmah
+Func:IPMI,suite setup failed in the new repository - Around 75 TCs failing because of it. IPMItool need to fix it. ,closed,2016-06-30,https://github.com/openbmc/openbmc-test-automation/issues/31,sivassrr
+"bug, Func:ExternalInterfaces",PreTag: [System - Palmetto Build - 20160622153832 ] 'Is Power On' failed after retrying for 3 minutes.,closed,2016-06-28,https://github.com/openbmc/openbmc-test-automation/issues/28,rahulmah
+Func:SensorsLocationCode,620 Barreleye build tests hangs at Execute Set Sensor boot count,closed,2016-06-21,https://github.com/openbmc/openbmc-test-automation/issues/27,sivassrr
+"Func:ExternalInterfaces, Func:PowerControl",PreTag: [System - barreleye Build - 20160610155319 ]  Set PowerCap,closed,2016-06-17,https://github.com/openbmc/openbmc-test-automation/issues/26,williamspatrick
+"bug, Func:Errorlog",PreTag: [System - barreleye  Build - 20160610155319 ] Disable Syslog,closed,2016-06-17,https://github.com/openbmc/openbmc-test-automation/issues/25,williamspatrick
+"bug, Func:Clock",PreTag 0.8 Testing failure for 'Set System Time after setting epoch time',closed,2016-06-17,https://github.com/openbmc/openbmc-test-automation/issues/24,williamspatrick
+"bug, Func:ExternalInterfaces",PreTag 0.8 Testing failure for 'get names /',closed,2016-06-17,https://github.com/openbmc/openbmc-test-automation/issues/23,williamspatrick
+Func:LED,PreTag 0.8 Testing failure for 'Blink Slow the Identify LED',open,2016-06-17,https://github.com/openbmc/openbmc-test-automation/issues/22,williamspatrick
+"bug, Func:ExternalInterfaces",PreTag 0.8 Testing failure for 'Verify system vpd properties',closed,2016-06-17,https://github.com/openbmc/openbmc-test-automation/issues/21,williamspatrick
+"bug, Func:PowerControl",PreTag 0.8 Testing failure for 'minimal fan inventory',open,2016-06-17,https://github.com/openbmc/openbmc-test-automation/issues/20,williamspatrick
+"bug, Func:ExternalInterfaces",PreTag 0.8 Testing failure for 'Set the boot flags with string',closed,2016-06-17,https://github.com/openbmc/openbmc-test-automation/issues/19,williamspatrick
+"bug, Func:ExternalInterfaces",PreTag 0.8 Testing failure for 'Set the power with greater then MAX_POWER_VALUE',closed,2016-06-17,https://github.com/openbmc/openbmc-test-automation/issues/18,williamspatrick
+"bug, Func:ExternalInterfaces",PreTag 0.8 Testing failure for 'Set the power with string of characters',closed,2016-06-17,https://github.com/openbmc/openbmc-test-automation/issues/17,williamspatrick
+"bug, Func:Network",PreTag 0.8 Testing failure for 'Set IP address on valid Interface',closed,2016-06-17,https://github.com/openbmc/openbmc-test-automation/issues/16,williamspatrick
+"bug, Func:PowerControl",PreTag 0.8 Testing failure for 'Get OCC Status',open,2016-06-17,https://github.com/openbmc/openbmc-test-automation/issues/15,williamspatrick
+"bug, question",PreTag 0.8 Testing failure for 'user/group authentication',closed,2016-06-17,https://github.com/openbmc/openbmc-test-automation/issues/14,williamspatrick
+"enhancement, help wanted",Detecting the system automatically and kick off tests related to that model of the system only,open,2016-06-16,https://github.com/openbmc/openbmc-test-automation/issues/13,sivassrr
+"bug, Func:IPL",PreTag Set the power restore policy - PDU ENV needs to be automated or Skipped,closed,2016-06-15,https://github.com/openbmc/openbmc-test-automation/issues/12,gkeishin
+Func:Network,PreTag Set IP address on valid Interface - FAILED,closed,2016-06-15,https://github.com/openbmc/openbmc-test-automation/issues/11,gkeishin
+Func:LED,PreTag Blink Fast the Beep LED - Test case pre req check fix needed,closed,2016-06-15,https://github.com/openbmc/openbmc-test-automation/issues/10,gkeishin
+,PreTag Test Automation Basic Code clean-up needed,closed,2016-06-15,https://github.com/openbmc/openbmc-test-automation/issues/9,gkeishin
+Func:PowerControl,PreTag test_power_restore.robot': Non-existing setting '[Documentation]',closed,2016-06-15,https://github.com/openbmc/openbmc-test-automation/issues/8,gkeishin
+bug,PreTag: [System - barreleye Build - 20160613175742 ] :  Test OpenBMC Services Autorestart Policy - TC Fails,closed,2016-06-14,https://github.com/openbmc/openbmc-test-automation/issues/7,rahulmah
+"bug, Func:PowerControl",PreTag: [System - barreleye Build - 20160613175742 ] : Test Occ Powercap - 4 TCs failing due to keyerror,closed,2016-06-14,https://github.com/openbmc/openbmc-test-automation/issues/6,rahulmah
+"bug, Func:ExternalInterfaces",PreTag: [System - barreleye Build - 20160610155319 ] : Set boot policy to invalid value - Fails,closed,2016-06-14,https://github.com/openbmc/openbmc-test-automation/issues/5,rahulmah
+Func:Network,PreTag: [System - barreleye Build - 20160610155319 ] : Test non-SSL Connection to port 80 - Fails,closed,2016-06-14,https://github.com/openbmc/openbmc-test-automation/issues/4,rahulmah
+"bug, Func:Network",Tag:20160613175742: OLD_GATEWAY not set - Persistance check for IP address TC fails,closed,2016-06-14,https://github.com/openbmc/openbmc-test-automation/issues/3,sivassrr
