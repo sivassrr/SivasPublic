@@ -4,8 +4,9 @@ https://github.com/openbmc/openbmc-test-automation/blob/master/templates/pgm_tem
 python coding guidelines available at https://www.python.org/dev/peps/pep-0257/.
 
 Good Automation code: Expectation: 
-```•Automation Code  should be Self Explanatory to all
-  –	Dev/Tester/End User
+```
+•Automation Code  should be Self Explanatory to all
+  –	Developer/Tester/End User
 •Should be Focused
 •Automation code needs to be a specification, not a script
 •Should needs to be in domain language
