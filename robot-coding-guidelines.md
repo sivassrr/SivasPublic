@@ -76,27 +76,27 @@ GUI automation.
 ```
 ## Robot Coding Standard for Resources:
 ```
-–	Name should be less than 20 characters 
-–	File type should be .robot
-–	All characters should be small
-–	Easily readable and self-explanatory 
-–	General purpose constants which are used by many .robot files should be maintained in a separate resource file
-–	Application’s data should be maintained in separate resource file
-–	Documentation:
+–Name should be less than 20 characters 
+–File type should be .robot
+–All characters should be small
+–Easily readable and self-explanatory 
+–General purpose constants which are used by many .robot files should be maintained in a separate resource file
+–Application’s data should be maintained in separate resource file
+–Documentation:
   •	Follow the same rules as for test suite documentation strings (above).
 ```
 
 ## Robot Coding Standard for Keywords:
 ```
-–	Name should be less than 40 characters 
-–	Each word in a keyword should begin with a capital letter.  Separate words within a keyword using spaces 
+–Name should be less than 40 characters 
+–Each word in a keyword should begin with a capital letter.  Separate words within a keyword using spaces 
   (rather than underscores).  Also, capitalize all letters in acronyms (e.g. DVT, OBMC, SSH).
-–	Easily readable and self-explanatory 
-–	Prefixes are useful (Eg. Get – Get a value , Set – Set a value)
-–	Local temporary variables should have prefix “tmp_” 
-–	Complex logics should be in libraries rather than keywords
+–Easily readable and self-explanatory 
+–Prefixes are useful (Eg. Get – Get a value , Set – Set a value)
+–Local temporary variables should have prefix “tmp_” 
+–Complex logics should be in libraries rather than keywords
   •	If number of lines more than 10 then keywords can be define in python
-–	Keyword example:
+–Keyword example:
 
   •	*** Keywords ***
   •	Example 1:  This Is Correct
@@ -107,28 +107,28 @@ GUI automation.
     # This keyword name is Incorrect because of a failure to   separate words with spaces and a failure to capitalize each word in the           keyword.
   •	Example 4: BMC Is An Acronym
      # This is correct.
-–	Documentation:
+–Documentation:
   •	Follow the same rules as for test suite documentation strings (above). 
 ``` 
 ## Robot Coding Standard for Variables definition:
 ```
-–	Name should be less than 40 characters & meaningful words
-–	Variables should be comprised entirely of lower case letters with the following exceptions which are entirely uppercase:
+–Name should be less than 40 characters & meaningful words
+–Variables should be comprised entirely of lower case letters with the following exceptions which are entirely uppercase:
   •	Environment variables (e.g. PATH)
   •	Variables intended to be set by robot -v parameters may be all upper case.
   •	Built-in robot variables like TEST_NAME, TEST_STATUS, LOG_LEVEL, etc.
-–	Easily readable and self-explanatory like natural English 
-–	Local temporary variables should have prefix char “tmp_” 
-–	For GUI Automation
+–Easily readable and self-explanatory like natural English 
+–Local temporary variables should have prefix char “tmp_” 
+–For GUI Automation
   •	XPATH variable should start with “xpath”
   •	Menu Selection variable should start with “sel” for selection
-–	Constant variables should be in Capital Letters
-–	Global variables should be defined at the top of the script
-–	Test case level variable should be defined at the top of the test case
-–	Documentation:
+–Constant variables should be in Capital Letters
+–Global variables should be defined at the top of the script
+–Test case level variable should be defined at the top of the test case
+–Documentation:
   •	Follow the same rules as for test suite documentation strings (above). 
-–	Tips:
-For certain very commonly used kinds of variables, kindly observe these conventions to achieve consistency throughout the code.
+–Tips:
+  For certain very commonly used kinds of variables, kindly observe these conventions to achieve consistency throughout the code.
   •	host names
     o	When a variable is intended to contain either an IP address or a name (either long or short), please give it a suffix of "_host".       Examples: 
       •	openbmc_host
