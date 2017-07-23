@@ -26,13 +26,13 @@ GUI automation.
 
 ## Robot Coding Standard for Test Suite:
 ```
-– Name should be less than 20 characters 
-– File type should be .robot
+–Name should be less than 20 characters 
+–File type should be .robot
   •File name format: eg: <test_inventory.robot>
-–	Easily readable and self-explanatory 
-–	Suite Setup, Suite Teardown, Test Setup, Test Teardown with proper keywords
-–	Maximum test suite consists of 50 Test Cases
-–	Documentation:
+–Easily readable and self-explanatory 
+–Suite Setup, Suite Teardown, Test Setup, Test Teardown with proper keywords
+–Maximum test suite consists of 50 Test Cases
+–Documentation:
   • The documentation should be in the form of an English language command with proper grammar, capitalization and punctuation.
   • E.g. : For a test or keyword named “Get Boot Progress”
   • Correct documentation examples:
