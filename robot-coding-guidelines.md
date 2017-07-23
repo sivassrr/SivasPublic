@@ -100,13 +100,13 @@ GUI automation.
 
   •	*** Keywords ***
   •	Example 1:  This Is Correct
- 	# This is correct.
+  	# This is correct.
   •	Example 2:  this_is_incorrect
-  # This keyword name is Incorrect because of the underscores instead of spaces and failure to capitalize each word in the keyword.
+    # This keyword name is Incorrect because of the underscores instead of spaces and failure to capitalize each word in the keyword.
   •	Example 3:  soisthis
-  # This keyword name is Incorrect because of a failure to   separate words with spaces and a failure to capitalize each word in the keyword.
+    # This keyword name is Incorrect because of a failure to   separate words with spaces and a failure to capitalize each word in the           keyword.
   •	Example 4: BMC Is An Acronym
-  # This is correct.
+     # This is correct.
 –	Documentation:
   •	Follow the same rules as for test suite documentation strings (above). 
 ``` 
