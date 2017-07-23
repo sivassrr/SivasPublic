@@ -3,7 +3,7 @@ Python program template is available at
 https://github.com/openbmc/openbmc-test-automation/blob/master/templates/pgm_template.py and 
 python coding guidelines available at https://www.python.org/dev/peps/pep-0257/.
 
-Good Automation code: Expectation: 
+#Good Automation code: Expectation: 
 ```
 •Automation Code  should be Self Explanatory to all
   –	Developer/Tester/End User
@@ -16,15 +16,15 @@ Good Automation code: Expectation:
 ```
 
 
-Why RobotFramework?
+#Why RobotFramework?
 
 Predefiend framework and easy to automate test cases using Robot. In case of bug, Much easy to debug when 
 compare to any other languages.  Good test execution report with details logs and screen shot in case of 
 GUI automation.
 
-Robot Coding Guidelines:
+#Robot Coding Guidelines:
 
-Robot Coding Standard for Test Suite:
+##Robot Coding Standard for Test Suite:
 ```
 –	Name should be less than 20 characters 
 –	File type should be .robot
@@ -53,7 +53,7 @@ Robot Coding Standard for Test Suite:
   # arg1 This is an example description of arg1
 ```
 
-Robot Coding Standard for Test Cases:
+##Robot Coding Standard for Test Cases:
 ```
 –	Name should be less than 40 characters 
 –	File type should be .robot
@@ -86,7 +86,7 @@ Robot Coding Standard for Resources:
   •	Follow the same rules as for test suite documentation strings (above).
 ```
 
-Robot Coding Standard for Keywords:
+##Robot Coding Standard for Keywords:
 ```
 –	Name should be less than 40 characters 
 –	Each word in a keyword should begin with a capital letter.  Separate words within a keyword using spaces 
@@ -110,7 +110,7 @@ Robot Coding Standard for Keywords:
 –	Documentation:
   •	Follow the same rules as for test suite documentation strings (above). 
 ```
-Robot Coding Standard for Variables definition:
+##Robot Coding Standard for Variables definition:
 ```
 –	Name should be less than 40 characters & meaningful words
 –	Variables should be comprised entirely of lower case letters with the following exceptions which are entirely uppercase:
@@ -179,7 +179,7 @@ For certain very commonly used kinds of variables, kindly observe these conventi
   •	my_file_path = my_dir_path + my_file_name
 ```
 
-General Robot Coding Standard:
+##General Robot Coding Standard:
 ```
   •	Robot supports delimiting cells with either 2 or more spaces or with a pipe symbol "|"
     o	For code to be added in openbmc-test-automation need to follow spaces rather than the pipe character
