@@ -54,7 +54,7 @@ Robot Coding Standard for Test Suite:
 ```
 
 Robot Coding Standard for Test Cases:
-
+```
 –	Name should be less than 40 characters 
 –	File type should be .robot
 –	Each word of test case should be capitalized 
@@ -73,9 +73,9 @@ Other tags may also be included as needed.
 •	Helps in review and readability
 –	Documentation:
 •	Follow the same rules as for test suite documentation strings (above).
-
+```
 Robot Coding Standard for Resources:
-
+```
 –	Name should be less than 20 characters 
 –	File type should be .robot
 –	All characters should be small
@@ -84,10 +84,10 @@ Robot Coding Standard for Resources:
 –	Application’s data should be maintained in separate resource file
 –	Documentation:
 –	Follow the same rules as for test suite documentation strings (above). 
-
+```
 
 Robot Coding Standard for Keywords:
-
+```
 –	Name should be less than 40 characters 
 –	Each word in a keyword should begin with a capital letter.  Separate words within a keyword using spaces (rather than underscores).  Also, capitalize all letters in acronyms (e.g. DVT, OBMC, SSH).
 –	Easily readable and self-explanatory 
@@ -109,9 +109,9 @@ Robot Coding Standard for Keywords:
  
 –	Documentation:
 •	Follow the same rules as for test suite documentation strings (above). 
-
+```
 Robot Coding Standard for Variables definition:
-
+```
 –	Name should be less than 40 characters & meaningful words
 –	Variables should be comprised entirely of lower case letters with the following exceptions which are entirely uppercase:
 •	Environment variables (e.g. PATH)
@@ -176,10 +176,10 @@ o	To re-iterate, it doesn't matter whether the contents of the variable are a re
 
 o	IMPORTANT:  As a programming convention, do pre-processing on all dir_path variables to ensure that they contain a trailing slash.  If we follow that convention religiously, that when changes are made in other parts of the program, the programmer can count on the value having a trailing slash.  Therefore they can safely do this kind of thing:
 •	my_file_path = my_dir_path + my_file_name
-
+```
 
 General Robot Coding Standard:
-
+```
 •	Robot supports delimiting cells with either 2 or more spaces or with a pipe symbol "|"
 o	For code to be added in openbmc-test-automation need to follow spaces rather than the pipe character
 o	Delimiting cells should be only 2 spaces 
@@ -208,6 +208,6 @@ o	Please leave one space following the hashtag.
 •	Please use proper English punction: 
 o	Capitalize the first word in the sentence.
 o	End sentences with a period.
-
+```
 
 
