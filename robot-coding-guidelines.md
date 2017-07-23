@@ -26,31 +26,31 @@ GUI automation.
 
 ## Robot Coding Standard for Test Suite:
 ```
-–	Name should be less than 20 characters 
-–	File type should be .robot
- •	File name format: eg: <test_inventory.robot>
+– Name should be less than 20 characters 
+– File type should be .robot
+  •File name format: eg: <test_inventory.robot>
 –	Easily readable and self-explanatory 
 –	Suite Setup, Suite Teardown, Test Setup, Test Teardown with proper keywords
 –	Maximum test suite consists of 50 Test Cases
 –	Documentation:
- •	The documentation should be in the form of an English language command with proper grammar, capitalization and punctuation.
- •	E.g. : For a test or keyword named “Get Boot Progress”
- •	Correct documentation examples:
- [Documentation] Get boot progress.
- [Documentation] Get the boot progress from the BMC.
+  • The documentation should be in the form of an English language command with proper grammar, capitalization and punctuation.
+  • E.g. : For a test or keyword named “Get Boot Progress”
+  • Correct documentation examples:
+    [Documentation] Get boot progress.
+    [Documentation] Get the boot progress from the BMC.
 
- •	Incorrect documentation examples:
-   [Documentation] This keyword gets the boot progress.
-   The prior example is incorrect because it is not in the form of a command 
-   (i.e. “Do this” or “Do that”).
-   [Documentation] Get Boot Progress
-   The prior example is incorrect because it is not using good English grammar in that 
-     a) it is capitalizing words needlessly 
-     b) it does not end the sentence with a period.
-  Additional details should be documented with “#” lines.  Examples:
-  # NOTE: A post_test_case call point failure is NOT counted as a boot.
-  # Description of argument(s):
-  # arg1 This is an example description of arg1
+  • Incorrect documentation examples:
+    [Documentation] This keyword gets the boot progress.
+    The prior example is incorrect because it is not in the form of a command 
+    (i.e. “Do this” or “Do that”).
+    [Documentation] Get Boot Progress
+    The prior example is incorrect because it is not using good English grammar in that 
+      a) it is capitalizing words needlessly 
+      b) it does not end the sentence with a period.
+    Additional details should be documented with “#” lines.  Examples:
+    # NOTE: A post_test_case call point failure is NOT counted as a boot.
+    # Description of argument(s):
+    # arg1 This is an example description of arg1
 ```
 
 ## Robot Coding Standard for Test Cases:
