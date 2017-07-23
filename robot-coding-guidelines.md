@@ -181,34 +181,34 @@ For certain very commonly used kinds of variables, kindly observe these conventi
 
 General Robot Coding Standard:
 ```
-•	Robot supports delimiting cells with either 2 or more spaces or with a pipe symbol "|"
-  o	For code to be added in openbmc-test-automation need to follow spaces rather than the pipe character
-  o	Delimiting cells should be only 2 spaces 
+  •	Robot supports delimiting cells with either 2 or more spaces or with a pipe symbol "|"
+    o	For code to be added in openbmc-test-automation need to follow spaces rather than the pipe character
+    o	Delimiting cells should be only 2 spaces 
 
-•	Make sure all space delimiters in robot code are the minimum 2 characters.  There may be some exceptions to this rule. 
-  o	Exceptions to 2 space delim rule: 
-•	When you wish to line up resource, library or variable values:
-  Example:
-    Library            Lib1
-    Resource        Resource1
-  *** Variables ***
-  ${var1}           ${EMPTY}
-•	When you wish to line up fields for template:
-   	 # LED Name  LED State
-       	 power             On
-       	 power             Off
-•	When defining or calling a robot keyword, robot does not care about spaces, underscores or case.  However, we will follow this convention: 
-  o	Separate words with spaces.
-  o	Capitalize the first character of each word.
-  o	Capitalize all characters in any word that is an acronym (e.g. JSON, BMC, etc).
-  Examples:
-    •	Traditional comments (i.e. using the hashtag style comments) 
-    o	Please leave one space following the hashtag.
-    #wrong
-    # Right
-    •	Please use proper English punction: 
-  o	Capitalize the first word in the sentence.
-  o	End sentences with a period.
+  •	Make sure all space delimiters in robot code are the minimum 2 characters.  There may be some exceptions to this rule. 
+    o	Exceptions to 2 space delim rule: 
+  •	When you wish to line up resource, library or variable values:
+    Example:
+      Library            Lib1
+      Resource        Resource1
+    *** Variables ***
+    ${var1}           ${EMPTY}
+  •	When you wish to line up fields for template:
+       # LED Name  LED State
+           power             On
+           power             Off
+  •	When defining or calling a robot keyword, robot does not care about spaces, underscores or case.  However, we will follow this convention: 
+    o	Separate words with spaces.
+    o	Capitalize the first character of each word.
+    o	Capitalize all characters in any word that is an acronym (e.g. JSON, BMC, etc).
+    Examples:
+      •	Traditional comments (i.e. using the hashtag style comments) 
+      o	Please leave one space following the hashtag.
+      #wrong
+      # Right
+  •	Please use proper English punction: 
+    o	Capitalize the first word in the sentence.
+    o	End sentences with a period.
 ```
 
 
