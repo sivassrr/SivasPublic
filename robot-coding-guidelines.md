@@ -5,7 +5,7 @@ python coding guidelines available at https://www.python.org/dev/peps/pep-0257/.
 
 # Good Automation code: Expectation: 
 ```
-•Automation Code  should be Self Explanatory to all
+•Automation Code should be self explanatory to all
   –Developer/Tester/End User
 •Should be Focused
 •Automation code needs to be a specification, not a script
